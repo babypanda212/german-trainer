@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fortschritt</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+  :root { --bg:#fff; --fg:#111; --muted:#666; --card:#f5f5f5; --accent:#1a5fb4; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg:#121212; --fg:#eee; --muted:#aaa; --card:#1e1e1e; } }
+  body { margin:0; padding:16px; background:var(--bg); color:var(--fg); font:16px/1.5 system-ui, sans-serif; max-width:900px; margin-inline:auto; }
+  .card { background:var(--card); border-radius:8px; padding:12px; margin:12px 0; }
+  canvas { max-height:280px; } .muted { color:var(--muted); font-size:14px; } a { color:var(--accent); }
+  details { margin:6px 0; } pre { white-space:pre-wrap; font:inherit; }
+</style>
+</head>
+<body>
+<a href="/">← Üben</a>
+<h2>Fortschritt</h2>
+<div id="stats" class="muted"></div>
+<div class="card"><canvas id="level"></canvas></div>
+<div class="card"><canvas id="mistakes"></canvas></div>
+<div class="card"><h3>Sitzungen</h3><div id="sessions"></div></div>
+<script>
+const LEVELS = ["A1","A2","B1","B2","C1","C2"];
+const TYPES = ["case","gender","verb_position","conjugation","word_order","preposition","article","vocab","other"];
+const COLORS = ["#1a5fb4","#c62828","#2e7d32","#ef6c00","#6a1b9a","#00838f","#9e9d24","#5d4037","#616161"];
+fetch('/progress').then(r => r.json()).then(p => {
+  const done = p.sessions.filter(s => s.ended_at && s.level_est);
+  $('stats').textContent = `${done.length} Sitzungen · Vokabeln: ${p.vocab_total} (${p.vocab_due} fällig) · Zielwörter: ${Object.entries(p.target_counts).map(([k,v])=>k+' '+v).join(', ')}`;
+  const labels = done.map(s => s.started_at.slice(0,10));
+  const lvl = done.map(s => LEVELS.indexOf(s.level_est) + 1);
+  const ma = lvl.map((_, i) => { const w = lvl.slice(Math.max(0,i-4), i+1); return w.reduce((a,b)=>a+b,0)/w.length; });
+  new Chart($('level'), { type:'line', data:{ labels, datasets:[
+      {label:'Niveau', data:lvl, borderColor:'#1a5fb4', pointRadius:4, tension:0},
+      {label:'Ø 5 Sitzungen', data:ma, borderColor:'#9e9d24', borderDash:[6,4], pointRadius:0}]},
+    options:{ scales:{ y:{ min:1, max:6, ticks:{ callback:v => LEVELS[v-1] || '' } } } } });
+  const bySess = Object.fromEntries(p.mistakes_by_session.map(m => [m.session_id, m]));
+  new Chart($('mistakes'), { type:'bar', data:{ labels, datasets: TYPES.map((t,i) => ({
+      label:t, backgroundColor:COLORS[i], data: done.map(s => (bySess[s.id]||{})[t] || 0) })) },
+    options:{ scales:{ x:{stacked:true}, y:{stacked:true, title:{display:true, text:'Fehler'}} } } });
+  $('sessions').innerHTML = done.slice().reverse().map(s =>
+    `<details><summary>${s.started_at.slice(0,16)} · ${s.level_est} · ${s.summary || ''}</summary><div id="s${s.id}" class="muted">…</div></details>`).join('');
+  document.querySelectorAll('details').forEach(d => d.addEventListener('toggle', async () => {
+    if (!d.open) return; const id = d.querySelector('div').id.slice(1);
+    const x = await fetch('/session/'+id).then(r => r.json());
+    d.querySelector('div').innerHTML = x.turns.map(t => `<pre><b>Du:</b> ${t.user_de}\n<b>Tutor:</b> ${t.tutor_de}</pre>`).join('');
+  }, {once:true}));
+});
+function $(id){ return document.getElementById(id); }
+</script>
+</body>
+</html>
