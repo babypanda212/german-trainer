@@ -97,6 +97,7 @@ class TurnResult:
     targets_used: list[str]
     asked_about: str | None = None
     asked_about_gloss: str | None = None
+    model_source: str = "claude"   # "claude" or "local" — which backend actually produced this turn
 
 class Session(Protocol):
     async def turn(self, prompt: str) -> dict | None: ...
@@ -122,8 +123,9 @@ class Tutor:
             data = await self._session.turn(user_de)
         if data is None:
             raise TutorError("Tutor did not return a valid structured reply after one retry.")
+        source = getattr(self._session, "last_source", "claude")
         return TurnResult(data["reply_de"], data.get("corrections", []), data.get("targets_used", []),
-                          data.get("asked_about"), data.get("asked_about_gloss"))
+                          data.get("asked_about"), data.get("asked_about_gloss"), source)
 
     async def opening(self) -> TurnResult:
         """First line of the session: no learner turn to reply to, so this bypasses `turn`'s
@@ -147,6 +149,7 @@ class Tutor:
         if data is None:
             raise TutorError("Tutor did not return a valid session summary after the rating call.")
         data["level"] = derive_level(data["range"], data["accuracy"], data["fluency"], data["coherence"])
+        data["model_source"] = getattr(summ, "last_source", "claude")   # local CEFR ratings are much less reliable
         return data
 
 
@@ -182,3 +185,98 @@ class ClaudeSession:
 
 def claude_session_factory(system_prompt: str, schema: dict) -> Session:
     return ClaudeSession(system_prompt, schema)
+
+
+# --- local fallback, used when the Claude backend is unavailable (e.g. subscription usage
+# exhausted) --------------------------------------------------------------------------------
+
+OLLAMA_URL = "http://localhost:11434/api/chat"
+OLLAMA_MODEL = "qwen2.5:7b"
+
+class OllamaSession:
+    """Local session via Ollama. Its /api/chat endpoint is stateless per call, unlike the Agent
+    SDK's persistent session, so this class keeps its own running message history and resends
+    it every turn. Quality is noticeably below Claude - this exists to stay available, not to
+    match it."""
+    def __init__(self, system_prompt: str, schema: dict, model: str = OLLAMA_MODEL):
+        self._model = model
+        self._schema = schema
+        self._messages = [{"role": "system", "content": system_prompt}]
+
+    async def turn(self, prompt: str) -> dict | None:
+        import httpx, json
+        self._messages.append({"role": "user", "content": prompt})
+        try:
+            async with httpx.AsyncClient(timeout=60.0) as client:
+                resp = await client.post(OLLAMA_URL, json={
+                    "model": self._model, "messages": self._messages, "stream": False,
+                    "format": self._schema,
+                })
+                resp.raise_for_status()
+                content = resp.json()["message"]["content"]
+                data = json.loads(content)
+        except Exception:
+            return None
+        self._messages.append({"role": "assistant", "content": content})
+        return data
+
+    async def close(self) -> None:
+        pass
+
+def ollama_session_factory(system_prompt: str, schema: dict) -> Session:
+    return OllamaSession(system_prompt, schema)
+
+
+class FallbackSession:
+    """Tries the primary session first; on failure, switches to the fallback for the rest of
+    this session's lifetime - a fresh local session has no memory of turns before the switch,
+    so staying switched (rather than retrying the primary every turn) avoids repeatedly losing
+    context. Never fabricates: if the fallback also fails, turn() returns None like any other
+    session, so Tutor's existing retry-then-raise logic still applies unchanged."""
+    def __init__(self, system_prompt: str, schema: dict, primary_factory: SessionFactory, fallback_factory: SessionFactory):
+        self._primary: Session | None = primary_factory(system_prompt, schema)
+        self._fallback_factory = fallback_factory
+        self._system_prompt = system_prompt
+        self._schema = schema
+        self._fallback: Session | None = None
+        self.last_source = "claude"
+
+    async def turn(self, prompt: str) -> dict | None:
+        if self._primary is not None:
+            try:
+                data = await self._primary.turn(prompt)
+            except Exception:
+                data = None
+            if data is not None:
+                self.last_source = "claude"
+                return data
+            try:
+                await self._primary.close()
+            except Exception:
+                pass
+            self._primary = None
+            self._fallback = self._fallback_factory(self._system_prompt, self._schema)
+        try:
+            data = await self._fallback.turn(prompt)
+        except Exception:
+            data = None
+        if data is not None:
+            self.last_source = "local"
+        return data
+
+    async def close(self) -> None:
+        if self._primary is not None:
+            try:
+                await self._primary.close()
+            except Exception:
+                pass
+        if self._fallback is not None:
+            try:
+                await self._fallback.close()
+            except Exception:
+                pass
+
+def fallback_session_factory(primary: SessionFactory, fallback: SessionFactory) -> SessionFactory:
+    def factory(system_prompt: str, schema: dict) -> Session:
+        return FallbackSession(system_prompt, schema, primary, fallback)
+    return factory

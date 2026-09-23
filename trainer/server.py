@@ -6,7 +6,7 @@ from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 
 from trainer.store import Store
-from trainer.tutor import Tutor, TutorError, claude_session_factory
+from trainer.tutor import Tutor, TutorError, claude_session_factory, ollama_session_factory, fallback_session_factory
 from trainer.stt import transcribe
 from trainer.tts import speak, AUDIO_DIR
 from trainer.vocab_signals import compute_vocab_signals
@@ -17,7 +17,9 @@ TARGETS_PER_SESSION = 10
 
 app = FastAPI(title="german-trainer")
 store: Store = Store(DB_PATH)
-session_factory = claude_session_factory
+# Claude by default; if a turn fails (e.g. subscription usage exhausted), transparently drops to
+# a local Ollama model (qwen2.5:7b) for the rest of that sitting. See tutor.py: FallbackSession.
+session_factory = fallback_session_factory(claude_session_factory, ollama_session_factory)
 tutor: Tutor | None = None
 _sid: int | None = None
 _idx = 0
@@ -46,9 +48,11 @@ async def session_start():
         _sid = store.start_session(); _idx = 0; _level = recap["level"]
         greeting_de = None
         audio_url = None
+        model_source = "claude"
         try:
             g = await tutor.opening()
             greeting_de = g.reply_de
+            model_source = g.model_source
             for w in g.targets_used:
                 store.mark_target_used(w, _level)
                 store.add_vocab(w, None, None)
@@ -57,9 +61,10 @@ async def session_start():
             except Exception:
                 pass
         except TutorError:
-            pass  # no greeting available; the learner can still speak first — nothing is fabricated
+            pass  # no greeting available (even locally); the learner can still speak first — nothing is fabricated
         return {"session_id": _sid, "level": recap["level"], "targets": [t["word"] for t in targets],
-                "closed_previous": closed_previous, "greeting_de": greeting_de, "audio_url": audio_url}
+                "closed_previous": closed_previous, "greeting_de": greeting_de, "audio_url": audio_url,
+                "model_source": model_source}
 
 async def _process(user_de: str, audio_path: str | None):
     global _idx
@@ -92,7 +97,7 @@ async def _process(user_de: str, audio_path: str | None):
     except Exception:
         pass
     return {"transcript": user_de, "reply_de": r.reply_de,
-            "corrections": r.corrections, "audio_url": audio_url}
+            "corrections": r.corrections, "audio_url": audio_url, "model_source": r.model_source}
 
 @app.post("/turn")
 async def turn(audio: UploadFile = File(...)):

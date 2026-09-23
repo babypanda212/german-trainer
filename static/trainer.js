@@ -7,6 +7,7 @@ let recorder = null, stream = null, lastAudio = null, turns = 0;
 // it's false while busy, while audio is playing, or while the learner has paused it manually.
 let listening = false, pausedByUser = false, vadTimer = null;
 let audioCtx = null, analyser = null, vadData = null, speechStartedAt = null, silenceStartedAt = null;
+let fallbackNoticeShown = false;   // show the "local model" notice once per session, not every turn
 const SPEECH_RMS = 0.02, SILENCE_MS = 900, MIN_SPEECH_MS = 400, RESUME_PAUSE_MS = 300;
 function status(text) { $('status').textContent = text; }
 function controls() {
@@ -96,7 +97,12 @@ function replayableTurn(className, label, text, audio) {
 // One turn, one bubble, one audio clip. Any correction is already woven into the text itself
 // as a brief recast + a follow-up question that requires reusing the corrected form (see
 // tutor.py) - not a separate paced beat before the reply.
-async function tutorTurn(text, audio) {
+async function tutorTurn(text, audio, modelSource) {
+  if (modelSource === 'local' && !fallbackNoticeShown) {
+    fallbackNoticeShown = true;
+    $('log').append(el('p', 'muted turn', 'Claude ist gerade nicht verfügbar - für den Rest dieser Sitzung antwortet ein lokales Modell. Antworten sind einfacher und weniger zuverlässig.'));
+    scrollLog();
+  }
   status(audio ? 'Dein Tutor spricht …' : 'Antwort erhalten');
   $('record-title').textContent = audio ? 'Dein Tutor spricht.' : 'Antwort erhalten.';
   $('record-hint').textContent = audio ? 'Hör kurz zu. Danach bist du wieder dran.' : 'Du kannst auf die Antwort reagieren.';
@@ -119,7 +125,8 @@ async function startSession() {
     $('turn-count').textContent = 'Dein Gespräch kann beginnen.';
     $('record-hint').textContent = 'Sprich einfach - ich reagiere automatisch, sobald du pausierst.';
     pausedByUser = false; $('rec').setAttribute('aria-pressed', 'false');
-    if (s.greeting_de) await tutorTurn(s.greeting_de, s.audio_url);
+    fallbackNoticeShown = false;
+    if (s.greeting_de) await tutorTurn(s.greeting_de, s.audio_url, s.model_source);
     else $('log').append(el('p','muted turn','Dein Tutor ist bereit. Beginne mit einem Thema deiner Wahl.'));
     await ensureMic();
     if (stream) { startVadLoop(); resumeListening(); }
@@ -157,7 +164,7 @@ async function render(r) {
   const node = el('article', 'turn you');
   node.append(el('div', 'turn-label', 'Du'), el('div', 'turn-body', r.transcript));
   $('log').append(node);
-  await tutorTurn(r.reply_de, r.audio_url);
+  await tutorTurn(r.reply_de, r.audio_url, r.model_source);
   turns += 1; $('turn-count').textContent = `${turns} ${turns === 1 ? 'Antwort' : 'Antworten'} von dir`;
 }
 async function submitTurn(url, options) {

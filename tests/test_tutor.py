@@ -1,6 +1,7 @@
 import pytest
 from pathlib import Path
-from trainer.tutor import Tutor, build_system_prompt, TURN_SCHEMA, SUMMARY_SCHEMA, TutorError
+from trainer.tutor import Tutor, build_system_prompt, TURN_SCHEMA, SUMMARY_SCHEMA, TutorError, \
+    FallbackSession, fallback_session_factory
 
 class FakeSession:
     def __init__(self, replies):
@@ -57,6 +58,70 @@ async def test_turn_parses_asked_about_a_word():
     r = await t.turn("Was bedeutet Bahnhof?")
     assert r.asked_about == "Bahnhof"
     assert r.asked_about_gloss == "train station"
+
+@pytest.mark.asyncio
+async def test_turn_defaults_model_source_to_claude():
+    reply = {"reply_de": "Ok.", "corrections": [], "targets_used": []}
+    fake = FakeSession([reply])   # a plain session with no `last_source` attribute
+    t = Tutor(session_factory=lambda sp, schema: fake)
+    await t.start(RECAP, TARGETS)
+    r = await t.turn("Hallo")
+    assert r.model_source == "claude"
+
+# --- FallbackSession: primary (Claude) tries first, drops to local on failure ------------
+
+@pytest.mark.asyncio
+async def test_fallback_session_uses_primary_when_it_works():
+    primary = FakeSession([{"reply_de": "from primary", "corrections": [], "targets_used": []}])
+    fallback = FakeSession([{"reply_de": "from fallback", "corrections": [], "targets_used": []}])
+    s = FallbackSession("sys", TURN_SCHEMA, lambda sp, sc: primary, lambda sp, sc: fallback)
+    data = await s.turn("hi")
+    assert data["reply_de"] == "from primary"
+    assert s.last_source == "claude"
+    assert not fallback.prompts   # never even constructed/called
+
+@pytest.mark.asyncio
+async def test_fallback_session_switches_and_stays_switched():
+    primary = FakeSession([None, {"reply_de": "primary recovered?", "corrections": [], "targets_used": []}])
+    fallback = FakeSession([{"reply_de": "local 1", "corrections": [], "targets_used": []},
+                             {"reply_de": "local 2", "corrections": [], "targets_used": []}])
+    s = FallbackSession("sys", TURN_SCHEMA, lambda sp, sc: primary, lambda sp, sc: fallback)
+    first = await s.turn("hi")
+    assert first["reply_de"] == "local 1" and s.last_source == "local"
+    # Second turn must NOT retry primary, even though its next canned reply would "succeed" -
+    # once switched, stay switched for the rest of the sitting (a fresh local session has no
+    # memory of earlier turns, so bouncing back and forth would be worse, not better).
+    second = await s.turn("hi again")
+    assert second["reply_de"] == "local 2"
+    assert len(primary.prompts) == 1
+
+@pytest.mark.asyncio
+async def test_fallback_session_returns_none_when_both_fail():
+    primary = FakeSession([None])
+    fallback = FakeSession([None])
+    s = FallbackSession("sys", TURN_SCHEMA, lambda sp, sc: primary, lambda sp, sc: fallback)
+    assert await s.turn("hi") is None
+
+@pytest.mark.asyncio
+async def test_fallback_session_treats_a_raised_exception_as_failure_too():
+    class RaisingSession:
+        async def turn(self, prompt): raise RuntimeError("connection reset")
+        async def close(self): pass
+    fallback = FakeSession([{"reply_de": "local", "corrections": [], "targets_used": []}])
+    s = FallbackSession("sys", TURN_SCHEMA, lambda sp, sc: RaisingSession(), lambda sp, sc: fallback)
+    data = await s.turn("hi")
+    assert data["reply_de"] == "local" and s.last_source == "local"
+
+@pytest.mark.asyncio
+async def test_fallback_session_factory_wires_a_tutor_through_transparently():
+    primary = FakeSession([None])
+    fallback = FakeSession([{"reply_de": "local reply", "corrections": [], "targets_used": []}])
+    factory = fallback_session_factory(lambda sp, sc: primary, lambda sp, sc: fallback)
+    t = Tutor(session_factory=factory)
+    await t.start(RECAP, TARGETS)
+    r = await t.turn("Hallo")
+    assert r.reply_de == "local reply"
+    assert r.model_source == "local"
 
 @pytest.mark.asyncio
 async def test_turn_retries_once_then_raises():
