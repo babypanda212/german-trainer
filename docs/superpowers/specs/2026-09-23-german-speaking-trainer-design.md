@@ -16,7 +16,7 @@ Single-user, local web app for spoken German practice with persistent progress. 
 | LLM access | Claude via Agent SDK, one persistent session, subscription login | Messages API (needs key, subscription unusable); `claude -p` per turn (2 to 4 s startup per turn); Claude Code skill (no voice, no charts) |
 | Interface | One local web page | Terminal push-to-talk |
 | Progress | Mistake memory, CEFR trend, vocab with spaced review, session log | None dropped |
-| Target vocabulary | A1 to B1: official Goethe lists via DWDS. B2: third-party list, flagged unofficial. C1/C2: no list; tutor pulls vocab from authentic texts and teaches derivation, per Goethe's own C1 spec | Profile deutsch CD-ROM for B2 (out of print, 2005 Windows DB, uncertain on Mac); frequency-banded lists (not exam-aligned) |
+| Target vocabulary | A1 to B1: official Goethe lists via DWDS. B2, C1: Klett Aspekte neu textbook word lists (already in `docs/vocabulary/`, deduplicated). C2: RadicalRampage list (402 words, unverified, flagged) | Profile deutsch CD-ROM (out of print, 2005 Windows DB); authentic-text vocab extraction (dropped for v1 now that real B2/C1 lists exist) |
 
 ## Vocabulary sources (verified 2026-09-23)
 
@@ -63,9 +63,9 @@ Files: `server.py`, `stt.py`, `tutor.py`, `tts.py`, `store.py`, `cefr.py`, `stat
 ```
 target_vocab  id, word, level, source, times_used, introduced_at
 ```
-- `source` ∈ {goethe_dwds, unofficial_b2}. Loaded once by `scripts/load_vocab.py` from DWDS CSV (A1 to B1) and the flagged B2 list.
+- `source` ∈ {goethe_dwds, aspekte_neu, radicalrampage}. Loaded once by `scripts/load_vocab.py` from DWDS CSV (A1 to B1, `https://www.dwds.de/api/lemma/goethe/{A1,A2,B1}.csv`, columns Lemma, URL, Wortart, Genus, Artikel, nur_im_Plural) and from `docs/vocabulary/cleaned/entries-with-provenance.json` (B2, C1, C2; fields headword, level, variants[].text/translation/source).
 - Each session start: `next_targets(level, n=10)` returns the least-used words at the user's current level. Tutor must work them into the conversation. Words the user then produces correctly are promoted into `vocab` for spaced review.
-- At C1/C2 `next_targets` returns nothing. Instead the tutor is instructed to bring in vocabulary from an authentic text (a short excerpt the backend fetches from a configurable list of German news RSS feeds) and to point out word-formation (compounds, prefixes, derivations).
+- At C1/C2 the tutor is additionally instructed to point out word-formation (compounds, prefixes, derivations), since Goethe's C1/C2 specs test deriving unknown words rather than a fixed list.
 - Stored as a trend. Session-to-session noise is expected; the progress page shows a 5-session moving average alongside raw points.
 
 ### tts.py
