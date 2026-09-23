@@ -1,0 +1,7911 @@
+C1: unique headwords
+Repeated headwords across levels occur only in the earliest source level (B2, then C1, then C2).
+All source examples, forms and translations are retained as variants. Source levels are textbook/site labels, not independently verified CEFR assignments.
+
+ab und zu
+  ab und zu
+
+abarbeiten
+  abarbeiten
+
+abartig
+  abartig
+
+abdecken
+  abdecken (ein Spektrum abdecken)
+
+abgelegen
+  abgelegen
+
+abgelenkt
+  abgelenkt
+
+abgestorben
+  abgestorben
+
+abheben
+  abheben, hebt ab, hob ab, hat abgehoben (Geld abheben)
+
+abknabbern
+  abknabbern
+
+ablenken
+  ablenken (von + D.)
+
+Ablenkung
+  die Ablenkung, -en
+
+ablesen
+  ablesen, liest ab, las ab, hat abgelesen
+
+abnehmen
+  abnehmen, nimmt ab, nahm ab, hat abgenommen (ein paar Kilos abnehmen)
+  abnehmen, nimmt ab, nahm ab, hat abgenommen (eine Maske abnehmen)
+
+Abonnent
+  der Abonnent, -en
+
+abraten
+  abraten (von + D.), rät ab, riet ab, hat abgeraten
+
+abrufen
+  abrufen, ruft ab, rief ab, hat abgerufen (Informationen abrufen)
+
+Absatz
+  der Absatz, "-e (ein Absatz im Text)
+
+Absatzmarkt
+  der Absatzmarkt, "-e
+
+abschaffen
+  abschaffen
+
+abschalten
+  abschalten (Heute möchte ich einfach mal abschalten und an gar nichts denken.)
+
+abschließen
+  abschließen, schließt ab, schloss ab, hat abgeschlossen (eine Ausbildung abschließen)
+  abschließen, schließt ab, schloss ab, hat abgeschlossen (das Auto abschließen)
+
+abschneiden
+  abschneiden, schneidet ab, schnitt ab, hat abgeschnitten (bei einer Prüfung gut abschneiden)
+
+abschrecken
+  abschrecken
+
+Abschwung
+  der Abschwung (Sg.) (wirtschaftlicher Abschwung)
+
+absetzen
+  absetzen (sich) (von + D.)
+
+Absolvent
+  der Absolvent, -en
+
+abspeichern
+  abspeichern
+
+abspielen
+  abspielen (sich)
+
+absprechen
+  absprechen, spricht ab, sprach ab, hat abgesprochen (jemandem die Intelligenz absprechen)
+
+abstellen
+  abstellen (Er ist für diese Aufgabe abgestellt.)
+
+abstreifen
+  abstreifen
+
+abverlangen
+  abverlangen (Die Ausbildung verlangt einiges von mir ab.)
+
+abwaschbar
+  abwaschbar
+
+abwechseln
+  abwechseln (sich)
+
+Abwechslung
+  die Abwechslung, -en
+
+abwechslungsreich
+  abwechslungsreich
+
+Abwehrstrategie
+  die Abwehrstrategie, -n
+
+Abweichung
+  die Abweichung, -en
+
+achtsam
+  achtsam
+
+Agent
+  der Agent, -en
+
+Ägyptologe
+  der Ägyptologe, -n
+
+Ägyptologie
+  die Ägyptologie (Sg.)
+
+ahnen
+  ahnen (von + D.)
+
+Ähnlichkeit
+  die Ähnlichkeit, -en
+
+Airbag
+  der Airbag, -s
+
+Akademiker
+  der Akademiker, -
+
+akademisch
+  akademisch
+
+akribisch
+  akribisch
+
+Aktie
+  die Aktie, -n
+
+Aktienkurs
+  der Aktienkurs, -e
+
+Aktualität
+  die Aktualität (Sg.)
+
+Alarm
+  der Alarm, -e (Alarm schlagen)
+
+Alarmanlage
+  die Alarmanlage, -n
+
+alarmieren
+  alarmieren
+
+Alleinstellungsmerkmal
+  das Alleinstellungsmerkmal, -e
+
+allererst
+  allererst (zum allerersten Mal)
+
+allermeist
+  allermeist
+
+Alltagsforschung
+  die Alltagsforschung (Sg.)
+
+allumfassend
+  allumfassend
+
+Altbauwohnung
+  die Altbauwohnung, -en
+
+altbewährt
+  altbewährt
+
+altersgemischt
+  altersgemischt
+
+Amateurfußballer
+  der Amateurfußballer, -
+
+Amok
+  Amok (Sg., ohne Artikel) (Amok laufen)
+
+anbauen
+  anbauen (Gemüse anbauen)
+
+Anbetracht
+  Anbetracht (Sg., ohne Artikel) (in Anbetracht + G.)
+
+anderswo
+  anderswo
+
+anderweitig
+  anderweitig
+
+Andrang
+  der Andrang (Sg.)
+
+Androhung
+  die Androhung, -en
+
+aneignen
+  aneignen (sich)
+
+Aneignung
+  die Aneignung (Sg.)
+
+Anekdote
+  die Anekdote, -n
+
+anerkennenswert
+  anerkennenswert
+
+Anerkennung
+  die Anerkennung (Sg.) (Anerkennung finden bei …)
+
+anfallen
+  anfallen, fällt an, fiel an, ist angefallen (Bei diesem Projekt fallen viele Kosten an.)
+
+Anfangsbegeisterung
+  die Anfangsbegeisterung (Sg.)
+
+Anfangspunkt
+  der Anfangspunkt, -e
+
+anfertigen
+  anfertigen
+
+anfordern
+  anfordern
+
+anführen
+  anführen (ein Beispiel anführen)
+  anführen (die Bestsellerliste anführen)
+
+angeben
+  angeben, gibt an, gab an, hat angegeben (eine Begründung angeben)
+  angeben, gibt an, gab an, hat angegeben (eine Richtung angeben)
+  angeben, gibt an, gab an, hat angegeben (mit seinem Reichtum angeben)
+
+Angeber
+  der Angeber, -
+
+angeboren
+  angeboren
+
+angehören
+  angehören
+
+Angelegenheit
+  die Angelegenheit, -en
+
+angenommen
+  angenommen (Angenommen, dass der Zug zu spät kommt, was machen wir dann?)
+
+angerannt kommen
+  angerannt kommen
+
+angesehen
+  angesehen
+
+angetan sein
+  angetan sein (von + D.)
+
+Anglist
+  der Anglist, -en
+
+Anglistik
+  die Anglistik (Sg.)
+
+angreifen
+  angreifen, greift an, griff an, hat angegriffen
+
+Angreifer
+  der Angreifer, -
+
+anhand
+  anhand (+ G.)
+
+anheimfallen
+  anheimfallen, fällt anheim, fiel anheim, ist anheimgefallen
+
+Anhieb
+  Anhieb (Sg., ohne Artikel) (etwas gelingt auf Anhieb)
+
+anketten
+  anketten (das Fahrrad anketten)
+
+Anklang
+  der Anklang (Sg.) (Anklang finden)
+
+anklingen
+  anklingen, klingt an, klang an, hat angeklungen
+
+Anlauf
+  der Anlauf, "-e
+
+anlehnen
+  anlehnen (sich)
+
+anmahnen
+  anmahnen
+
+anmalen
+  anmalen
+
+anmuten
+  anmuten
+
+Annahme
+  die Annahme, -n (Es besteht die Annahme, dass …)
+
+anonym
+  anonym
+
+anordnen
+  anordnen
+
+anpacken
+  anpacken
+
+anregend
+  anregend
+
+Anreiz
+  der Anreiz, -e
+
+Anschaffung
+  die Anschaffung, -en
+
+Anschaffungskosten
+  die Anschaffungskosten (Pl.)
+
+Ansicht
+  die Ansicht, -en (einer Ansicht sein)
+
+ansonsten
+  ansonsten
+
+anständig
+  anständig
+
+anstecken
+  anstecken (Lachen steckt an.)
+
+ansteigen
+  ansteigen, steigt an, stieg an, ist angestiegen
+
+anstelle
+  anstelle (+ G.)
+
+anstreben
+  anstreben
+
+Anstrengung
+  die Anstrengung, -en
+
+Anteil
+  der Anteil, -e
+
+Antrieb
+  der Antrieb, -e (aus eigenem Antrieb)
+
+Anweisung
+  die Anweisung, -en
+
+Anwendung
+  die Anwendung, -en
+
+Anzeichen
+  das Anzeichen, -
+
+Anzeige
+  die Anzeige, -n (eine Anzeige in der Zeitung)
+  die Anzeige, -n (Die Anzeige im Fahrzeug leuchtet auf.)
+
+Apfelkern
+  der Apfelkern, -e
+
+Arbeitnehmende
+  der/die Arbeitnehmende, -n
+
+Arbeitsablauf
+  der Arbeitsablauf, "-e
+
+Arbeitsergebnis
+  das Arbeitsergebnis, -se
+
+Arbeitsform
+  die Arbeitsform, -en
+
+arbeitsintensiv
+  arbeitsintensiv
+
+Arbeitskollege
+  der Arbeitskollege, -n
+
+Arbeitskraft
+  die Arbeitskraft, "-e
+
+Arbeitsleben
+  das Arbeitsleben (Sg.)
+
+Arbeitslosenquote
+  die Arbeitslosenquote, -n
+
+Arbeitsplatzmodell
+  das Arbeitsplatzmodell, -e
+
+Arbeitsraum
+  der Arbeitsraum, "-e
+
+arbeitsunfähig
+  arbeitsunfähig
+
+Arbeitsverhältnis
+  das Arbeitsverhältnis, -se
+
+Arbeitsvertrag
+  der Arbeitsvertrag, "-e
+
+Arbeitszimmer
+  das Arbeitszimmer, -
+
+archaisch
+  archaisch
+
+Architekturstudium
+  das Architekturstudium, -studien
+
+Areal
+  das Areal, -e
+
+Argument
+  das Argument, -e (ein Argument anführen)
+
+Argumentation
+  die Argumentation, -en
+
+Arzneimittel
+  das Arzneimittel, -
+
+Arzttermin
+  der Arzttermin, -e
+
+Asche
+  die Asche (Sg.)
+
+Assessment Center
+  das Assessment Center, -
+
+Assistent
+  der Assistent, -en
+
+atemberaubend
+  atemberaubend
+
+Attacke
+  die Attacke, -n
+
+aufbessern
+  aufbessern
+
+aufbewahren
+  aufbewahren
+
+aufbringen
+  aufbringen, bringt auf, brachte auf, hat aufgebracht
+
+aufdecken
+  aufdecken
+
+aufdrehen
+  aufdrehen (die Musik laut aufdrehen)
+
+aufeinandertreffen
+  aufeinandertreffen, trifft aufeinander, traf aufeinander, ist aufeinandergetroffen
+
+aufgedunsen
+  aufgedunsen
+
+aufgehoben
+  aufgehoben
+
+aufgerichtet
+  aufgerichtet
+
+aufgießen
+  aufgießen, gießt auf, goss auf, hat aufgegossen (Kaffee aufgießen)
+
+aufgreifen
+  aufgreifen, greift auf, griff auf, hat aufgegriffen (ein Thema aufgreifen)
+
+aufgrund
+  aufgrund (+ G.)
+
+aufkleben
+  aufkleben
+
+aufkochen
+  aufkochen
+
+aufleuchten
+  aufleuchten
+
+Auflösung
+  die Auflösung, -en
+
+aufmerksam machen
+  aufmerksam machen (auf + A.)
+
+Aufmerksamkeit
+  die Aufmerksamkeit (Sg.)
+
+Aufnahme
+  die Aufnahme (Sg.) (Meine Aufnahme in die Firma verlief gut.)
+  die Aufnahme, -n (Ich war zur Aufnahme meines Albums im Tonstudio.)
+
+Aufnahmeprüfung
+  die Aufnahmeprüfung, -en
+
+aufnehmen
+  aufnehmen, nimmt auf, nahm auf, hat aufgenommen (ein Album aufnehmen)
+  aufnehmen, nimmt auf, nahm auf, hat aufgenommen (einen Kredit aufnehmen)
+  aufnehmen, nimmt auf, nahm auf, hat aufgenommen (etwas positiv/negativ aufnehmen)
+  aufnehmen, nimmt auf, nahm auf, hat aufgenommen (ins Gedächtnis aufnehmen)
+
+aufraffen
+  aufraffen (sich) (zu + D.)
+
+aufrecht
+  aufrecht
+
+aufrechterhalten
+  aufrechterhalten, erhält aufrecht, erhielt aufrecht, hat aufrechterhalten
+
+aufregend
+  aufregend
+
+Aufsatz
+  der Aufsatz, "-e
+
+aufschieben
+  aufschieben, schiebt auf, schob auf, hat aufgeschoben
+
+aufschlussreich
+  aufschlussreich
+
+Aufsicht
+  die Aufsicht (Sg.)
+
+aufspringen
+  aufspringen (auf + A.), springt auf, sprang auf, ist aufgesprungen (auf einen Zug aufspringen)
+  aufspringen, springt auf, sprang auf, ist aufgesprungen (Sie sprang auf und lief zum Fluss.)
+
+aufsteigen
+  aufsteigen, steigt auf, stieg auf, ist aufgestiegen (im Unternehmen aufsteigen)
+
+aufstellen
+  aufstellen
+
+Aufstiegschance
+  die Aufstiegschance, -n
+
+Aufstrich
+  der Aufstrich, -e
+
+aufsuchen
+  aufsuchen
+
+auftauchen
+  auftauchen (Der Begriff tauchte erstmals 2006 auf.)
+  auftauchen (aus dem Wasser auftauchen)
+
+aufteilen
+  aufteilen
+
+auftun
+  auftun (sich), tut auf, tat auf, hat aufgetan (Durch das Lesen tat sich mir eine bunte Welt auf.)
+
+aufwachsen
+  aufwachsen, wächst auf, wuchs auf, ist aufgewachsen
+
+aufwerfen
+  aufwerfen, wirft auf, warf auf, hat aufgeworfen (Fragen aufwerfen)
+
+aufzeichnen
+  aufzeichnen
+
+aufzeigen
+  aufzeigen
+
+aufziehen
+  aufziehen, zieht auf, zog auf, hat aufgezogen
+
+Auge
+  das Auge, -n (klar vor Augen stehen)
+  das Auge, -n (nicht aus den Augen lassen)
+
+Au-pair-Mädchen
+  das Au-pair-Mädchen, -
+
+ausarbeiten
+  ausarbeiten
+
+ausbilden
+  ausbilden
+
+Ausblick
+  der Ausblick, -e
+
+ausbrechen
+  ausbrechen, bricht aus, brach aus, ist ausgebrochen (Ihm bricht der Schweiß aus.)
+
+ausbügeln
+  ausbügeln (einen Fehler ausbügeln)
+
+Ausdehnung
+  die Ausdehnung, -en
+
+ausdenken
+  ausdenken (sich), denkt aus, dachte aus, hat ausgedacht
+
+ausdrücken
+  ausdrücken (sich) (Er kann sich gut ausdrücken.)
+
+ausdrücklich
+  ausdrücklich
+
+auseinanderhalten
+  auseinanderhalten, hält auseinander, hielt auseinander, hat auseinandergehalten
+
+Auseinandersetzung
+  die Auseinandersetzung, -en
+
+ausfeilen
+  ausfeilen (einen Text sprachlich ausfeilen)
+
+ausführlich
+  ausführlich
+
+ausgeglichen
+  ausgeglichen
+
+ausgenutzt
+  ausgenutzt (sich ausgenutzt fühlen)
+
+ausgereift
+  ausgereift
+
+ausgeschlossen
+  ausgeschlossen
+
+ausgesetzt sein
+  ausgesetzt sein (sich einer Anforderung ausgesetzt sehen)
+
+Ausgleich
+  Ausgleich (zu + D.)
+
+auskennen
+  auskennen (sich) (mit + D. / in + D.), kennt aus, kannte aus, hat ausgekannt
+
+auslachen
+  auslachen
+
+Ausläufer
+  der Ausläufer, -
+
+Auslaufmodell
+  das Auslaufmodell, -e
+
+auslegen
+  auslegen (Waren im Schaufenster auslegen)
+
+Auslese
+  die Auslese (Sg.)
+
+auslesen
+  auslesen, liest aus, las aus, hat ausgelesen (Ich habe heute ein spannendes Buch ausgelesen.)
+
+ausloggen
+  ausloggen (sich)
+
+Auslöser
+  der Auslöser, -
+
+ausmisten
+  ausmisten
+
+ausprägen
+  ausprägen (sich)
+
+ausreißen
+  ausreißen, reißt aus, riss aus, ist ausgerissen (von zu Hause ausreißen)
+
+ausschlaggebend
+  ausschlaggebend
+
+Ausschluss
+  der Ausschluss (Sg.)
+
+ausschöpfen
+  ausschöpfen (Potenzial ausschöpfen)
+
+Ausschuss
+  der Ausschuss, "-e (ein Ausschuss mit Experten)
+
+ausschütten
+  ausschütten (jemandem sein Herz ausschütten)
+
+Äußerung
+  die Äußerung, -en
+
+ausstatten
+  ausstatten
+
+ausstehen
+  ausstehen, steht aus, stand aus, hat ausgestanden (Die Zahlung der Rechnung steht noch aus.)
+
+Ausstellungshaus
+  das Ausstellungshaus, "-er
+
+ausstrahlen
+  ausstrahlen (Die Serie wurde erstmals in den 70ern ausgestrahlt.)
+
+Ausstrahlung
+  die Ausstrahlung (Sg.)
+
+Auszeichnung
+  die Auszeichnung, -en
+
+authentisch
+  authentisch
+
+Autismus
+  der Autismus (Sg.)
+
+automatisieren
+  automatisieren
+
+autoritär
+  autoritär
+
+Autorität
+  die Autorität, -en
+
+ayurvedisch
+  ayurvedisch
+
+Backe
+  die Backe, -n
+
+Backsteinhaus
+  das Backsteinhaus, "-er
+
+Badehose
+  die Badehose, -n
+
+Bademantel
+  der Bademantel, "-
+
+Bahnübergang
+  der Bahnübergang, "-e
+
+Ballast
+  der Ballast (Sg.)
+
+Ballaststoff
+  der Ballaststoff, -e
+
+Ballung
+  die Ballung, -en
+
+Ballungsgebiet
+  das Ballungsgebiet, -e
+
+Bandbreite
+  die Bandbreite, -n
+
+Bankenskandal
+  der Bankenskandal, -e
+
+Banker
+  der Banker, -
+
+Bankkarte
+  die Bankkarte, -n
+
+Banküberfall
+  der Banküberfall, "-e
+
+Barbar
+  der Barbar, -en
+
+barfuß
+  barfuß
+
+Basisinformation
+  die Basisinformation, -en
+
+baumeln
+  baumeln
+
+beachtenswert
+  beachtenswert
+
+Becken
+  das Becken, - (Die Fische schwimmen im Becken.)
+
+bedenkenlos
+  bedenkenlos
+
+bedenklich
+  bedenklich
+
+Bedenkzeit
+  die Bedenkzeit, -en
+
+bedingt
+  bedingt (Dem kann ich nur bedingt zustimmen.)
+
+Bedrohung
+  die Bedrohung, -en
+
+bedürfen
+  bedürfen, bedarf, bedurfte, hat bedurft
+
+beeindrucken
+  beeindrucken
+
+beeindruckend
+  beeindruckend
+
+Beerdigung
+  die Beerdigung, -en
+
+Befindlichkeit
+  die Befindlichkeit, -en
+
+befreien
+  befreien (sich) (von + D.)
+
+befremden
+  befremden
+
+Befürchtung
+  die Befürchtung, -en
+
+begabt
+  begabt
+
+Begabte
+  der/die Begabte, -n
+
+begehen
+  begehen, begeht, beging, hat begangen (eine Straftat begehen)
+
+begeistern
+  begeistern (sich) (für + A.)
+
+Begeisterungsfähigkeit
+  die Begeisterungsfähigkeit (Sg.)
+
+beglückt
+  beglückt
+
+behalten
+  behalten, behält, behielt, hat behalten (Geld behalten)
+  behalten, behält, behielt, hat behalten (Informationen behalten)
+  behalten, behält, behielt, hat behalten (den Überblick behalten)
+
+behandeln
+  behandeln (Der Arzt behandelt seine Patienten.)
+  behandeln (Die Meldung behandelt das Thema "Konsum".)
+
+Behandlung
+  die Behandlung, -en
+
+beharren
+  beharren (auf + D.)
+
+beharrlich
+  beharrlich
+
+beheben
+  beheben, behebt, behob, hat behoben (einen Mangel beheben)
+
+Behebung
+  die Behebung, -en
+
+beheizen
+  beheizen
+
+beherbergen
+  beherbergen
+
+Behördengang
+  der Behördengang, "-e
+
+beinhalten
+  beinhalten
+
+Beirat
+  der Beirat, "-e (Man muss die Frage von verwirrendem Beirat befreien.)
+
+beispielhaft
+  beispielhaft
+
+bekanntlich
+  bekanntlich
+
+beklagen
+  beklagen
+
+bekritzeln
+  bekritzeln
+
+belastbar
+  belastbar
+
+Belastbarkeit
+  die Belastbarkeit (Sg.)
+
+belastet
+  belastet
+
+belästigen
+  belästigen
+
+belegen
+  belegen (ein Argument mit Beispielen belegen)
+
+belesen
+  belesen
+
+Beliebtheit
+  die Beliebtheit (Sg.)
+
+Beliebtheitsskala
+  die Beliebtheitsskala, -skalen
+
+Belletristik
+  die Belletristik (Sg.)
+
+belohnen
+  belohnen
+
+Belohnung
+  die Belohnung, -en
+
+Bemerkung
+  die Bemerkung, -en
+
+benachteiligen
+  benachteiligen
+
+Benefizkonzert
+  das Benefizkonzert, -e
+
+Beobachter
+  der Beobachter, -
+
+Beratungsgespräch
+  das Beratungsgespräch, -e
+
+Beratungsstelle
+  die Beratungsstelle, -n
+
+bereichern
+  bereichern (sich) (an + D.) (Der Heiratsschwindler hat sich an der Witwe bereichert.)
+  bereichern (Engagement bereichert das Leben.)
+
+Bereitstellung
+  die Bereitstellung (von + D.) (Sg.)
+
+Bergbau
+  der Bergbau (Sg.)
+
+Berufsausbildungsstätte
+  die Berufsausbildungsstätte, -n
+
+berufsbegleitend
+  berufsbegleitend
+
+Berufseinsteiger
+  der Berufseinsteiger, -
+
+Berufskontext
+  der Berufskontext, -e
+
+Berufslaufbahn
+  die Berufslaufbahn, -en
+
+Berufspraxis
+  die Berufspraxis (Sg.)
+
+Berufsschulabschluss
+  der Berufsschulabschluss, "-e
+
+Berufstätige
+  der/die Berufstätige, -n
+
+beruhen
+  beruhen (auf + D.)
+
+Beruhigungssauger
+  der Beruhigungssauger, -
+
+beschädigt
+  beschädigt
+
+Beschädigung
+  die Beschädigung, -en
+
+Beschaffenheit
+  die Beschaffenheit, -en
+
+beschäftigt
+  beschäftigt (mit + D.)
+
+bescheiden
+  bescheiden
+
+beschenken
+  beschenken
+
+bescheren
+  bescheren
+
+Beschwerde
+  die Beschwerde, -n (eine Beschwerde beim Vermieter)
+  die Beschwerde, -n (gesundheitliche Beschwerden haben)
+
+beseitigen
+  beseitigen
+
+Beseitigung
+  die Beseitigung (Sg.)
+
+Besitzer
+  der Besitzer, -
+
+Besonderheit
+  die Besonderheit, -en
+
+Bestand
+  der Bestand, "-e
+
+Bestandsaufnahme
+  die Bestandsaufnahme, -n
+
+bestärken
+  bestärken
+
+Bestimmung
+  die Bestimmung, -en (eine rechtliche Bestimmung)
+
+Bestseller
+  der Bestseller, -
+
+Bestsellerliste
+  die Bestsellerliste, -n
+
+betätigen
+  betätigen
+
+Beteiligte
+  der/die Beteiligte, -n
+
+beteuern
+  beteuern
+
+betrachten
+  betrachten
+
+betreffend
+  betreffend
+
+Betreiber
+  der Betreiber, - (die Betreiber eines Netzwerks)
+
+betrieblich
+  betrieblich
+
+Betriebsberater
+  der Betriebsberater, -e
+
+Betriebswirt
+  der Betriebswirt, -e
+
+Betrug
+  der Betrug, "-e
+
+betrügerisch
+  betrügerisch
+
+beugen
+  beugen
+
+Beurteilung
+  die Beurteilung, -en
+
+Beute
+  die Beute, -n
+
+Bevölkerungsschicht
+  die Bevölkerungsschicht, -en
+
+Bevölkerungszahl
+  die Bevölkerungszahl, -en
+
+bewaffnet
+  bewaffnet
+
+bewahren
+  bewahren (vor + D.)
+
+bewährt
+  bewährt
+
+Bewältigung
+  die Bewältigung (Sg.)
+
+Bewältigungsverhalten
+  das Bewältigungsverhalten (Sg.)
+
+bewegen
+  bewegen (sich) (Zu dieser Musik muss man sich einfach bewegen.)
+  bewegen (Der Gedanke an ihre Kinder bewegt fast alle Eltern.)
+
+Bewegungsablauf
+  der Bewegungsablauf, "-e
+
+Bewegungsarmut
+  die Bewegungsarmut (Sg.)
+
+Bewerber
+  der Bewerber, -
+
+Bewerbungsratgeber
+  der Bewerbungsratgeber, -
+
+Bewerbungstrainer
+  der Bewerbungstrainer, -
+
+bewerten
+  bewerten
+
+Bewusstsein
+  das Bewusstsein (Sg.)
+
+bezeichnen
+  bezeichnen
+
+beziehen
+  beziehen (sich) (auf + A.), bezieht, bezog, hat bezogen (sich auf eine Aussage beziehen)
+  beziehen, bezieht, bezog, hat bezogen (Waren aus dem Ausland beziehen)
+
+Bezugspunkt
+  der Bezugspunkt, -e
+
+bezweifeln
+  bezweifeln
+
+bezwingen
+  bezwingen, bezwingt, bezwang, hat bezwungen
+
+Bibliothekar
+  der Bibliothekar, -e
+
+biegen
+  biegen, biegt, bog, hat gebogen (auf Biegen und Brechen)
+
+Bildband
+  der Bildband, "-e
+
+bilden
+  bilden (das Schlusslicht bilden)
+  bilden (sich eine Meinung bilden zu)
+  bilden (bildende Künste)
+
+bildungsbürgerlich
+  bildungsbürgerlich
+
+Bildungsbürgertum
+  das Bildungsbürgertum (Sg.)
+
+Bildungsgrad
+  der Bildungsgrad, -e
+
+Bildungspolitik
+  die Bildungspolitik (Sg.)
+
+binden
+  binden, bindet, band, hat gebunden
+
+Bioecke
+  die Bioecke, -n
+
+Biosiegel
+  das Biosiegel, -
+
+Bio-Tonne
+  die Bio-Tonne, -n
+
+Bioware
+  die Bioware, -n
+
+Birne
+  die Birne, -n (etwas in der Birne haben)
+
+bis hin zu
+  bis hin zu
+
+bislang
+  bislang
+
+Black-out
+  der Black-out, -s
+
+Blamage
+  die Blamage, -n
+
+Blasinstrument
+  das Blasinstrument, -e
+
+Blasmusik
+  die Blasmusik (Sg.)
+
+blättern
+  blättern
+
+blicken
+  blicken
+
+Böller
+  der Böller, -
+
+Boom
+  der Boom, -s
+
+Börse
+  die Börse, -n
+
+Börsenmakler
+  der Börsenmakler, -
+
+Botenstoff
+  der Botenstoff, -e
+
+Bowling
+  das Bowling (Sg.)
+
+Brainstorming
+  das Brainstorming, -s
+
+brechen
+  brechen, bricht, brach, hat gebrochen (auf Biegen und Brechen)
+  brechen, bricht, brach, ist gebrochen (durch das Dach brechen)
+
+Brechstange
+  die Brechstange, -n
+
+breiig
+  breiig
+
+breitmachen
+  breitmachen (sich)
+
+Bremslicht
+  das Bremslicht, -er
+
+brillant
+  brillant
+
+Brokkoli
+  der Brokkoli, -
+
+brotlos
+  brotlos
+
+Bruch
+  der Bruch, "-e
+
+Bruchteil
+  der Bruchteil, -e
+
+brühen
+  brühen
+
+Brunnen
+  der Brunnen, -
+
+brutal
+  brutal
+
+Buchautor
+  der Buchautor, -en
+
+Bücherregal
+  das Bücherregal, -e
+
+Buchhändler
+  der Buchhändler, -
+
+Buchkritik
+  die Buchkritik, -en
+
+Buchkritiker
+  der Buchkritiker, -
+
+Buchverfilmung
+  die Buchverfilmung, -en
+
+Bude
+  die Bude, -n (die sturmfreie Bude)
+
+bügeln
+  bügeln
+
+Bühnenkonzert
+  das Bühnenkonzert, -e
+
+Bühnenprogramm
+  das Bühnenprogramm, -e
+
+Bundesfreiwilligendienst
+  der Bundesfreiwilligendienst (Sg.)
+
+Bundesministerium
+  das Bundesministerium, - ministerien
+
+Bundesstaat
+  der Bundesstaat, -en
+
+Burn-Out
+  der Burn-Out, -s
+
+Bürokratie
+  die Bürokratie (Sg.)
+
+Büroplatz
+  der Büroplatz, "-e
+
+Bürostuhl
+  der Bürostuhl, "-e
+
+Bushaltestelle
+  die Bushaltestelle, -n
+
+Business
+  das Business (Sg.)
+
+Businessplan
+  der Businessplan, "-e
+
+Butterkeks
+  der Butterkeks, -e
+
+Casting
+  das Casting, -s
+
+chaotisch
+  chaotisch
+
+charmant
+  charmant
+
+Check
+  der Check, -s
+
+Chemiker
+  der Chemiker, -
+
+chemisch
+  chemisch
+
+Choreograf
+  der Choreograf, -en
+
+Chromosom
+  das Chromosom, -en
+
+chronologisch
+  chronologisch
+
+Clown
+  der Clown, -s
+
+Clubkonzert
+  das Clubkonzert, -e
+
+Community
+  die Community, -s
+
+computerspielsüchtig
+  computerspielsüchtig
+
+Computerwissenschaftler
+  der Computerwissenschaftler, -
+
+contra
+  contra (Contra geben)
+
+Crowdfunder
+  der Crowdfunder, -
+
+Crowdfunding
+  das Crowdfunding (Sg.)
+
+Crowdfunding-Aktion
+  die Crowdfunding-Aktion, -en
+
+Currywurst
+  die Currywurst, "-e
+
+Cyberkriminalität
+  die Cyberkriminalität (Sg.)
+
+danebenstellen
+  danebenstellen
+
+darbieten
+  darbieten, bietet dar, bot dar, hat dageboten
+
+darlegen
+  darlegen
+
+Darlegung
+  die Darlegung, -en
+
+Darlehen
+  das Darlehen, -
+
+dasitzen
+  dasitzen, sitzt da, saß da, hat dagesessen
+
+dastehen
+  dastehen, steht da, stand da, hat dagestanden (jmd. gut/schlecht dastehen lassen)
+
+Datenbank
+  die Datenbank, -en
+
+Dauerfeuer
+  das Dauerfeuer, -
+
+Dauergast
+  der Dauergast, "-e
+
+Dauerstress
+  der Dauerstress (Sg.)
+
+davonlaufen
+  davonlaufen, läuft davon, lief davon, ist davongelaufen
+
+dazugehörig
+  dazugehörig
+
+Defensive
+  die Defensive, -n
+
+Definition
+  die Definition, -en
+
+definitiv
+  definitiv
+
+Deich
+  der Deich, -e
+
+Delikt
+  das Delikt, -e
+
+demgegenüber
+  demgegenüber
+
+demnach
+  demnach
+
+denkbar
+  denkbar
+
+Depression
+  die Depression, -en
+
+derart
+  derart
+
+derartig
+  derartig
+
+Desinfektion
+  die Desinfektion, -en
+
+desinteressiert
+  desinteressiert
+
+Detektiv
+  der Detektiv, -e
+
+Deutung
+  die Deutung, -en
+
+Diabetes
+  der Diabetes (Sg.)
+
+Dialektik
+  die Dialektik (Sg.)
+
+Diätmethode
+  die Diätmethode, -n
+
+dicht
+  dicht (Die Fenster sind nicht dicht.)
+  dicht (Die Museen stehen dicht an dicht.)
+
+Didaktik
+  die Didaktik (Sg.)
+
+dienen
+  dienen (als Vorlage dienen)
+
+Dienst
+  der Dienst, -e (sein Leben in den Dienst einer Aufgabe stellen)
+
+Dienstleistungssektor
+  der Dienstleistungssektor, -en
+
+Dienstreise
+  die Dienstreise, -n
+
+differenzieren
+  differenzieren
+
+differenziert
+  differenziert
+
+Ding
+  das Ding, -e (sicht der Dinge)
+
+Dioxin
+  das Dioxin (Sg.)
+
+Dissertation
+  die Dissertation, -en
+
+Dokumentarfilm
+  der Dokumentarfilm, -e
+
+dokumentieren
+  dokumentieren
+
+dominieren
+  dominieren
+
+Doppelbelastung
+  die Doppelbelastung, -en
+
+Doppelstich
+  der Doppelstich, -e
+
+dran sein
+  dran sein (Telefon! - Wer ist dran?)
+  dran sein (Du bist dran. Würfle und zieh deine Figur.)
+
+Drang
+  der Drang (Sg.)
+
+Drehbuchautor
+  der Drehbuchautor, -en
+
+dreidimensional
+  dreidimensional
+
+drohen
+  drohen (Unsere Freundschaft droht kaputtzugehen.)
+
+drohend
+  drohend (die drohende Insolvenz)
+
+drucken
+  drucken (frisch gedruckte Geldscheine)
+
+dummerweise
+  dummerweise
+
+Dummheit
+  die Dummheit, -en
+
+düngen
+  düngen
+
+Dünger
+  der Dünger, -
+
+durchbeißen
+  durchbeißen (sich) (durch + A.), beißt durch, biss durch, hat durchgebissen
+
+durchdacht
+  durchdacht
+
+durchdringend
+  durchdringend
+
+durchfallen
+  durchfallen, fällt durch, fiel durch, ist durchgefallen
+
+durchführen
+  durchführen (ein Experiment durchführen)
+
+Durchhaltevermögen
+  das Durchhaltevermögen (Sg.)
+
+durchlaufen
+  durchlaufen, durchläuft, durchlief, hat durchlaufen
+
+durchleben
+  durchleben
+
+durchschauen
+  durchschauen
+
+Durchsetzung
+  die Durchsetzung (Sg.)
+
+durchsetzungsstark
+  durchsetzungsstark
+
+Durchsetzungsvermögen
+  das Durchsetzungsvermögen (Sg.)
+
+Dutzend
+  das Dutzend, -e
+
+Ebbe
+  die Ebbe (Sg.)
+
+Ebene
+  die Ebene, -n
+
+effizient
+  effizient
+
+Ehrenamt
+  das Ehrenamt, "-er
+
+ehrenamtlich
+  ehrenamtlich
+
+Ehrendoktorwürde
+  die Ehrendoktorwürde, -n
+
+Ehrlichkeit
+  die Ehrlichkeit (Sg.)
+
+eifrig
+  eifrig
+
+eigens
+  eigens
+
+Eignung
+  die Eignung, -en
+
+einbauen
+  einbauen
+
+einbinden
+  einbinden (in + A.), bindet ein, band ein, hat eingebunden (jmd. in einen Prozess einbinden)
+
+Einbindung
+  die Einbindung, -en
+
+Einblick
+  Einblick (in + A.)
+
+eindimensional
+  eindimensional
+
+eineinhalb
+  eineinhalb
+
+einfallsreich
+  einfallsreich
+
+einflussreich
+  einflussreich
+
+einfordern
+  einfordern
+
+Einfühlungsvermögen
+  das Einfühlungsvermögen (Sg.)
+
+eingespielt
+  eingespielt (ein eingespieltes Team)
+
+eingestellt sein
+  eingestellt sein
+
+einhaken
+  einhaken
+
+einhalten
+  einhalten, hält ein, hielt ein, hat eingehalten
+
+Einhaltung
+  die Einhaltung (Sg.)
+
+einhellig
+  einhellig (Sie sind einhellig der Meinung, dass …)
+
+einig sein
+  einig sein (sich)
+
+Einigkeit
+  die Einigkeit (Sg.)
+
+Einkaufstasche
+  die Einkaufstasche, -n
+
+einleuchten
+  einleuchten
+
+einmischen
+  einmischen (sich) (in + A.)
+
+einnehmen
+  einnehmen, nimmt ein, nahm ein, hat eingenommen (einen hohen/niedrigen Stellenwert einnehmen)
+
+einordnen
+  einordnen (in + A.)
+
+einparken
+  einparken
+
+Einsatzort
+  der Einsatzort, -e
+
+Einschaltquote
+  die Einschaltquote, -n
+
+einschätzen
+  einschätzen
+
+Einschätzung
+  die Einschätzung, -en
+
+einschließen
+  einschließen (in + A.), schließt ein, schloss ein, hat eingeschlossen
+
+einschränken
+  einschränken
+
+einseitig
+  einseitig
+
+einsenden
+  einsenden
+
+einsetzen
+  einsetzen (für + A.) (Ressourcen einsetzen)
+  einsetzen (sich) (für + A.) (Meine Nachbarin setzt sich für benachteiligte Kinder ein.)
+
+einst
+  einst
+
+Einstellung
+  die Einstellung, -en
+
+Einstieg
+  der Einstieg, -e
+
+einstig
+  einstig
+
+einstreuen
+  einstreuen
+
+einstürmen
+  einstürmen (auf + A.)
+
+Eintrag
+  der Eintrag, "-e
+
+eintreffen
+  eintreffen, trifft ein, traf ein, ist eingetroffen
+
+einüben
+  einüben
+
+einvernehmlich
+  einvernehmlich
+
+Einwand
+  der Einwand, "-e (Einwand erheben)
+
+einweisen
+  einweisen, weist ein, wies ein, hat eingewiesen
+
+einwenden
+  einwenden (gegen + A.)
+
+Einwohnerzahl
+  die Einwohnerzahl, -en
+
+Einzelinterview
+  das Einzelinterview, -s
+
+einzigartig
+  einzigartig
+
+elastisch
+  elastisch
+
+Elektrik
+  die Elektrik (Sg.)
+
+Element
+  das Element, -e
+
+Elend
+  das Elend (Sg.)
+
+E-Mail-Account
+  der E-Mail-Account, -s
+
+empfindlich
+  empfindlich
+
+Endlichkeit
+  die Endlichkeit (Sg.)
+
+energetisch
+  energetisch
+
+Engagement
+  das Engagement, -s
+
+engagieren
+  engagieren (sich) (für/gegen + A.)
+
+engmaschig
+  engmaschig
+
+Enkelkind
+  das Enkelkind, -er
+
+Entdeckung
+  die Entdeckung, -en
+
+entfallen
+  entfallen, entfällt, entfiel, ist entfallen
+
+entfettet
+  entfettet
+
+entgegensetzen
+  entgegensetzen
+  entgegensetzen | to counter; to oppose
+
+entgegenwirken
+  entgegenwirken
+
+enthalten
+  enthalten, enthält, enthielt, hat enthalten (Der Lebenslauf enthält Lücken.)
+  enthalten (sich), enthält, enthielt, hat enthalten (sich einer Meinung enthalten)
+
+entkommen
+  entkommen, entkommt, entkam, ist entkommen
+
+entlanggehen
+  entlanggehen, geht entlang, ging entlang, ist entlanggegangen
+
+entmachten
+  entmachten
+
+entmutigen
+  entmutigen
+
+entpuppen
+  entpuppen (sich)
+
+Entscheidungshilfe
+  die Entscheidungshilfe, -n
+
+Entscheidungsstau
+  der Entscheidungsstau, -s
+
+entschlacken
+  entschlacken
+
+entschleunigen
+  entschleunigen
+
+Entschleunigung
+  die Entschleunigung (Sg.)
+
+entschlüsseln
+  entschlüsseln
+
+entspannen
+  entspannen
+
+Entspannung
+  die Entspannung (Sg.)
+
+entsperren
+  entsperren
+
+entsprechen
+  entsprechen, entspricht, entsprach, hat entsprochen
+
+enttäuscht
+  enttäuscht
+
+entwerfen
+  entwerfen, entwirft, entwarf, hat entworfen
+
+Entwicklerteam
+  das Entwicklerteam, -s
+
+Entwicklungsphase
+  die Entwicklungsphase, -n
+
+Entwicklungspsychologie
+  die Entwicklungspsychologie (Sg.)
+
+Entwurf
+  der Entwurf, "-e
+
+Epilog
+  der Epilog, -e
+
+episodisch
+  episodisch
+
+erbeuten
+  erbeuten
+
+erbringen
+  erbringen, erbringt, erbrachte, hat erbracht (eine Dienstleistung erbringen)
+
+erfahren
+  erfahren, erfährt, erfuhr, hat erfahren (Ich möchte etwas über dich erfahren.)
+  erfahren (Tina ist schon lange berufstätig und sehr erfahren.)
+
+Erfolgszahl
+  die Erfolgszahl, -en (wirtschaftliche Erfolgszahlen)
+
+erforschen
+  erforschen
+
+erfreuen
+  erfreuen (sich) (an + D.)
+
+Erfrischungsgetränk
+  das Erfrischungsgetränk, -e
+
+erfüllt
+  erfüllt (ein erfülltes Leben führen)
+
+Ergänzung
+  die Ergänzung, -en (Dem Verb "empfehlen" folgt eine Dativ- und eine Akkusativ-Ergänzung.)
+  die Ergänzung, -en (Der Krimi dient mittlerweile als Ergänzung zum Reiseführer.)
+
+erhalten bleiben
+  erhalten bleiben
+
+erheben
+  erheben, erhebt, erhob, hat erhoben (Einwände erheben)
+  erheben (sich), erhebt, erhob, hat erhoben (Mia erhebt sich langsam und geht zur Brücke.)
+
+Erholungsmöglichkeit
+  die Erholungsmöglichkeit, -en
+
+Erholungsphase
+  die Erholungsphase, -n
+
+Erklärungsversuch
+  der Erklärungsversuch, -e
+
+erklimmen
+  erklimmen, erklimmt, erklomm, hat erklommen
+
+Erkrankung
+  die Erkrankung, -en
+
+erlassen
+  erlassen, erlässt, erließ, hat erlassen (ein Gesetz erlassen)
+
+erlaubterweise
+  erlaubterweise
+
+erläutern
+  erläutern
+
+Erläuterung
+  die Erläuterung, -en
+
+Erleichterung
+  die Erleichterung, -en
+
+erlernen
+  erlernen
+
+erlesen
+  erlesen (erlesener Genuss)
+
+erliegen
+  erliegen, erliegt, erlag, hat erlegen
+
+ermitteln
+  ermitteln
+
+Ermittler
+  der Ermittler, -
+
+ermuntern
+  ermuntern (zu + D.)
+
+Ernährungsstil
+  der Ernährungsstil, -e
+
+erneuern
+  erneuern (sich)
+
+ernst nehmen
+  ernst nehmen
+
+ernten
+  ernten
+
+erobern
+  erobern
+
+Erreichbarkeit
+  die Erreichbarkeit (Sg.)
+
+erschauern
+  erschauern
+
+erscheinen
+  erscheinen, erscheint, erschien, ist erschienen (Ein Buch erscheint auf dem Markt.)
+  erscheinen, erscheint, erschien, ist erschienen (Die Geschäftsidee erscheint ihm vielversprechend.)
+  erscheinen, erscheint, erschien, ist erschienen (Sie erscheint plötzlich in der Tür.)
+
+erschließen
+  erschließen, erschließt, erschloss, hat erschlossen (eine Bedeutung aus dem Kontext erschließen)
+
+erschwinglich
+  erschwinglich
+
+erspart
+  erspart
+
+Erstellung
+  die Erstellung (Sg.)
+
+erstmals
+  erstmals
+
+ertönen
+  ertönen
+
+Ertrag
+  der Ertrag, "-e (Ertrag bringen)
+
+erweisen
+  erweisen (sich), erweist, erwies, hat erwiesen
+
+Erweiterung
+  die Erweiterung, -en
+
+Erwerb
+  der Erwerb (Sg.)
+
+erwirtschaften
+  erwirtschaften
+
+Erziehungsbuch
+  das Erziehungsbuch, -"er
+
+Erziehungsexperte
+  der Erziehungsexperte, -n
+
+erzielen
+  erzielen
+
+Essverhalten
+  das Essverhalten (Sg.)
+
+etablieren
+  etablieren
+
+Etappenziel
+  das Etappenziel, -e
+
+etliche
+  etliche
+
+europaweit
+  europaweit
+
+Eventmanager
+  der Eventmanager, -
+
+Evolutionspsychologe
+  der Evolutionspsychologe, -n
+
+Ewigkeit
+  die Ewigkeit, -en
+
+Ex-
+  Ex-
+
+Exemplar
+  das Exemplar, -e
+
+exotisch
+  exotisch
+
+explizit
+  explizit
+
+exportieren
+  exportieren
+
+Extra
+  das Extra, -s
+
+Extremsituation
+  die Extremsituation, -en
+
+exzessiv
+  exzessiv
+
+Fachschulabschluss
+  der Fachschulabschluss, "-e
+
+Fachtext
+  der Fachtext, -e
+
+Fachunterricht
+  der Fachunterricht (Sg.)
+
+Fachwissen
+  das Fachwissen (Sg.)
+
+Fachzeitschrift
+  die Fachzeitschrift, -en
+
+Fahndung
+  die Fahndung, -en
+
+Fahrerflucht
+  die Fahrerflucht (Sg.)
+
+fahrig
+  fahrig
+
+Fahrradkette
+  die Fahrradkette, -n
+
+Faktenwissen
+  das Faktenwissen (Sg.)
+
+Fakultät
+  die Fakultät, -en
+
+Fälligkeit
+  die Fälligkeit, -en
+
+falsch gehen
+  falsch gehen (Ich fürchte, meine Uhr geht falsch.)
+
+Falsche-Hoffnung-Syndrom
+  das Falsche-Hoffnung-Syndrom (Sg.)
+
+Fälschung
+  die Fälschung, -en
+
+falten
+  falten
+
+Familienalltag
+  der Familienalltag (Sg.)
+
+Familiendrama
+  das Familiendrama, -dramen
+
+Familiengeschichte
+  die Familiengeschichte, -n
+
+fanatisch
+  fanatisch
+
+Fanclub
+  der Fanclub, -s
+
+farblich
+  farblich
+
+faszinieren
+  faszinieren
+
+fatal
+  fatal
+
+Fauxpas
+  der Fauxpas, -s
+
+Fehlkalkulation
+  die Fehlkalkulation, -en
+
+Fehlschlag
+  der Fehlschlag, "-e (Fehlschläge hinnehmen)
+
+Fehlstellung
+  die Fehlstellung, -en
+
+Fell
+  das Fell, -e
+
+Ferienzeit
+  die Ferienzeit, -en
+
+Fernsehkonsum
+  der Fernsehkonsum (Sg.)
+
+fertig werden
+  fertig werden (mit + D.)
+
+Fertigware
+  die Fertigware, -n
+
+fest
+  fest (ein fester Arbeitsvertrag)
+  fest (der festen Überzeugung sein, dass ...)
+
+Festanstellung
+  die Festanstellung, -en
+
+Festivalauftritt
+  der Festivalauftritt, -e
+
+Festnahme
+  die Festnahme, -n
+
+feuern
+  feuern
+
+Filiale
+  die Filiale, -n
+
+Filter
+  der Filter, -
+
+filtern
+  filtern
+
+finanzierbar
+  finanzierbar
+
+Finanzierer
+  der Finanzierer, -
+
+Finanzierung
+  die Finanzierung, -en
+
+Finanzierungsinstitut
+  das Finanzierungsinstitut, -e
+
+Finanzierungsmöglichkeit
+  die Finanzierungsmöglichkeit, -en
+
+Finanzierungsplan
+  der Finanzierungsplan, "-e
+
+findig
+  findig
+
+Fingerspitze
+  die Fingerspitze, -n
+
+Firmament
+  das Firmament, -e
+
+firmeneigen
+  firmeneigen
+
+Firmengruppe
+  die Firmengruppe, -n
+
+flächendeckend
+  flächendeckend
+
+Flaschenhals
+  der Flaschenhals, "-e
+
+Fleck
+  der Fleck, -en (der blaue Fleck)
+
+Fleischpreis
+  der Fleischpreis, -e
+
+Fleischverarbeiter
+  der Fleischverarbeiter, -
+
+Flexibilität
+  die Flexibilität (Sg.)
+
+Flitterwochen
+  die Flitterwochen (Pl.)
+
+floskelhaft
+  floskelhaft
+
+flottmachen
+  flottmachen
+
+flüssig
+  flüssig
+
+Flut
+  die Flut, -en
+
+Folge
+  die Folge, -n (Folgen der Smartphone-Nutzung)
+  die Folge, -n (eine Folge "Tatort")
+
+folgern
+  folgern
+
+fördern
+  fördern (Kohle fördern)
+  fördern (den Austausch fördern)
+
+Forderung
+  die Forderung, -en (eine Forderung stellen)
+
+Förderunterricht
+  der Förderunterricht (Sg.)
+
+Formel
+  die Formel, -n
+
+formell
+  formell (ein formeller Text)
+
+formen
+  formen (sich)
+
+forschen
+  forschen
+
+Forscher
+  der Forscher, -
+
+Forschungsauftrag
+  der Forschungsauftrag, "-e
+
+Forschungsergebnis
+  das Forschungsergebnis, -se
+
+Forschungsfrage
+  die Forschungsfrage, -n
+
+Forschungsgegenstand
+  der Forschungsgegenstand, "-e
+
+Forschungsinstitut
+  das Forschungsinstitut, -e
+
+Forschungsprojekt
+  das Forschungsprojekt, -e
+
+fortan
+  fortan
+
+Fortgang
+  der Fortgang, "-e
+
+fragil
+  fragil
+
+fragwürdig
+  fragwürdig
+
+frei
+  frei (Kapazitäten frei haben)
+  frei (frei sprechen)
+  frei (Kreativität freien Raum lassen)
+
+freinehmen
+  freinehmen (sich), nimmt frei, nahm frei, hat freigenommen
+
+Freiraum
+  der Freiraum, "-e
+
+Freisprechanlage
+  die Freisprechanlage, -n
+
+Freistoß
+  der Freistoß, "-e
+
+Freiwilligendienst
+  der Freiwilligendienst, -e
+
+fremd
+  fremd (fremde Währungen)
+
+Fremdfinanzierung
+  die Fremdfinanzierung, -en
+
+Fremdkapital
+  das Fremdkapital (Sg.)
+
+Fremdsprachenkenntnisse
+  die Fremdsprachenkenntnisse (Pl.)
+
+Freude
+  die Freude, -n (Freude schenken)
+
+Freundeskreis
+  der Freundeskreis, -e
+
+frisch
+  frisch (frisches Gemüse)
+  frisch (frisch gedruckt)
+
+Frontallappen
+  der Frontallappen, -
+
+Frontbericht
+  der Frontbericht, -e
+
+frühzeitig
+  frühzeitig
+
+Frust
+  der Frust (Sg.)
+
+Fügung
+  die Fügung, -en
+
+Führungskompetenz
+  die Führungskompetenz, -en
+
+Führungskraft
+  die Führungskraft, "-e
+
+Führungsstil
+  der Führungsstil, -e
+
+füllen
+  füllen
+
+Füllsel
+  das Füllsel, -
+
+Funk
+  der Funk (Sg.) (Ich höre gerne Funk.)
+
+funkeln
+  funkeln
+
+Funksignal
+  das Funksignal, -e
+
+fürchten
+  fürchten (Ich fürchte, meine Uhr geht falsch.)
+
+Fusion
+  die Fusion, -en
+
+Fußbad
+  das Fußbad, "-er
+
+Fußballmatch
+  das Fußballmatch, -s
+
+Fußballtrick
+  der Fußballtrick, -s
+
+Fußboden
+  der Fußboden, "-
+
+Fußgelenk
+  das Fußgelenk, -e
+
+Fußsohle
+  die Fußsohle, -n
+
+Futter
+  das Futter, -
+
+gähnen
+  gähnen
+
+galoppieren
+  galoppieren
+
+Gang
+  der Gang, "-e (in vollem Gange sein)
+  der Gang, "-e (einen Gang zurückschalten)
+
+gängig
+  gängig (eine gängige Sichtweise)
+
+Garant
+  der Garant, -en
+
+Gastprofessur
+  die Gastprofessur, -en
+
+Gaumen
+  der Gaumen, -
+
+gaumenfreundlich
+  gaumenfreundlich
+
+Geborgenheit
+  die Geborgenheit (Sg.)
+
+geboten sein
+  geboten sein (bei + D.) (Bei dieser Tätigkeit ist Vorsicht geboten.)
+
+Gedächtnishilfe
+  die Gedächtnishilfe, -n
+
+Gedächtnislücke
+  die Gedächtnislücke, -n
+
+Gedächtnisstütze
+  die Gedächtnisstütze, -n
+
+Gedächtnistyp
+  der Gedächtnistyp, -en
+
+Gedanke
+  der Gedanke, -n (in Gedanken bei etw./jmd. sein)
+  der Gedanke, -n (sich Gedanken machen)
+
+gedankenversunken
+  gedankenversunken
+
+gedanklich
+  gedanklich
+
+gedruckt
+  gedruckt (lügen wie gedruckt)
+
+gefährden
+  gefährden
+
+Gefährt
+  das Gefährt, -en
+
+Gefallen
+  der Gefallen, - (Gefallen finden bei jmd.)
+
+gefärbt
+  gefärbt (regional gefärbte Sprache)
+
+gefleckt
+  gefleckt
+
+Gefühl
+  das Gefühl, -e (jmd. das Gefühl geben, dass …)
+  das Gefühl, -e (ein Gefühl bekommen für)
+  das Gefühl, -e (das Gefühl haben, dass …)
+
+gefühlt
+  gefühlt
+
+gegebenenfalls
+  gegebenenfalls
+
+Gegensatz
+  der Gegensatz, "-e (im Gegensatz zu)
+
+gegensteuern
+  gegensteuern
+
+Gegenverkehr
+  der Gegenverkehr (Sg.)
+
+Gegenzug
+  der Gegenzug, "-e (im Gegenzug)
+
+Gehirnareal
+  das Gehirnareal, -e
+
+Gehirnhälfte
+  die Gehirnhälfte, -n
+
+Gehör
+  das Gehör, -e
+
+Geige
+  die Geige, -n
+
+geisterhaft
+  geisterhaft
+
+geistesgegenwärtig
+  geistesgegenwärtig
+
+Gelächter
+  das Gelächter, -
+
+Geländer
+  das Geländer, -
+
+gelangen
+  gelangen
+
+gelangweilt
+  gelangweilt
+
+gelassen
+  gelassen
+
+Gelassenheit
+  die Gelassenheit (Sg.)
+
+gelaunt sein
+  gelaunt sein
+
+Geldmangel
+  der Geldmangel (Sg.)
+
+Geldschein
+  der Geldschein, -e
+
+gelebt
+  gelebt
+
+Gelegenheit
+  die Gelegenheit, -en (eine Gelegenheit nutzen)
+
+Geleit
+  das Geleit, -e
+
+gemein haben
+  gemein haben (mit + D.)
+
+Gemeinschaftskasse
+  die Gemeinschaftskasse, -n
+
+Gemeinschaftsraum
+  der Gemeinschaftsraum, "-e
+
+Gemeinwohl
+  das Gemeinwohl (Sg.)
+
+Gen
+  das Gen, -e
+
+generell
+  generell
+
+genial
+  genial
+
+genießen
+  genießen, genießt, genoss, hat genossen (ein hervorragendes Renommee genießen)
+
+Genre
+  das Genre, -s
+
+Gentechnik
+  die Gentechnik, -en
+
+geöffnet haben
+  geöffnet haben
+
+geografisch
+  geografisch
+
+geometrisch
+  geometrisch
+
+geprägt sein
+  geprägt sein (von Vorsicht geprägt sein)
+
+gerade
+  gerade (Gerade wir Mitteleuropäer sind sehr zukunftsorientiert.)
+  gerade (Die Wissenschaftler haben gerade unsere Smartphone-Nutzung erforscht.)
+  gerade (Halten Sie die Beine gerade.)
+
+Geräusch
+  das Geräusch, -e
+
+geregelt
+  geregelt (juristisch geregelt)
+  geregelt (ein geregeltes Leben führen)
+
+Gerichtsmediziner
+  der Gerichtsmediziner, -
+
+Geringqualifizierte
+  der/die Geringqualifizierte, -n
+
+Gesagte
+  das Gesagte (Sg.)
+
+Gesamtauflage
+  die Gesamtauflage, -n
+
+Gesamtaussage
+  die Gesamtaussage, -n
+
+Gesamtbevölkerung
+  die Gesamtbevölkerung, -en
+
+Gesamteindruck
+  der Gesamteindruck, "-e
+
+Gesamturteil
+  das Gesamturteil, -e
+
+Gesang
+  der Gesang, "-e
+
+Geschäftsessen
+  das Geschäftsessen, -
+
+Geschäftsführer
+  der Geschäftsführer, -
+
+Geschäftsidee
+  die Geschäftsidee, -n
+
+Geschehen
+  das Geschehen, -
+
+geschickt
+  geschickt
+
+Geschlechterrolle
+  die Geschlechterrolle, -n
+
+geschlechterspezifisch
+  geschlechterspezifisch
+
+geschlossen
+  geschlossen
+
+geschwind
+  geschwind
+
+gesellen
+  gesellen (sich) (zu + D.)
+
+Geselligkeit
+  die Geselligkeit (Sg.)
+
+Gesellschaft
+  die Gesellschaft, -en (die Mitte der Gesellschaft)
+
+gesellschaftlich
+  gesellschaftlich
+
+Gesetzesflut
+  die Gesetzesflut (Sg.)
+
+Gesetzeslücke
+  die Gesetzeslücke, -n
+
+Gesetzgeber
+  der Gesetzgeber, -
+
+Gesetzgebung
+  die Gesetzgebung, -en
+
+Gesetzmäßigkeit
+  die Gesetzmäßigkeit, -en
+
+Gespräch
+  das Gespräch, -e (jmd. in ein Gespräch verwickeln)
+  das Gespräch, -e (ein Gespräch führen)
+
+Gestaltung
+  die Gestaltung, -en
+
+Gestik
+  die Gestik, -en
+
+gestört
+  gestört
+
+gestrig
+  gestrig
+
+gesund
+  gesund (der gesunde Menschenverstand)
+
+Gesundheitsfaktor
+  der Gesundheitsfaktor, -en
+
+Gesundheitshandeln
+  das Gesundheitshandeln (Sg.)
+
+Gesundheitskonzept
+  das Gesundheitskonzept, -e
+
+Gesundheitspolitik
+  die Gesundheitspolitik (Sg.)
+
+Gesundheitsprogramm
+  das Gesundheitsprogramm, -e
+
+Gesundheitssystem
+  das Gesundheitssystem, -e
+
+Gesundheitstest
+  der Gesundheitstest, -s
+
+Gesundheitswesen
+  das Gesundheitswesen (Sg.)
+
+Gesundheitszustand
+  der Gesundheitszustand (Sg.)
+
+getrennt
+  getrennt
+
+getreulich
+  getreulich
+
+getrost
+  getrost
+
+gewachsen sein
+  gewachsen sein (einer Situation gewachsen sein)
+
+gewähren
+  gewähren
+
+gewaltsam
+  gewaltsam
+
+Gewicht
+  das Gewicht, -e (ins Gewicht fallen)
+
+Gewichtskontrolle
+  die Gewichtskontrolle, -n
+
+Gewinn
+  der Gewinn, -e (Gewinn machen)
+  der Gewinn, -e (Gewinn erzielen)
+
+Gewinnbeteiligung
+  die Gewinnbeteiligung, -en
+
+gewinnen
+  gewinnen, gewinnt, gewann, hat gewonnen (Erkenntnisse gewinnen)
+  gewinnen, gewinnt, gewann, hat gewonnen (an Wert gewinnen)
+  gewinnen, gewinnt, gewann, hat gewonnen (Unterstützer gewinnen)
+
+Gewinnler
+  der Gewinnler, -
+
+gewiss
+  gewiss
+
+Gewissensbisse
+  die Gewissensbisse (Pl.)
+
+Gewissensfrage
+  die Gewissensfrage, -n
+
+Gift
+  das Gift, -e (Gift bedeuten für)
+
+Glasdach
+  das Glasdach, "-er
+
+gläsern
+  gläsern
+
+gleich
+  gleich (Mein Bruder und ich haben die gleiche Mutter, aber verschiedene Väter.)
+  gleich (Ich rufe gleich zurück.)
+
+gleichen
+  gleichen, gleicht, glich, hat geglichen
+
+Gleichgesinnte
+  der/die Gleichgesinnte, -n
+
+Gleichgewicht
+  das Gleichgewicht (Sg.) (das Gleichgewicht verlieren)
+
+gleichgültig
+  gleichgültig
+
+Gleichmacherei
+  die Gleichmacherei (Sg.)
+
+gleichsetzen
+  gleichsetzen
+
+Gleichzeitigkeit
+  die Gleichzeitigkeit (Sg.)
+
+Gliederung
+  die Gliederung, -en
+
+Globalisierung
+  die Globalisierung (Sg.)
+
+Glotze
+  die Glotze, -n (vor der Glotze sitzen)
+
+Glücksbringer
+  der Glücksbringer, -
+
+glutenfrei
+  glutenfrei
+
+Grad
+  der Grad, -e (akademischer Grad)
+  der Grad, -e (Verwandte zweiten oder dritten Grades)
+  der Grad (Sg.) (ein 28 Grad warmes Bad)
+  der Grad (Sg.) (Grad der Sicherheit)
+
+Graf
+  der Graf, -en
+
+grammatisch
+  grammatisch
+
+Gremium
+  das Gremium, Gremien
+
+grenzenlos
+  grenzenlos
+
+grob
+  grob
+
+Gros
+  das Gros (Sg.)
+
+großartig
+  großartig
+
+Großtante
+  die Großtante, -n
+
+Großteil
+  der Großteil, -e
+
+größtenteils
+  größtenteils
+
+Grundbedürfnis
+  das Grundbedürfnis, -se
+
+Gründer
+  der Gründer, -
+
+Grundhaltung
+  die Grundhaltung, -en
+
+grundlegend
+  grundlegend
+
+Grundproblem
+  das Grundproblem, -e
+
+Grundrecht
+  das Grundrecht, -e
+
+Grundsatz
+  der Grundsatz, "-e
+
+Grundstudium
+  das Grundstudium (Sg.)
+
+Gummi
+  der Gummi, -s
+
+Gummibärchen
+  das Gummibärchen, -
+
+Gut
+  das Gut, "-er (Durch die Globalisierung steigt das Angebot an preiswerten Gütern.)
+  gut (sich zum Guten wenden)
+  gut (zu viel des Guten sein)
+
+Gutenachtkuss
+  der Gutenachtkuss, "-e
+
+Guthaben
+  das Guthaben, -
+
+gutheißen
+  gutheißen, heißt gut, hieß gut, hat gutgeheißen
+
+gutmachen
+  gutmachen
+
+guttun
+  guttun, tut gut, tat gut, hat gutgetan
+
+Haft
+  die Haft (Sg.)
+
+Häkchen
+  das Häkchen, -
+
+häkeln
+  häkeln
+
+halbdunkel
+  halbdunkel
+
+halbherzig
+  halbherzig
+
+Hand
+  die Hand, "-e (jmd. die Hand reichen)
+
+Handarbeit
+  die Handarbeit, -en
+
+Handarbeitsbuch
+  das Handarbeitsbuch, "-er
+
+handeln
+  handeln (sich) (um + A.) (Es handelt sich um eine Verwechslung.)
+  das Handeln (Sg.)
+  handeln (von + D.) (Der Roman handelt von einer jungen Frau, die …)
+
+handhaben
+  handhaben
+
+Handlungsanweisung
+  die Handlungsanweisung, -en
+
+Handout
+  das Handout, -s
+
+Handwerksbetrieb
+  der Handwerksbetrieb, -e
+
+Handysucht
+  die Handysucht (Sg.)
+
+hängen bleiben
+  hängen bleiben
+
+Hass
+  der Hass (Sg.)
+
+haufenweise
+  haufenweise
+
+Häufigkeit
+  die Häufigkeit, -en
+
+Hauptbedeutung
+  die Hauptbedeutung, -en
+
+Hauptfaktor
+  der Hauptfaktor, -en
+
+Hauptgrund
+  der Hauptgrund, "-e
+
+Hauptinformation
+  die Hauptinformation, -en
+
+Hauptmieter
+  der Hauptmieter, -
+
+Hauptnachrichten
+  die Hauptnachrichten (Pl.)
+
+Hauptsystem
+  das Hauptsystem, -e
+
+Haupttätigkeit
+  die Haupttätigkeit, -en
+
+Hausarbeit
+  die Hausarbeit, -en
+
+Hausetage
+  die Hausetage, -n
+
+Haushälterin
+  die Haushälterin, -nen
+
+Hauskatze
+  die Hauskatze, -n
+
+Hausmittel
+  das Hausmittel, -
+
+Hausordnung
+  die Hausordnung, -en
+
+Hauterkrankung
+  die Hauterkrankung, -en
+
+hautnah
+  hautnah
+
+Hautschuppe
+  die Hautschuppe, -n
+
+hegen
+  hegen (ein lang gehegter Traum)
+
+heilen
+  heilen
+
+Heilung
+  die Heilung, -en
+
+Heim
+  das Heim, -e (in einem Heim unterbringen)
+
+Heimatland
+  das Heimatland (Sg.)
+
+Heimweg
+  der Heimweg, -e
+
+Heiratsschwindel
+  der Heiratsschwindel, -
+
+Heißluftballon
+  der Heißluftballon, -s/-e
+
+Hektar
+  der Hektar, -
+
+Hektik
+  die Hektik (Sg.)
+
+hellblau
+  hellblau
+
+her
+  her (Der Urlaub ist fünfzehn Jahre her.)
+
+herangehen
+  herangehen, geht heran, ging heran, ist herangegangen
+
+heranwachsen
+  heranwachsen, wächst heran, wuchs heran, ist herangewachsen
+
+heraus
+  heraus (aus dem Nichts heraus)
+
+herausbekommen
+  herausbekommen, bekommt heraus, bekam heraus, hat herausbekommen
+
+herausfiltern
+  herausfiltern
+
+herausfließen
+  herausfließen (aus + D.), fließt heraus, floss heraus, ist herausgeflossen
+
+herauskommen
+  herauskommen, kommt heraus, kam heraus, ist herausgekommen
+
+herkömmlich
+  herkömmlich
+
+Herrenjahre
+  die Herrenjahre (Pl.) (Lehrjahre sind keine Herrenjahre.)
+
+herrichten
+  herrichten
+
+Herstellung
+  die Herstellung, -en
+
+herumirren
+  herumirren
+
+herumreisen
+  herumreisen
+
+herumstehen
+  herumstehen (um + A.), steht herum, stand herum, ist herumgestanden
+
+hervorbringen
+  hervorbringen, bringt hervor, brachte hervor, hat hervorgebracht
+
+hervorheben
+  hervorheben, hebt hervor, hob hervor, hat hervorgehoben
+
+Hervorhebung
+  die Hervorhebung, -en
+
+hervorstoßen
+  hervorstoßen, stößt hervor, stieß hervor, hat hervorgestoßen (ein paar Worte hervorstoßen)
+
+hervortun
+  hervortun (sich) (in/bei + D.)
+
+herzhaft
+  herzhaft
+
+Herzklopfen
+  das Herzklopfen (Sg.)
+
+Herz-Kreislauf-Erkrankung
+  die Herz-Kreislauf-Erkrankung, -en
+
+Heu
+  das Heu, -e
+
+heulen
+  heulen
+
+heutig
+  heutig
+
+heutzutage
+  heutzutage
+
+Hierarchie
+  die Hierarchie, -n
+
+hierbei
+  hierbei
+
+hierzu
+  hierzu
+
+Hilfe
+  die Hilfe, -n (zu Hilfe nehmen)
+
+Hilfeleistung
+  die Hilfeleistung, -en
+
+hilflos
+  hilflos
+
+Hilfskraft
+  die Hilfskraft, "-e (die studentische Hilfskraft)
+
+Himmelsrichtung
+  die Himmelsrichtung, -en
+
+hinauftragen
+  hinauftragen, trägt hinauf, trug hinauf, hat hinaufgetragen
+
+hinausposaunen
+  hinausposaunen
+
+hinauswachsen
+  hinauswachsen (über + A.), wächst hinaus, wuchs hinaus, ist hinausgewachsen
+
+hinauswollen
+  hinauswollen (auf + A.), will hinaus, wollte hinaus, hat hinausgewollt
+
+Hinblick
+  der Hinblick (Sg.) (im Hinblick auf)
+
+Hindernis
+  das Hindernis, -se
+
+hindeuten
+  hindeuten (auf + A.)
+
+hindurchgelangen
+  hindurchgelangen
+
+hineinleben
+  hineinleben (in den Tag hineinleben)
+
+hineinschaufeln
+  hineinschaufeln (in + A.) (viel Essen in sich hineinschaufeln)
+
+Hingabe
+  die Hingabe (Sg.)
+
+hingegen
+  hingegen
+
+hingucken
+  hingucken
+
+Hinsicht
+  die Hinsicht (Sg.) (in Hinsicht auf)
+
+hinsichtlich
+  hinsichtlich (+ G.)
+
+hinterfragen
+  hinterfragen
+
+Hintergrund
+  der Hintergrund, "-e
+
+hinunterspringen
+  hinunterspringen, springt hinunter, sprach hinunter, ist hinuntergesprungen
+
+hinwegsehen
+  hinwegsehen (über + A.), sieht hinweg, sah hinweg, hat hinweggesehen
+
+hinzufügen
+  hinzufügen
+
+hinzukommen
+  hinzukommen (zu + D.), kommt hinzu, kam hinzu, ist hinzugekommen
+
+Hirnareal
+  das Hirnareal, -e
+
+Hirnforschung
+  die Hirnforschung, -en
+
+Hirnscan
+  der Hirnscan, -s
+
+Hirnteil
+  der Hirnteil, -e
+
+Historiker
+  der Historiker, -
+
+Hitzefrei
+  das Hitzefrei (Sg.)
+
+hoch qualifiziert
+  hoch qualifiziert
+
+hochbegabt
+  hochbegabt
+
+Hochbegabung
+  die Hochbegabung, -en
+
+Hochdeutsch
+  das Hochdeutsch (Sg.)
+
+hocheffektiv
+  hocheffektiv
+
+hochkarätig
+  hochkarätig
+
+Hochleistungsgerät
+  das Hochleistungsgerät, -e
+
+hochschauen
+  hochschauen (zu + D.)
+
+Hochschulabschluss
+  der Hochschulabschluss, "-e
+
+Hochschulstudium
+  das Hochschulstudium, -studien
+
+Hochsommer
+  der Hochsommer, -
+
+Hochsprache
+  die Hochsprache, -n
+
+höchst
+  höchst
+
+Höchstgrenze
+  die Höchstgrenze, -n
+
+Hochwasser
+  das Hochwasser, -
+
+hochwertig
+  hochwertig
+
+Hofnarr
+  der Hofnarr, -en
+
+Holzbrücke
+  die Holzbrücke, -n
+
+Holzwerkstatt
+  die Holzwerkstatt, "-en
+
+Homeoffice
+  das Homeoffice (Sg.)
+
+Homöopathie
+  die Homöopathie (Sg.)
+
+Honorarprofessor
+  der Honorarprofessor, -en
+
+honorieren
+  honorieren
+
+Hotelpool
+  der Hotelpool, -s
+
+Hotelzimmer
+  das Hotelzimmer, -
+
+hundeelend
+  hundeelend
+
+hüpfen
+  hüpfen
+
+Hutnadel
+  die Hutnadel, -n
+
+Hysterie
+  die Hysterie, -n
+
+Idee
+  die Idee, -n (auf eine Idee kommen)
+
+ideenreich
+  ideenreich
+
+Ideenreichtum
+  der Ideenreichtum (Sg.)
+
+identifizieren
+  identifizieren
+
+Identifizierung
+  die Identifizierung, -en
+
+identisch
+  identisch
+
+Illusion
+  die Illusion, -en (einer Illusion erliegen)
+
+im Grunde
+  im Grunde
+
+Image
+  das Image, -s
+
+Imbissbude
+  die Imbissbude, -n
+
+immens
+  immens
+
+immer wieder
+  immer wieder
+
+immerhin
+  immerhin
+
+Immigrant
+  der Immigrant, -en
+
+implizit
+  implizit
+
+imponieren
+  imponieren
+
+Impuls
+  der Impuls, -e
+
+Indikator
+  der Indikator, -en
+
+indirekt
+  indirekt
+
+individualisieren
+  individualisieren
+
+Individualität
+  die Individualität (Sg.)
+
+industrialisieren
+  industrialisieren
+
+Industrieland
+  das Industrieland, "-er
+
+Industrieware
+  die Industrieware, -n
+
+infolgedessen
+  infolgedessen
+
+innere
+  innere (der innere Schweinehund)
+
+innerlich
+  innerlich
+
+Innovationsschub
+  der Innovationsschub, "-e
+
+innovativ
+  innovativ
+
+insgeheim
+  insgeheim
+
+insolvent
+  insolvent
+
+Insolvenz
+  die Insolvenz, -en
+
+inspirieren
+  inspirieren
+
+inspirierend
+  inspirierend
+
+instruieren
+  instruieren
+
+integriert
+  integriert
+
+Intellekt
+  der Intellekt, -e
+
+Intendant
+  der Intendant, -en
+
+interdisziplinär
+  interdisziplinär
+
+intern
+  intern (ein internes Netzwerk)
+
+Internetangebot
+  das Internetangebot, -e
+
+Internetplattform
+  die Internetplattform, -en
+
+Internetsucht
+  die Internetsucht, "-e
+
+intim
+  intim
+
+inwieweit
+  inwieweit
+
+ironisch
+  ironisch
+
+ironisieren
+  ironisieren
+
+Ironisierung
+  die Ironisierung, -en
+
+irritiert
+  irritiert
+
+Irrtum
+  der Irrtum, "-er
+
+IT-Branche
+  die IT-Branche (Sg.)
+
+jagen
+  jagen
+
+Jahreswechsel
+  der Jahreswechsel, -
+
+Jahrgang
+  der Jahrgang, "-e
+
+Jammerlappen
+  der Jammerlappen, -
+
+jegliche
+  jegliche
+
+Joghurt
+  der Joghurt, -s
+
+Jubel
+  der Jubel, -
+
+Jugendalter
+  das Jugendalter (Sg.)
+
+Jugendfürsorge
+  die Jugendfürsorge (Sg.)
+
+Jugendkriminalität
+  die Jugendkriminalität (Sg.)
+
+Jugendpsychiatrie
+  die Jugendpsychiatrie, -n
+
+Jugendsünde
+  die Jugendsünde, -n
+
+Jugendwelt
+  die Jugendwelt, -en
+
+Jungunternehmer
+  der Jungunternehmer, -
+
+Juniorprofessor
+  der Juniorprofessor, -en
+
+Jurist
+  der Jurist, -en
+
+juristisch
+  juristisch
+
+Justitia
+  die Justitia (Sg.)
+
+Kabarettist
+  der Kabarettist, -en
+
+Kaffeefilter
+  der Kaffeefilter, -
+
+Kaffeepulver
+  das Kaffeepulver, -
+
+Kaffeesatz
+  der Kaffeesatz, "-e
+
+Kalenderblatt
+  das Kalenderblatt, "-er
+
+Kamin
+  der Kamin, -e
+
+Kanal
+  der Kanal, "-e (Er betreibt einen Kanal auf Youtube.)
+
+Kangalfisch
+  der Kangalfisch, -e
+
+Kanzlei
+  die Kanzlei, -en
+
+Kapazität
+  die Kapazität, -en (keine Kapazitäten mehr frei haben)
+
+Kapital
+  das Kapital (Sg.)
+
+Kapitalgeber
+  der Kapitalgeber, -
+
+Kapitulation
+  die Kapitulation, -en
+
+Kapsel
+  die Kapsel, -n
+
+Karaffe
+  die Karaffe, -n
+
+Karate
+  das Karate (Sg.)
+
+Karikatur
+  die Karikatur, -en
+
+Karnevalszeit
+  die Karnevalszeit, -en
+
+Karrierebremse
+  die Karrierebremse, -n
+
+Karrierefaktor
+  der Karrierefaktor, -en
+
+Karrieremagazin
+  das Karrieremagazin, -e
+
+Karriereschritt
+  der Karriereschritt, -e
+
+Kasse
+  die Kasse, -n (Präventions- angebote der Kassen)
+  die Kasse, -n (die Kasse klingeln lassen)
+
+Kasten
+  der Kasten, "- (etw. auf dem Kasten haben)
+
+keineswegs
+  keineswegs
+
+Kellerstück
+  das Kellerstück, -e
+
+kennen
+  kennen, kennt, kannte, hat gekannt (kein anderes Thema kennen als …)
+
+Kennzeichnung
+  die Kennzeichnung, -en
+
+Kern
+  der Kern, -e (den Kern einer Sache treffen)
+
+kerngesund
+  kerngesund
+
+Kernspintomograf
+  der Kernspintomograf, -en
+
+Kick
+  der Kick, -s
+
+kiefergerecht
+  kiefergerecht
+
+Kinderarzt
+  der Kinderarzt, "-e
+
+Kindergärtner
+  der Kindergärtner, -
+
+Kinderpsychiater
+  der Kinderpsychiater, -
+
+Kinderzimmer
+  das Kinderzimmer, -
+
+kindgerecht
+  kindgerecht
+
+Kindheitserinnerung
+  die Kindheitserinnerung, -en
+
+Kinogutschein
+  der Kinogutschein, -e
+
+kitschig
+  kitschig
+
+Kitt
+  der Kitt, -e
+
+Kittel
+  der Kittel, -
+
+kitzeln
+  kitzeln
+
+kitzlig
+  kitzlig
+
+klammheimlich
+  klammheimlich
+
+klar
+  klar (Der Anblick von gestern steht mir klar vor Augen.)
+
+klar werden
+  klar werden (Eine Sache ist mir nicht ganz klar geworden: …)
+
+Klarheit
+  die Klarheit, -en
+
+klarkommen
+  klarkommen (mit + D.), kommt klar, kam klar, ist klargekommen
+
+Klassenfahrt
+  die Klassenfahrt, -en
+
+Klassiker
+  der Klassiker, -
+
+klassisch
+  klassisch (klassische Arbeitszeiten) die Klette
+
+Klettverschluss
+  der Klettverschluss, "-e
+
+Klickgarant
+  der Klickgarant, -en
+
+Klinge
+  die Klinge, -n
+
+Kluft
+  die Kluft, -en
+
+knacken
+  knacken (einen Tresor knacken)
+
+kneifen
+  kneifen, kneift, kniff, hat gekniffen
+
+Knochenbruch
+  der Knochenbruch, "-e
+
+Knollensellerie
+  der Knollensellerie, -s
+
+kognitiv
+  kognitiv
+
+Kohleförderung
+  die Kohleförderung, -en
+
+Kohlehydrat
+  das Kohlehydrat, -e
+
+Kohlekrise
+  die Kohlekrise, -n
+
+kollektiv
+  kollektiv
+
+Komiker
+  der Komiker, -
+
+kommen sehen
+  kommen sehen
+
+Kommilitone
+  der Kommilitone, -n
+
+Kommissar
+  der Kommissar, -e
+
+Kommune
+  die Kommune, -n
+
+Kommunikationskultur
+  die Kommunikationskultur, -en
+
+Kommunikationsmanagement
+  das Kommunikationsmanage- ment, -s
+
+Kommunikationsweg
+  der Kommunikationsweg, -e
+
+Kommunikationswirt
+  der Kommunikationswirt, -e
+
+kommunikativ
+  kommunikativ
+
+komödiantisch
+  komödiantisch
+
+kompetent
+  kompetent
+
+Konflikt
+  der Konflikt, -e (in Konflikt sein mit)
+
+Konfliktfähigkeit
+  die Konfliktfähigkeit (Sg.)
+
+Konfliktsituation
+  die Konfliktsituation, -en
+
+königlich
+  königlich
+
+Konjunktur
+  die Konjunktur, -en
+
+Konkurrenzdruck
+  der Konkurrenzdruck (Sg.)
+
+Konsequenz
+  die Konsequenz, -en (eine Konsequenz ziehen)
+
+Konstrukt
+  das Konstrukt, -e
+
+Konsument
+  der Konsument, -en
+
+Kontaktaufnahme
+  die Kontaktaufnahme, -n
+
+kontern
+  kontern
+
+konventionell
+  konventionell
+
+Konzentrationstest
+  der Konzentrationstest, -s
+
+Konzern
+  der Konzern, -e
+
+Konzertfilm
+  der Konzertfilm, -e
+
+Kopf
+  der Kopf, "-e (etwas über den Kopf hinweg entscheiden)
+  der Kopf, "-e (auf den Kopf gefallen sein)
+  der Kopf, "-e (Ein Gedanke geht mir durch den Kopf.)
+  der Kopf, "-e (den Kopf in den Nacken legen)
+
+Kopfbedeckung
+  die Kopfbedeckung, -en
+
+Köpfchen
+  das Köpfchen, - (ein helles Köpfchen sein)
+
+Kopfschmerzen
+  die Kopfschmerzen (Pl.)
+
+Koproduktion
+  die Koproduktion, -en
+
+Korbmacher
+  der Korbmacher, -
+
+Korbstuhl
+  der Korbstuhl, "-e
+
+Körpergefühl
+  das Körpergefühl, -e
+
+Körperhaltung
+  die Körperhaltung, -en
+
+Körperverletzung
+  die Körperverletzung, -en
+
+Korrektheit
+  die Korrektheit (Sg.)
+
+Korrespondenz
+  die Korrespondenz, -en
+
+Kosmetikbehandlung
+  die Kosmetikbehandlung, -en
+
+Kosmetikliege
+  die Kosmetikliege, -n
+
+kostbar
+  kostbar
+
+kosten
+  kosten (viel Zeit kosten)
+
+kostümieren
+  kostümieren
+
+Kraft
+  die Kraft, "-e (eine professionelle Kraft)
+  die Kraft, "-e (mit halber Kraft)
+  die Kraft, "-e (höhere Kräfte)
+
+Krankheitsprävention
+  die Krankheitsprävention (Sg.)
+
+Kräuter
+  die Kräuter (Pl.)
+
+Kreativität
+  die Kreativität (Sg.)
+
+Kreativitätstrainer
+  der Kreativitätstrainer, -
+
+Kreativtechnik
+  die Kreativtechnik, -en
+
+Krebs
+  der Krebs (Sg.) (an Krebs erkranken)
+
+Krebsfrüherkennung
+  die Krebsfrüherkennung (Sg.)
+
+Kredit
+  der Kredit, -e (einen Kredit aufnehmen)
+
+Kreditwürdigkeit
+  die Kreditwürdigkeit (Sg.)
+
+Kreis
+  der Kreis, -e (bis in die höchsten Kreise)
+
+Kreislaufprobleme
+  die Kreislaufprobleme (Pl.)
+
+kribbeln
+  kribbeln
+
+Kriegswaise
+  der Kriegswaise, -n
+
+Krimiabteilung
+  die Krimiabteilung, -en
+
+Krimiautor
+  der Krimiautor, -en
+
+Krimifigur
+  die Krimifigur, -en
+
+Krimihandlung
+  die Krimihandlung, -en
+
+Krimileser
+  der Krimileser, -
+
+Kriminalität
+  die Kriminalität (Sg.)
+
+Kriminalliteratur
+  die Kriminalliteratur (Sg.)
+
+kriminologisch
+  kriminologisch
+
+Krimireihe
+  die Krimireihe, -n
+
+Krimischauplatz
+  der Krimischauplatz, "-e
+
+Krümel
+  der Krümel, -
+
+kugelrund
+  kugelrund
+
+Kühlwasser
+  das Kühlwasser, -
+
+Kuhstall
+  der Kuhstall, -e
+
+Kult
+  der Kult (Sg.)
+
+Kulturwissenschaft
+  die Kulturwissenschaft, -en
+
+Kulturwissenschaftler
+  der Kulturwissenschaftler, -
+
+Kumpel
+  der Kumpel, -
+
+kündbar
+  kündbar
+
+Kundenorientierung
+  die Kundenorientierung (Sg.)
+
+Kundenzahlen
+  die Kundenzahlen (Pl.)
+
+Kunstakademie
+  die Kunstakademie, -n
+
+Kunstareal
+  das Kunstareal, -e
+
+Kunstbereich
+  der Kunstbereich, -e
+
+Kunstfälschung
+  die Kunstfälschung, -en
+
+Kunsthandwerk
+  das Kunsthandwerk, -e
+
+Kunsthochschule
+  die Kunsthochschule, -n
+
+Kunstkurs
+  der Kunstkurs, -e
+
+Künstleralltag
+  der Künstleralltag (Sg.)
+
+künstlerisch
+  künstlerisch
+
+Künstlerleben
+  das Künstlerleben, -
+
+Kunstsammlung
+  die Kunstsammlung, -en
+
+Kunstschatz
+  der Kunstschatz, "-e
+
+Kunststück
+  das Kunststück, -e
+
+Kunststudium
+  das Kunststudium, -studien
+
+Kunstwelt
+  die Kunstwelt, -en
+
+Kur
+  die Kur, -en
+
+kurfürstlich
+  kurfürstlich
+
+Kurs
+  der Kurs, -e (hoch im Kurs stehen)
+
+Kürzel
+  das Kürzel, -
+
+kurzerhand
+  kurzerhand
+
+kurzweilig
+  kurzweilig
+
+Kurzzeitgedächtnis
+  das Kurzzeitgedächtnis (Sg.)
+
+Kusine
+  die Kusine, -n (veraltete Schreibweise für Cousine)
+
+Kutsche
+  die Kutsche, -n
+
+Labertasche
+  die Labertasche, -n
+
+Ladenpreis
+  der Ladenpreis, -e
+
+Lagerung
+  die Lagerung, -en
+
+Landesverrat
+  der Landesverrat, -e
+
+Landwirt
+  der Landwirt, -e
+
+längs
+  längs
+
+Langzeitfolge
+  die Langzeitfolge, -n
+
+Langzeitgedächtnis
+  das Langzeitgedächtnis (Sg.)
+
+laufend
+  laufend
+
+Laufzeit
+  die Laufzeit, -en
+
+laut
+  laut (+ D.) (Laut einem Bericht der Regierung …)
+  der Laut, -e
+
+lauten
+  lauten
+
+lauter
+  lauter (In dem Film spielen lauter bekannte Schauspieler mit.)
+
+lauwarm
+  lauwarm
+
+Leadsänger
+  der Leadsänger, -
+
+Lebensart
+  die Lebensart, -en
+
+Lebensfreude
+  die Lebensfreude (Sg.)
+
+Lebensgeschichte
+  die Lebensgeschichte, -n
+
+Lebenskrise
+  die Lebenskrise, -n
+
+Lebensmittelindustrie
+  die Lebensmittelindustrie, -n
+
+Lebensmittelkontrolleur
+  der Lebensmittelkontrolleur, -e
+
+Lebensmittelpunkt
+  der Lebensmittelpunkt, -e
+
+Lebensmittelsicherheit
+  die Lebensmittelsicherheit (Sg.)
+
+Lebensmittelwirtschaft
+  die Lebensmittelwirtschaft (Sg.)
+
+Lebensplan
+  der Lebensplan, "-e
+
+Lebensprinzip
+  das Lebensprinzip, -ien
+
+Lebensqualität
+  die Lebensqualität (Sg.)
+
+Lebensspanne
+  die Lebensspanne (Sg.)
+
+Lebensstil
+  der Lebensstil, -e
+
+Lebenswelt
+  die Lebenswelt, -en
+
+Lebenswerk
+  das Lebenswerk, -e
+
+Lederhose
+  die Lederhose, -n
+
+lediglich
+  lediglich
+
+Leere
+  die Leere (Sg.) (ins Leere laufen lassen)
+
+legen
+  legen (großen/wenig Wert legen auf)
+
+legendär
+  legendär
+
+Legitimierung
+  die Legitimierung, -en
+
+lehren
+  lehren
+
+Lehrende
+  der/die Lehrende, -n
+
+Lehrjahr
+  das Lehrjahr, -e
+
+Lehrmeister
+  der Lehrmeister, -
+
+Lehrperson
+  die Lehrperson, -en
+
+Lehrplan
+  der Lehrplan, "-e
+
+lehrreich
+  lehrreich
+
+Lehrstuhl
+  der Lehrstuhl, "-e
+
+Leichtigkeit
+  die Leichtigkeit (Sg.)
+
+Leidenschaft
+  die Leidenschaft, -en
+
+Leihservice
+  der Leihservice, -s
+
+Leistungsdruck
+  der Leistungsdruck (Sg.)
+
+Leistungserwartung
+  die Leistungserwartung, -en
+
+Leitfaden
+  der Leitfaden, "-
+
+Leitung
+  die Leitung, -en (Das Wasser aus Leitung ist nur lauwarm.)
+  die Leitung, -en (Sie hat die Leitung eines Unternehmens.)
+  die Leitung, -en (Beim Telefonieren höre ich seinen Atem durch die Leitung.)
+
+Lektion
+  die Lektion, -en
+
+Lernniveau
+  das Lernniveau, -s
+
+Lernprozess
+  der Lernprozess, -e
+
+Lernziel
+  das Lernziel, -e
+
+Lesefimmel
+  der Lesefimmel, -
+
+Lesefreund
+  der Lesefreund, -e
+
+lesenswert
+  lesenswert
+
+Leseratte
+  die Leseratte, -n
+
+Leserkommentar
+  der Leserkommentar, -e
+
+Lesung
+  die Lesung, -en
+
+Liberalisierung
+  die Liberalisierung, -en
+
+Lichtblick
+  der Lichtblick, -e
+
+Liebeskummer
+  der Liebeskummer, -
+
+Liebhaber
+  der Liebhaber, -
+
+Linde
+  die Linde, -n
+
+Linguistik
+  die Linguistik (Sg.)
+
+Linienbus
+  der Linienbus, -se
+
+literarisch
+  literarisch
+
+Literatursegment
+  das Literatursegment, -e
+
+Literaturverfilmung
+  die Literaturverfilmung, -en
+
+Literaturwissenschaft
+  die Literaturwissenschaft, -en
+
+Literaturwissenschaftler
+  der Literaturwissenschaftler, -
+
+Livealbum
+  das Livealbum, -alben
+
+lobenswert
+  lobenswert
+
+Locke
+  die Locke, -n
+
+Lohnkosten
+  die Lohnkosten (Pl.)
+
+Lokalkolorit
+  das Lokalkolorit, -s
+
+Los
+  das Los, -e (ein gängiges Los sein)
+
+Löschblatt
+  das Löschblatt, "-er
+
+Loslösung
+  die Loslösung (Sg.)
+
+Lösungsansatz
+  der Lösungsansatz, "-e
+
+loswerden
+  loswerden, wird los, wurde los, ist losgeworden
+
+Lotto
+  das Lotto (Sg.)
+
+Löwenzahn
+  der Löwenzahn, -e
+
+lückenlos
+  lückenlos
+
+Luft
+  die Luft, "-e (sich in Luft auflösen)
+
+lustig
+  lustig (Schluss mit lustig)
+
+lustig machen
+  lustig machen (sich) (über + A.)
+
+luxuriös
+  luxuriös
+
+Luxus
+  der Luxus (Sg.)
+
+Machenschaft
+  die Machenschaft, -en
+
+Mächtige
+  der/die Mächtige, -n
+
+mäkeln
+  mäkeln
+
+managen
+  managen
+
+mangeln
+  mangeln
+
+Mango
+  die Mango, -s
+
+Manieren
+  die Manieren (Pl.)
+
+Manipulation
+  die Manipulation, -en
+
+Markenzeichen
+  das Markenzeichen, -
+
+Marker
+  der Marker, -
+
+Marketingabteilung
+  die Marketingabteilung, -en
+
+Marktlücke
+  die Marktlücke, -n
+
+Marsrover
+  der Marsrover, -
+
+Maschinenbau
+  der Maschinenbau (Sg.)
+
+Masern
+  die Masern (Pl.)
+
+Maskierung
+  die Maskierung, -en
+
+Massage
+  die Massage, -n
+
+Masse
+  die Masse, -n
+
+maßgeschneidert
+  maßgeschneidert
+
+massieren
+  massieren
+
+mäßig
+  mäßig
+
+Master
+  der Master, -
+
+materiell
+  materiell
+
+Medienpädagoge
+  der Medienpädagoge, -n
+
+Mediziner
+  der Mediziner, -
+
+mehrfach
+  mehrfach
+
+mehrmals
+  mehrmals
+
+Meinungsmacher
+  der Meinungsmacher, -
+
+meistern
+  meistern
+
+meistverkauft
+  meistverkauft
+
+Menschentraube
+  die Menschentraube, -n
+
+Menschenverstand
+  der Menschenverstand (Sg.) (der gesunde Menschenverstand)
+
+Merkzettel
+  der Merkzettel, -
+
+Messdaten
+  die Messdaten (Pl.)
+
+Messingtopf
+  der Messingtopf, "-e
+
+Meuterei
+  die Meuterei, -en
+
+Miesepeter
+  der Miesepeter, -
+
+Mikroskop
+  das Mikroskop, -e
+
+Millisekunde
+  die Millisekunde, -n
+
+minderbemittelt
+  minderbemittelt
+
+Mindestkapital
+  das Mindestkapital (Sg.)
+
+Mindestkapitalmenge
+  die Mindestkapitalmenge, -n
+
+Mindestlohn
+  der Mindestlohn, "-e
+
+Mischform
+  die Mischform, -en
+
+Misere
+  die Misere, -n
+
+Missbildung
+  die Missbildung, -en
+
+missbilligen
+  missbilligen
+
+missglücken
+  missglücken
+
+Mitarbeitende
+  der/die Mitarbeitende, -n
+
+Mitbewerber
+  der Mitbewerber, -
+
+mitdenken
+  mitdenken, denkt mit, dachte mit, hat mitgedacht
+
+miteinbeziehen
+  miteinbeziehen, bezieht mit ein, bezog mit ein, hat miteinbezogen
+
+mitentscheiden
+  mitentscheiden, entscheidet mit, entschied mit, hat mitentschieden
+
+mitessen
+  mitessen, isst mit, aß mit, hat mitgegessen
+
+mitfühlen
+  mitfühlen
+
+mitgeben
+  mitgeben, gibt mit, gab mit, hat mitgegeben
+
+Mitgefühl
+  das Mitgefühl (Sg.)
+
+mitgestalten
+  mitgestalten
+
+Mitgliedschaft
+  die Mitgliedschaft, -en
+
+mithalten
+  mithalten, hält mit, hielt mit, hat mitgehalten
+
+mithilfe
+  mithilfe (+ G.)
+
+mitlächeln
+  mitlächeln
+
+Mitmacheffekt
+  der Mitmacheffekt, -e
+
+Mitmensch
+  der Mitmensch, -en
+
+mitreißen
+  mitreißen, reißt mit, riss mit, hat mitgerissen
+
+mitsamt
+  mitsamt (+ G.)
+
+mitspielen
+  mitspielen
+
+Mittelpunkt
+  der Mittelpunkt, -e (im Mittelpunkt stehen)
+
+Mittvierziger
+  der Mittvierziger, -
+
+mitunter
+  mitunter
+
+mitwirken
+  mitwirken
+
+Mixer
+  der Mixer, -
+
+Mobilfunk
+  der Mobilfunk (Sg.)
+
+möglicherweise
+  möglicherweise
+
+Möhrengrün
+  das Möhrengrün, -s
+
+monoton
+  monoton
+
+Moral
+  die Moral (Sg.)
+
+moralisch
+  moralisch
+
+morden
+  morden
+
+mörderisch
+  mörderisch
+
+Motivation
+  die Motivation, -en
+
+motivieren
+  motivieren
+
+Motorwagen
+  der Motorwagen, -/"-
+
+Müdigkeit
+  die Müdigkeit (Sg.)
+
+mühsam
+  mühsam
+
+multilateral
+  multilateral
+
+Multiplikator
+  der Multiplikator, -en
+
+Multitasking
+  das Multitasking (Sg.)
+
+Mund
+  der Mund, "-er (den Mund ganz schön voll nehmen)
+  der Mund, "-er (nicht auf den Mund gefallen sein)
+  der Mund, "-er (den Mund halten)
+
+munter
+  munter
+
+Museumspädagoge
+  der Museumspädagoge, -n
+
+Musikalbum
+  das Musikalbum, -alben
+
+Musikart
+  die Musikart, -en
+
+Musikerkollege
+  der Musikerkollege, -n
+
+Musikkonservatorium
+  das Musikkonservatorium, - konservatorien
+
+Musikprojekt
+  das Musikprojekt, -e
+
+Musikstil
+  der Musikstil, -e
+
+Musikstudium
+  das Musikstudium, -studien
+
+Mut
+  der Mut (Sg.) (jmd. Mut machen)
+
+Mutterrolle
+  die Mutterrolle, -n
+
+Mütze
+  die Mütze, -n
+
+nachahmen
+  nachahmen
+
+Nachbarland
+  das Nachbarland, "-er
+
+Nachbarzelle
+  die Nachbarzelle, -n
+
+nachhaltig
+  nachhaltig
+
+Nachkomme
+  der Nachkomme, -n
+
+nachkommen
+  nachkommen, kommt nach, kam nach, ist nachgekommen (einer Aufforderung nachkommen)
+
+nachlassen
+  nachlassen, lässt nach, ließ nach, hat nachgelassen
+
+Nachrichtenseite
+  die Nachrichtenseite, -n
+
+Nachtdienst
+  der Nachtdienst, -e
+
+nachträglich
+  nachträglich
+
+Nachtwind
+  der Nachtwind, -e
+
+nachvollziehen
+  nachvollziehen
+
+Nachweis
+  der Nachweis, -e
+
+Nacken
+  der Nacken, -
+
+Nadelöhr
+  das Nadelöhr, -e
+
+nahelegen
+  nahelegen (einen Schluss nahelegen)
+
+näherkommen
+  näherkommen, kommt näher, kam näher, ist nähergekommen (einem beruflichen Ziel näherkommen)
+  näherkommen (sich), kommt näher, kam näher, ist nähergekommen (sich bei einem romantischen Abendessen näherkommen)
+
+Nähmaschine
+  die Nähmaschine, -n
+
+Nahrung
+  die Nahrung, -en
+
+Nahrungsmittelqualität
+  die Nahrungsmittelqualität (Sg.)
+
+namens
+  namens
+
+närrisch
+  närrisch
+
+nebeneinander
+  nebeneinander
+
+nebensächlich
+  nebensächlich
+
+Nebenwirkung
+  die Nebenwirkung, -en
+
+Neigung
+  die Neigung, -en
+
+Nervensäge
+  die Nervensäge, -n
+
+Networking
+  das Networking (Sg.)
+
+Netzwerk
+  das Netzwerk, -e (ein Netzwerk knüpfen)
+
+Neuartigkeit
+  die Neuartigkeit (Sg.)
+
+Neuerscheinung
+  die Neuerscheinung, -en
+
+neugeboren
+  neugeboren
+
+Neugeborene
+  das Neugeborene, -n
+
+Neugierde
+  die Neugierde (Sg.)
+
+Neuorientierung
+  die Neuorientierung (Sg.)
+
+Neurologe
+  die Neurologe, -n
+
+Neuron
+  das Neuron, -en
+
+Neuronennetz
+  das Neuronennetz, -e
+
+Neurowissenschaftler
+  der Neurowissenschaftler, -
+
+nicht enden wollend
+  nicht enden wollend
+
+nicht sonderlich
+  nicht sonderlich
+
+Nichtstun
+  das Nichtstun (Sg.)
+
+Niederlassung
+  die Niederlassung, -en
+
+niedrig halten
+  niedrig halten
+
+Niete
+  die Niete, -n
+
+Nitrat
+  das Nitrat, -e
+
+Norm
+  die Norm, -en (eine Norm erfüllen)
+
+Normalfall
+  der Normalfall, "-e
+
+Normalo
+  der Normalo, -s
+
+Normalsterbliche
+  der Normalsterbliche, -n
+
+Nostalgiker
+  der Nostalgiker, -
+
+Notensystem
+  das Notensystem, -e
+
+Nutzen
+  der Nutzen, -
+
+Nutzer
+  der Nutzer, -
+
+Nutzung
+  die Nutzung, -en
+
+Nutzungsverhalten
+  das Nutzungsverhalten (Sg.)
+
+Oase
+  die Oase, -n
+
+oben
+  oben (Wenn es um Ziele geht, steht meine Hochzeit ganz oben.)
+
+obere
+  obere
+
+oberflächlich
+  oberflächlich
+
+Oberhaupt
+  das Oberhaupt, "-er
+
+Oberkörper
+  der Oberkörper, -
+
+Objekt
+  das Objekt, -e
+
+Obstbaum
+  der Obstbaum, "-e
+
+offen
+  offen (gegenüber + D.) (Mein Chef ist sehr offen gegenüber neuen Ideen.)
+  offen (keine Wünsche offen lassen)
+
+offen stehen
+  offen stehen (Mir stehen viele Berufe offen.)
+
+offenbaren
+  offenbaren (sich)
+
+Offenlegung
+  die Offenlegung, -en
+
+offensichtlich
+  offensichtlich
+
+offenstehen
+  offenstehen, steht offen, stand offen, hat offengestanden (Ihm stehen viele Berufe offen.)
+
+öffnen
+  öffnen (sich) (für + A.) (Er öffnet sich gern für Neues.)
+
+Ökonom
+  der Ökonom, -en
+
+Ökonomisierung
+  die Ökonomisierung (Sg.)
+
+Ökovollkornbrot
+  das Ökovollkornbrot, -e
+
+Online-Shop
+  der Online-Shop, -s
+
+Open-Air-Konzert
+  das Open-Air-Konzert, -e
+
+Opernsänger
+  der Opernsänger, -
+
+optimal
+  optimal
+
+Ordnung
+  die Ordnung, -en (Zucht und Ordnung)
+
+Organisationsfähigkeit
+  die Organisationsfähigkeit, -en
+
+Organisator
+  der Organisator, -en
+
+orientieren
+  orientieren (sich) (an + D.)
+
+Originaltext
+  der Originaltext, -e
+
+Ortschaft
+  die Ortschaft, -en
+
+ozeanblau
+  ozeanblau
+
+Pädagogik
+  die Pädagogik (Sg.)
+
+pädagogisch
+  pädagogisch
+
+parat haben
+  parat haben (eine Erklärung parat haben)
+
+Partnerschaft
+  die Partnerschaft, -en
+
+passgenau
+  passgenau
+
+Passion
+  die Passion, -en
+
+Patentrezept
+  Patentrezept (für/gegen + A.)
+
+Peeling
+  das Peeling, -s
+
+per se
+  per se
+
+perforieren
+  perforieren
+
+permanent
+  permanent
+
+Personalabteilung
+  die Personalabteilung, -en
+
+Personalchef
+  der Personalchef, -s
+
+Personaler
+  der Personaler, -
+
+Personalexperte
+  der Personalexperte, -n
+
+Personalkosten
+  die Personalkosten (Pl.)
+
+Personenschaden
+  der Personenschaden, "-
+
+Persönlichkeit
+  die Persönlichkeit, -en (In Krimis sind die Hauptfiguren oft seltsame Persönlichkeiten.)
+
+Perspektive
+  die Perspektive, -n
+
+Pestizid
+  das Pestizid, -e
+
+Pfad
+  der Pfad, -e
+
+Pferderücken
+  der Pferderücken, -
+
+Pflanzenstoff
+  der Pflanzenstoff, -e
+
+pflegen
+  pflegen (eine Freundschaft pflegen)
+  pflegen (Klischees pflegen)
+
+Pflicht
+  die Pflicht, -en (in der Pflicht stehen zu)
+
+Phrase
+  die Phrase, -n
+
+phrasenhaft
+  phrasenhaft
+
+Physiotherapeut
+  der Physiotherapeut, -en
+
+physisch
+  physisch
+
+pieksen
+  pieksen
+
+Pinnwand
+  die Pinnwand, "-e
+
+Placebo
+  das Placebo, -s
+
+plädieren
+  plädieren (für + A.)
+
+planmäßig
+  planmäßig (Planmäßig verlaufen)
+
+Plattenvertrag
+  der Plattenvertrag, "-e
+
+Plattform
+  die Plattform, -en
+
+platzen
+  platzen
+
+plausibel
+  plausibel
+
+Polizeibeamte
+  der Polizeibeamte, -n
+
+Pommes
+  das Pommes, -
+
+Porzellan
+  das Porzellan (Sg.)
+
+positionieren
+  positionieren (sich)
+
+Postkorbübung
+  die Postkorbübung, -en
+
+Potenzial
+  das Potenzial, -e
+
+prädestiniert
+  prädestiniert (für + A.)
+
+praktizieren
+  praktizieren (eine Sportart praktizieren)
+  praktizieren (ein praktizierender Arzt)
+
+Prämienzahlung
+  die Prämienzahlung, -en
+
+prämiert
+  prämiert
+
+Präparat
+  das Präparat, -e
+
+Prärie
+  die Prärie, -n
+
+Präsente-Lager
+  das Präsente-Lager, -
+
+Prävention
+  die Prävention (Sg.)
+
+Präventionsangebot
+  das Präventionsangebot, -e
+
+Praxis
+  die Praxis (Sg.) (berufliche Praxis haben)
+  die Praxis (Sg.) (In der Praxis sieht die Umsetzung so aus, dass ...)
+
+Preisdruck
+  der Preisdruck (Sg.)
+
+prellen
+  prellen
+
+primär
+  primär
+
+Priorität
+  die Priorität, -en
+
+Proband
+  der Proband, -en
+
+probiotisch
+  probiotisch
+
+Problem
+  das Problem, -e (ein Problem haben mit)
+
+Produktionskosten
+  die Produktionskosten (Pl.)
+
+Produktionsland
+  das Produktionsland, "-er
+
+Produktionsstätte
+  die Produktionsstätte, -n
+
+Produktpiraterie
+  die Produktpiraterie, -n
+
+Produktsicherheit
+  die Produktsicherheit (Sg.)
+
+Produzent
+  der Produzent, -en
+
+produzieren
+  produzieren (eine Ware produzieren)
+  produzieren (einen Film produzieren)
+
+profan
+  profan
+
+professionell
+  professionell (eine professionelle Kraft)
+
+profitieren
+  profitieren (von + D.)
+
+Projektbeschreibung
+  die Projektbeschreibung, -en
+
+Projektidee
+  die Projektidee, -n
+
+promoten
+  promoten
+
+Promotion
+  die Promotion, -en
+
+promoviert
+  promoviert
+
+prosit
+  prosit
+
+Prosopagnosie
+  die Prosopagnosie (Sg.)
+
+Prosopagnostiker
+  der Prosopagnostiker, -
+
+prosopagnostisch
+  prosopagnostisch
+
+Proteinhaushalt
+  der Proteinhaushalt, -e
+
+Provokation
+  die Provokation, -en
+
+prozedural
+  prozedural
+
+Prozentsatz
+  der Prozentsatz, "-e
+
+Prozess
+  der Prozess, -e (jmd. in einen Prozess einbinden)
+
+psychisch
+  psychisch
+
+Psychopath
+  der Psychopath, -en
+
+Psychotherapie
+  die Psychotherapie, -n
+
+Pubertät
+  die Pubertät, -en
+
+Public-Viewing
+  das Public-Viewing, -s
+
+Publikumsmagnet
+  der Publikumsmagnet, -en
+
+Punkt
+  der Punkt, -e (es auf den Punkt bringen)
+
+pürieren
+  pürieren
+
+Putzplan
+  der Putzplan, "-e
+
+Puzzlespiel
+  das Puzzlespiel, -e
+
+qualifiziert
+  qualifiziert
+
+Qualitätskontrolle
+  die Qualitätskontrolle, -n
+
+Qualitätssprung
+  der Qualitätssprung, "-e
+
+Quantität
+  die Quantität, -en
+
+Quelle
+  die Quelle, -n
+
+Rachefeldzug
+  der Rachefeldzug, "-e
+
+rächen
+  rächen (sich) (für + A. / an + D.)
+
+Rakete
+  die Rakete, -n
+
+rasch
+  rasch
+
+rasen
+  rasen
+
+Rasenmäher
+  der Rasenmäher, -
+
+Ratgeberbuch
+  das Ratgeberbuch, "-er
+
+Rationalisierungsmaßnahme
+  die Rationalisierungsmaßnahme, - n
+
+rätseln
+  rätseln
+
+Raubüberfall
+  der Raubüberfall, "-e
+
+Rauchschwade
+  die Rauchschwade, -n
+
+Raum
+  der Raum, "-e (jmd. freien Raum lassen)
+  der Raum, "-e (virtueller Raum)
+  der Raum, "-e (der deutschsprachige Raum)
+
+räumlich
+  räumlich
+
+Raupe
+  die Raupe, -n
+
+rausbringen
+  rausbringen, bringt raus, brachte raus, hat rausgebracht (ein Album rausbringen)
+
+real
+  real
+
+Realisierung
+  die Realisierung, -en
+
+Realisierungszeitraum
+  der Realisierungszeitraum, "-e
+
+recht geben
+  recht geben
+
+recht haben
+  recht haben
+
+rechtfertigen
+  rechtfertigen
+
+Rechtschreibung
+  die Rechtschreibung (Sg.)
+
+Rechtspflicht
+  die Rechtspflicht, -en
+
+Rechtsprechung
+  die Rechtsprechung, -en
+
+Rechtsverkehr
+  der Rechtsverkehr (Sg.)
+
+rechtswidrig
+  rechtswidrig
+
+Rede
+  die Rede, -n (die Rede sein von)
+
+Reduktion
+  die Reduktion (auf + A.)
+
+Regel
+  die Regel, -n (in der Regel)
+  die Regel, -n (nach allen Regeln der Kunst)
+
+regelrecht
+  regelrecht
+
+Reggae
+  der Reggae (Sg.)
+
+Regierungskreis
+  der Regierungskreis, -e
+
+Regiolekt
+  der Regiolekt, -e
+
+Regionalkrimi
+  der Regionalkrimi, -s
+
+Regisseur
+  der Regisseur, -e
+
+regnerisch
+  regnerisch
+
+Reich
+  das Reich, -e
+
+reichlich
+  reichlich
+
+Reihe
+  die Reihe, -n (der Reihe nach)
+  die Reihe, -n (an der Reihe sein)
+
+Reinform
+  die Reinform, -en
+
+reißen
+  reißen, reißt, riss, ist gerissen
+
+reizen
+  reizen (an + D.)
+
+reizvoll
+  reizvoll
+
+rekonstruieren
+  rekonstruieren
+
+Rekonstruktion
+  die Rekonstruktion, -en
+
+Renaissance
+  die Renaissance, -n
+
+Renommee
+  das Renommee, -s
+
+Reparaturkapazität
+  die Reparaturkapazität, -en
+
+Repertoire
+  das Repertoire, -s (über ein Repertoire verfügen)
+
+Resonanz
+  die Resonanz, -en
+
+Ressource
+  die Ressource, -n
+
+revidieren
+  revidieren
+
+Rheuma
+  das Rheuma (Sg.)
+
+Richtungswechsel
+  der Richtungswechsel, -
+
+Riesenkarton
+  der Riesenkarton, -e/-s
+
+Rinderwahn
+  der Rinderwahn (Sg.)
+
+robust
+  robust
+
+röcheln
+  röcheln
+
+rocken
+  rocken
+
+rockig
+  rockig
+
+Rohstoff
+  der Rohstoff, -e
+
+Rohstoffverarbeitung
+  die Rohstoffverarbeitung (Sg.)
+
+Rollenbild
+  das Rollenbild, -er
+
+routiniert
+  routiniert
+
+Rückgang
+  der Rückgang, "-e
+
+Rückgriff
+  Rückgriff (auf + A.)
+
+Rücksicht nehmen
+  Rücksicht nehmen
+
+Rücksichtslosigkeit
+  die Rücksichtslosigkeit (Sg.)
+
+Ruhe
+  die Ruhe (Sg.) (jmd. in Ruhe lassen)
+
+Ruhepause
+  die Ruhepause, -n
+
+Ruhestand
+  der Ruhestand (Sg.)
+
+ruhigstellen
+  ruhigstellen
+
+rühren
+  rühren (sich)
+
+rund
+  rund (Wir haben rund 100 Niederlassungen.)
+
+rund um
+  rund um (Er vermittelt sein Wissen rund um das Thema "Bewerbung".)
+  rund um (+ A.)
+
+rundum
+  rundum
+
+Sabbatical
+  das Sabbatical, -s
+
+Sachleistung
+  die Sachleistung, -en
+
+Safe
+  der Safe, -s
+
+saisonal
+  saisonal
+
+Salmonelle
+  die Salmonelle, -n
+
+Satellitenbild
+  das Satellitenbild, -er
+
+saugen
+  saugen
+
+Sauger
+  der Sauger, -
+
+Säule
+  die Säule, -n
+
+Sauna
+  die Sauna, Saunen
+
+Saunalandschaft
+  die Saunalandschaft, -en
+
+Scanner
+  der Scanner, -
+
+Schachspieler
+  der Schachspieler, -
+
+Schädel
+  der Schädel, -
+
+schädigen
+  schädigen
+
+Schadstoff
+  der Schadstoff, -e
+
+schalten
+  schalten (einen Spot im Fernsehen schalten)
+
+Schatten
+  der Schatten, - (über seinen Schatten springen)
+
+Schattenseite
+  die Schattenseite, -n
+
+schaukeln
+  schaukeln
+
+Scheidungsgrund
+  der Scheidungsgrund, "-e
+
+scheinbar
+  scheinbar
+
+Schienbein
+  das Schienbein, -e
+
+Schilderung
+  die Schilderung, -en
+
+schillern
+  schillern
+
+Schilling
+  der Schilling, -e
+
+Schimmel
+  der Schimmel, -
+
+Schimmelpilz
+  der Schimmelpilz, -e
+
+schippen
+  schippen (Sand schippen)
+
+schlagfertig
+  schlagfertig
+
+Schlagfertigkeit
+  die Schlagfertigkeit (Sg.)
+
+Schlagzeug
+  das Schlagzeug, -e
+
+Schlamm
+  der Schlamm, -e
+
+schlau
+  schlau
+
+schleppen
+  schleppen
+
+Schleuse
+  die Schleuse, -n
+
+schlicht
+  schlicht
+
+Schluck
+  der Schluck, -e
+
+Schluss
+  der Schluss, "-e (Schluss mit lustig)
+  der Schluss, "-e (einen Schluss nahelegen)
+
+Schlussfolgerung
+  die Schlussfolgerung, -en
+
+schlüssig
+  schlüssig
+
+Schlusslicht
+  das Schlusslicht, -er (das Schlusslicht bilden)
+
+schmeicheln
+  schmeicheln (sich geschmeichelt fühlen)
+
+Schmiede
+  die Schmiede, -n
+
+Schmuddelkind
+  das Schmuddelkind, -er
+
+Schnuller
+  der Schnuller, -
+
+Schock
+  der Schock, -s
+
+schönfärben
+  schönfärben
+
+schrecken
+  schrecken
+
+Schrei
+  der Schrei, -e
+
+Schreibkurs
+  der Schreibkurs, -e
+
+Schreibplan
+  der Schreibplan, "-e
+
+Schreibwettbewerb
+  der Schreibwettbewerb, -e
+
+schrill
+  schrill
+
+Schritt
+  der Schritt, -e (Schritt für Schritt)
+  der Schritt, -e (den nächsten Schritt tun)
+  der Schritt, -e (kleine Schritte gehen)
+
+Schulabgänger
+  der Schulabgänger, -
+
+Schuldgefühl
+  das Schuldgefühl, -e
+
+Schuldige
+  der/die Schuldige, -n
+
+Schüleraustausch
+  der Schüleraustausch, -e
+
+Schulerlebnis
+  das Schulerlebnis, -se
+
+Schulfreund
+  der Schulfreund, -e
+
+Schulhof
+  der Schulhof, "-e
+
+schulisch
+  schulisch
+
+Schulkind
+  das Schulkind, -er
+
+Schulrektor
+  der Schulrektor, -en
+
+Schultag
+  der Schultag, -e
+
+schusselig
+  schusselig
+
+schwanken
+  schwanken
+
+schwärmen
+  schwärmen (für + A.)
+
+Schweinefutter
+  das Schweinefutter, -
+
+Schweinehund
+  der Schweinehund, -e (der innere Schweinehund)
+
+Schweinepest
+  die Schweinepest (Sg.)
+
+Schweinezüchter
+  der Schweinezüchter, -
+
+Schweiß
+  der Schweiß (Sg.) (Bei dem Gedanken bricht ihm der Schweiß aus.)
+
+schwer
+  schwer (schwer wiegen)
+
+Schwerpunkt
+  der Schwerpunkt, -e (auf + D.)
+
+schwertun
+  schwertun (sich) (mit + D.)
+
+schwinden
+  schwinden, schwindet, schwand, ist geschwunden
+
+schwingen
+  schwingen, schwingt, schwang, hat geschwungen (sich aufs Rad schwingen)
+
+sehen
+  sehen, sieht, sah, hat gesehen (Ich sehe das anders: …)
+  sehen, sieht, sah, hat gesehen (keinen Ausweg mehr sehen)
+  sehen, sieht, sah, hat gesehen (Arbeitgeber sehen es gern, wenn man sich für andere einsetzt.)
+
+Sehnerv
+  der Sehnerv, -en
+
+Sehnsucht
+  Sehnsucht (nach + D.)
+
+Sehverhalten
+  das Sehverhalten (Sg.)
+
+Seitenlappen
+  der Seitenlappen, -
+
+sekundär
+  sekundär
+
+Sekundenbruchteil
+  der Sekundenbruchteil, -e
+
+Selbstbild
+  das Selbstbild (Sg.)
+
+Selbstpräsentation
+  die Selbstpräsentation, -en
+
+Selbstvertrauen
+  das Selbstvertrauen (Sg.)
+
+selektiv
+  selektiv
+
+semantisch
+  semantisch
+
+Seminarlänge
+  die Seminarlänge (Sg.)
+
+Sendeanstalt
+  die Sendeanstalt, -en
+
+Sendepause
+  die Sendepause, -n
+
+sensorisch
+  sensorisch (das sensorische Gedächtnis)
+
+Serie
+  die Serie, -n (in Serie gehen)
+
+Sicherheit
+  die Sicherheit (Sg.) (Sorgen Sie gern für Sicherheit?)
+  die Sicherheit, -en (Sicherheiten bei der Bank hinterlegen)
+
+Sichtweise
+  die Sichtweise, -n
+
+Sieb
+  das Sieb, -e (Er hat ein Gedächtnis wie ein Sieb.)
+
+Siegel
+  das Siegel, -
+
+Silbe
+  die Silbe, -n
+
+Silvesterfeier
+  die Silvesterfeier, -n
+
+Silvesternacht
+  die Silvesternacht, "-e
+
+sinnhaft
+  sinnhaft
+
+Sitte
+  die Sitte, -n
+
+sitzen
+  sitzen, sitzt, saß, hat gesessen (Die Erziehung sitzt so tief, dass wir sie nicht ignorieren können.)
+
+Ska
+  der Ska (Sg.)
+
+Skateboard
+  das Skateboard, -s
+
+Skimaske
+  die Skimaske, -n
+
+Skiresort
+  das Skiresort, -s
+
+skrupulös
+  skrupulös
+
+Skulptur
+  die Skulptur, -en
+
+Smoothie
+  der Smoothie, -s
+
+so genannt
+  so genannt
+
+sofern
+  sofern
+
+Soft Skill
+  der Soft Skill, -s
+
+somit
+  somit
+
+Sommerferien
+  die Sommerferien (Pl.)
+
+Sommerpause
+  die Sommerpause, -n
+
+Sonnenaufgang
+  der Sonnenaufgang, "-e
+
+Sonnenschein
+  der Sonnenschein (Sg.)
+
+Sonstiges
+  Sonstiges
+
+Sorge
+  die Sorge, -n (kein Grund zur Sorge)
+  die Sorge, -n (sich Sorgen machen)
+
+Sorgenkind
+  das Sorgenkind, -er
+
+sortieren
+  sortieren
+
+sowie
+  sowie
+
+Sozialkritik
+  die Sozialkritik (Sg.)
+
+sozialkritisch
+  sozialkritisch
+
+Sozialwerk
+  das Sozialwerk, -e
+
+Spa
+  das Spa, -s
+
+Spannung
+  die Spannung, -en
+
+spannungsmindernd
+  spannungsmindernd
+
+Speicherung
+  die Speicherung, -en
+
+Spektrum
+  das Spektrum, Spektren
+
+spekulieren
+  spekulieren
+
+spezialisieren
+  spezialisieren (sich) (auf + A.)
+
+spezialisiert
+  spezialisiert (auf + A.)
+
+Spiel
+  das Spiel, -e (auf dem Spiel stehen)
+
+Spielcasino
+  das Spielcasino, -s
+
+spielen
+  spielen (die Hauptrolle spielen)
+
+spielerisch
+  spielerisch
+
+Spielkamerad
+  der Spielkamerad, -en
+
+Spielsucht
+  die Spielsucht (Sg.)
+
+spielsüchtig
+  spielsüchtig
+
+Spielzug
+  das Spielzug, "-e
+
+Spinat
+  der Spinat (Sg.)
+
+spinnen
+  spinnen, spinnt, spann, hat gesponnen
+
+Spitze
+  die Spitze, -n
+
+Spitzenläufer
+  der Spitzenläufer, -
+
+Sportverein
+  der Sportverein, -e
+
+Spracherkennung
+  die Spracherkennung (Sg.)
+
+Spracherwerb
+  der Spracherwerb (Sg.)
+
+Sprachgefüge
+  das Sprachgefüge, -
+
+Sprachgefühl
+  das Sprachgefühl (Sg.)
+
+Sprachkontakt
+  der Sprachkontakt, -e
+
+sprachlich
+  sprachlich
+
+sprachlos
+  sprachlos
+
+Sprachlosigkeit
+  die Sprachlosigkeit (Sg.)
+
+Sprachregel
+  die Sprachregel, -n
+
+Sprachvermögen
+  das Sprachvermögen (Sg.)
+
+Sprechblase
+  die Sprechblase, -n
+
+sprechen
+  sprechen (für/gegen + A.), spricht, sprach, hat gesprochen (Für unseren Verein spricht, dass …)
+
+sprengen
+  sprengen (den finanziellen Rahmen sprengen)
+
+springen
+  springen, springt, sprang, ist gesprungen (über seinen Schatten springen)
+
+sprinten
+  sprinten
+
+spucken
+  spucken
+
+Spur
+  die Spur, -en (jmd. auf der Spur sein)
+
+stabil
+  stabil
+
+Stadtmagazin
+  das Stadtmagazin, -e
+
+Stadtteilschild
+  das Stadtteilschild, -er
+
+Stadtverwaltung
+  die Stadtverwaltung, -en
+
+stählen
+  stählen
+
+Stahlskelett
+  das Stahlskelett, -e
+
+Standard
+  der Standard, -s
+
+Standardsprache
+  die Standardsprache, -n
+
+Standbein
+  das Standbein, -e (ein zweites Standbein haben)
+
+Standort
+  der Standort, -e
+
+Standortbedingungen
+  die Standortbedingungen (Pl.)
+
+Stand-up-paddling
+  das Stand-up-paddling (Sg.)
+
+Stärke
+  die Stärke, -n
+
+Start
+  der Start, -s (an den Start gehen)
+
+Startloch
+  das Startloch, "-er (in den Startlöchern stehen)
+
+Steigerung
+  die Steigerung, -en
+
+Steinkohle
+  die Steinkohle (Sg.)
+
+Steinplatte
+  die Steinplatte, -n
+
+Stelle
+  die Stelle, -n (sich auf eine Stelle bewerben)
+  die Stelle, -n (an erster Stelle stehen)
+
+Stellenangebot
+  das Stellenangebot, -e
+
+Stellensuche
+  die Stellensuche, -n
+
+Stellenwert
+  der Stellenwert, -e (einen Stellenwert einnehmen)
+
+Sterbenswörtchen
+  das Sterbenswörtchen (Sg.) (kein Sterbenswörtchen sagen)
+
+Sterblichkeit
+  die Sterblichkeit (Sg.)
+
+Steuerung
+  die Steuerung, -en
+
+Steuervorteil
+  der Steuervorteil, -e
+
+stichhaltig
+  stichhaltig (stichhaltige Gründe)
+
+Stigma
+  das Stigma, -ta
+
+Stilbruch
+  der Stilbruch, "-e
+
+Stimmfarbe
+  die Stimmfarbe, -n
+
+Stipendium
+  das Stipendium, Stipendien
+
+Stoff
+  der Stoff, -e (den Stoff für die nächste Prüfung lernen)
+
+Stofftier
+  das Stofftier, -e
+
+stöhnen
+  stöhnen (über + A.)
+
+Stolperstein
+  der Stolperstein, -e
+
+Stoppuhr
+  die Stoppuhr, -en
+
+Störungsbild
+  das Störungsbild, -er
+
+stoßen
+  stoßen, stößt, stieß, ist gestoßen (an seine Grenzen stoßen)
+  stoßen (auf + A.), stößt, stieß, ist gestoßen (Bei ihren Forschungen stießen sie auf ein neues Phänomen.)
+
+Stoßstange
+  die Stoßstange, -n
+
+strafbar
+  strafbar (sich strafbar machen)
+
+Strafe
+  die Strafe, -n (unter Strafe stehen)
+
+Strafgesetzbuch
+  das Strafgesetzbuch, "-er
+
+Strafrichter
+  der Strafrichter, -
+
+Strandkorb
+  der Strandkorb, "-e
+
+Straßenmusik
+  die Straßenmusik (Sg.)
+
+straucheln
+  straucheln
+
+strecken
+  strecken
+
+Streetworker
+  der Streetworker, -
+
+streichen
+  streichen, streicht, strich, hat gestrichen (sich die Haare aus dem Gesicht streichen)
+
+Streitgespräch
+  das Streitgespräch, -e
+
+streng
+  streng (streng genommen)
+
+stressig
+  stressig
+
+Strom
+  der Strom (Sg.) (ein Strom an neuen Krimis)
+
+strukturell
+  strukturell
+
+strukturieren
+  strukturieren
+
+Strukturwandel
+  der Strukturwandel, -
+
+Stubenhocker
+  der Stubenhocker, -
+
+Studentenleben
+  das Studentenleben (Sg.)
+
+Studentenorganisation
+  die Studentenorganisation, -en
+
+studentisch
+  studentisch (studentische Hilfskraft)
+
+Studienberatung
+  die Studienberatung (Sg.)
+
+Studienfach
+  das Studienfach, "-er
+
+Studiengang
+  der Studiengang, "-e
+
+Studienwechsel
+  der Studienwechsel, -
+
+Studiogast
+  der Studiogast, "-e
+
+sturmfrei
+  sturmfrei (die sturmfreie Bude)
+
+Sturz
+  der Sturz, "-e
+
+subjektiv
+  subjektiv
+
+Suche
+  die Suche (Sg.) (auf der Suche sein nach)
+
+Sud
+  der Sud, -e
+
+suhlen
+  suhlen (sich) (in + D.)
+
+Suizid
+  der Suizid,-e
+
+Süße
+  der/die Süße, -n (Hallo, meine Süße!)
+
+Symptom
+  das Symptom, -e
+
+Tagebucheintrag
+  der Tagebucheintrag, "-e
+
+Tagesgeschehen
+  das Tagesgeschehen (Sg.)
+
+Tank
+  der Tank, -s
+
+Tarnung
+  die Tarnung, -en
+
+Tat
+  die Tat, -en (etw. in die Tat umsetzen)
+  die Tat, -en (jmd. mit Rat und Tat zur Seite stehen)
+  die Tat, -en (eine Tat begehen)
+
+tätig sein
+  tätig sein
+
+Tattoo
+  das Tattoo, -s
+
+taumeln
+  taumeln
+
+Teamarbeit
+  die Teamarbeit (Sg.)
+
+Teamorientierung
+  die Teamorientierung (Sg.)
+
+Techno
+  der Techno (Sg.)
+
+technologieintensiv
+  technologieintensiv
+
+Technologieunternehmen
+  das Technologieunternehmen, -
+
+teilen
+  teilen (Interessen teilen)
+
+Teilgebiet
+  das Teilgebiet, -e
+
+Teilziel
+  das Teilziel, -e
+
+Tellerrand
+  der Tellerrand, "-er (über den Tellerrand blicken)
+
+Terminvereinbarung
+  die Terminvereinbarung, -en
+
+Testperson
+  die Testperson, -en
+
+textil
+  textil
+
+Textinhalt
+  der Textinhalt, -e
+
+Theaterbesuch
+  der Theaterbesuch, -e
+
+Theatergruppe
+  die Theatergruppe, -n
+
+Theaterleute
+  die Theaterleute (Pl.)
+
+thematisch
+  thematisch
+
+Themenschwerpunkt
+  der Themenschwerpunkt, -e
+
+theologisch
+  theologisch
+
+These
+  die These, -n
+
+Thriller
+  der Thriller, -
+
+tiefsinnig
+  tiefsinnig
+
+Tierschützer
+  der Tierschützer, -
+
+Titel
+  der Titel, - (ein akademischer Titel)
+  der Titel, - (In der Buchhandlung stehen viele Titel in den Regalen.)
+
+Tod
+  der Tod, -e (sich zu Tode langweilen)
+
+Todesursache
+  die Todesursache, -n
+
+tollpatschig
+  tollpatschig
+
+Tonstudio
+  das Tonstudio, -s
+
+Top Ten
+  die Top Ten, -s
+
+Topwert
+  der Topwert, -e
+
+totlachen
+  totlachen (sich)
+
+Totschlag
+  der Totschlag (Sg.)
+
+Touristik
+  die Touristik (Sg.)
+
+Tournee
+  die Tournee, -n (auf Tournee sein)
+
+Trainingsbuch
+  das Trainingsbuch, "-er
+
+Trainingszeit
+  die Trainingszeit, -en
+
+Transaktion
+  die Transaktion, -en
+
+Traube
+  die Traube, -n (eine Traube von Menschen)
+
+Traum
+  der Traum, "-e (von + D.) (ein lang gehegter Traum)
+
+treffend
+  treffend (ein treffendes Beispiel)
+
+Tresor
+  der Tresor, -e
+
+treu bleiben
+  treu bleiben
+
+Trio
+  das Trio, -s
+
+Trompeter
+  der Trompeter, -
+
+tröstlich
+  tröstlich
+
+trüben
+  trüben (jmd. die Freude trüben)
+
+tummeln
+  tummeln (sich)
+
+tun
+  tun, tut, tat, hat getan (nichts/wenig zu tun haben mit)
+  tun, tut, tat, hat getan (Biografien sind selten so ohne Brüche, wie immer getan wird.)
+  tun, tut, tat, hat getan (Es tut sich nichts.)
+  tun, tut, tat, hat getan (sich leicht/schwer tun mit)
+
+Tutor
+  der Tutor, -en
+
+übel
+  übel
+  das Übel, -
+
+über … hinaus
+  über … hinaus
+
+über … hinweg
+  über … hinweg
+
+überallhin
+  überallhin
+
+überbewerten
+  überbewerten
+
+überdenken
+  überdenken, überdenkt, überdachte, hat überdacht
+
+überdies
+  überdies
+
+Übereinstimmung
+  die Übereinstimmung, -en (mit + D.)
+
+Überfall
+  der Überfall, "-e
+
+überfallen
+  überfallen, überfällt, überfiel, hat überfallen
+
+Überfluss
+  der Überfluss (Sg.) (ein Leben im Überfluss)
+
+überflüssig
+  überflüssig
+
+überfordert
+  überfordert
+
+Übergang
+  der Übergang, "-e
+
+übergehen
+  übergehen (zu + D.), geht über, ging über, ist übergangen
+
+Übergewicht
+  das Übergewicht (Sg.)
+
+überhandnehmen
+  überhandnehmen, nimmt überhand, nahm überhand, hat überhandgenommen
+
+überlagern
+  überlagern
+
+Überlegenheit
+  die Überlegenheit (Sg.)
+
+überleiten
+  überleiten
+
+Übermacht
+  die Übermacht (Sg.)
+
+übermäßig
+  übermäßig
+
+Überprüfung
+  die Überprüfung, -en
+
+überrennen
+  überrennen, überrennt, überrannte, hat überrannt
+
+überschaubar
+  überschaubar
+
+überschreiten
+  überschreiten, überschreitet, überschritt, hat überschritten
+
+überspringen
+  überspringen, überspringt, übersprang, hat übersprungen
+
+Überwachung
+  die Überwachung, -en
+
+Überwachungskamera
+  die Überwachungskamera, -s
+
+Überwachungssystem
+  das Überwachungssystem, -e
+
+Überwachungsvideo
+  das Überwachungsvideo, -s
+
+überwiegen
+  überwiegen, überwiegt, überwog, hat überwogen
+
+überzeugen
+  überzeugen (von + D.) (Er überzeugt die anderen von seiner Position.)
+  überzeugen (Dieses Argument überzeugt mich nicht.)
+
+überzeugend
+  überzeugend
+
+überzeugt sein
+  überzeugt sein (von + D.)
+
+Überzeugung
+  die Überzeugung, -en (einer Überzeugung sein)
+
+übrig bleiben
+  übrig bleiben (Ihr blieb nichts anderes übrig, als …)
+
+übrig haben
+  übrig haben
+
+um … herum
+  um … herum
+
+Umbau
+  der Umbau, -ten
+
+umbauen
+  umbauen
+
+umfassen
+  umfassen
+
+umfassend
+  umfassend
+
+umformen
+  umformen
+
+umgehend
+  umgehend
+
+umkehren
+  umkehren
+
+Umsatz
+  der Umsatz, "-e
+
+umschreiben
+  umschreiben, umschreibt, umschrieb, hat umschrieben (Wie können Sie das Wort am besten umschreiben?)
+
+Umsetzung
+  die Umsetzung, -en
+
+umständlich
+  umständlich
+
+Umweltregel
+  die Umweltregel, -n
+
+unauffällig
+  unauffällig
+
+unbändig
+  unbändig
+
+unbedenklich
+  unbedenklich
+
+unbenutzt
+  unbenutzt
+
+unbeschäftigt
+  unbeschäftigt
+
+unbeschwert
+  unbeschwert
+
+unbestechlich
+  unbestechlich
+
+unbezahlbar
+  unbezahlbar
+
+undicht
+  undicht
+
+unendlich
+  unendlich
+
+unerklärlich
+  unerklärlich
+
+unerlässlich
+  unerlässlich
+
+unerreichbar
+  unerreichbar
+
+unerträglich
+  unerträglich
+
+unerwähnt
+  unerwähnt (etw. unerwähnt lassen)
+
+Unfallbeteiligte
+  der/die Unfallbeteiligte, -n
+
+Unfallort
+  der Unfallort, -e
+
+Unfallquote
+  die Unfallquote, -n
+
+Unfallrisiko
+  das Unfallrisiko, -s
+
+ungebildet
+  ungebildet
+
+ungeduldig
+  ungeduldig
+
+ungehemmt
+  ungehemmt
+
+ungerecht
+  ungerecht
+
+ungeschickt
+  ungeschickt
+
+ungetrübt
+  ungetrübt
+
+ungewohnt
+  ungewohnt
+
+unhandlich
+  unhandlich
+
+unheimlich
+  unheimlich (Dieser Text kommt mir unheimlich lang vor.)
+
+Unlust
+  die Unlust (Sg.)
+
+unmittelbar
+  unmittelbar
+
+unmoralisch
+  unmoralisch
+
+unpräsent
+  unpräsent
+
+unrealistisch
+  unrealistisch
+
+Unrecht
+  das Unrecht (Sg.)
+
+unrecht haben
+  unrecht haben
+
+unschuldig
+  unschuldig
+
+Unsicherheit
+  die Unsicherheit (Sg.)
+
+unsichtbar
+  unsichtbar
+
+Unterbrechung
+  die Unterbrechung, -en
+
+unterbringen
+  unterbringen, bringt unter, brachte unter, hat untergebracht
+
+untereinander
+  untereinander
+
+Untergang
+  der Untergang, "-e
+
+unterhaltsam
+  unterhaltsam
+
+untermauern
+  untermauern
+
+Unternehmenskosten
+  die Unternehmenskosten (Pl.)
+
+Unternehmensteil
+  der Unternehmensteil, -e
+
+unterordnen
+  unterordnen
+
+unterschätzen
+  unterschätzen
+
+unterscheiden
+  unterscheiden (zwischen + D.), unterscheidet, unterschied, hat unterschieden (Die Forschung unterscheidet zwischen zwei Typen: …)
+  unterscheiden (sich) (von + D.), unterscheidet, unterschied, hat unterschieden (Die Hochsprache unterscheidet sich zum Teil sehr stark vom Dialekt.)
+
+Unterstützer
+  der Unterstützer, -
+
+unterteilen
+  unterteilen (in + A.)
+
+unüberschaubar
+  unüberschaubar
+
+unverbindlich
+  unverbindlich
+
+unvergleichlich
+  unvergleichlich
+
+unvermeidlich
+  unvermeidlich
+
+unverschämt
+  unverschämt
+
+unverzüglich
+  unverzüglich
+
+unvollständig
+  unvollständig
+
+unwürdig
+  unwürdig
+
+unzulässig
+  unzulässig
+
+Urkundenfälschung
+  die Urkundenfälschung, -en
+
+Urzeit
+  die Urzeit, -en (schon zu Urzeiten)
+
+Utopie
+  die Utopie, -n
+
+vage
+  vage
+
+Variante
+  die Variante, -n
+
+variieren
+  variieren
+
+Verachtung
+  die Verachtung (Sg.)
+
+Veränderungsbedürfnis
+  das Veränderungsbedürfnis, -se
+
+Veränderungsbereitschaft
+  die Veränderungsbereitschaft (Sg.)
+
+veranlagt
+  veranlagt
+
+Veranlagung
+  die Veranlagung, -en
+
+verängstigen
+  verängstigen
+
+verargumentieren
+  verargumentieren
+
+Verbesserungsmöglichkeit
+  die Verbesserungsmöglichkeit, -en
+
+Verbindung
+  die Verbindung, -en (zu + D.) (Ich habe heute keine Verbindung zum Internet.)
+  die Verbindung, -en (mit + D.) (Der Unfall steht in Verbindung mit der geleisteten Arbeit.)
+
+verblassen
+  verblassen
+
+verblüffen
+  verblüffen
+
+Verbrechensplanung
+  die Verbrechensplanung (Sg.)
+
+Verbrecherjagd
+  die Verbrecherjagd, -en
+
+verbummeln
+  verbummeln
+
+verbünden
+  verbünden (sich) (mit + D.)
+
+Verdächtigung
+  die Verdächtigung, -en
+
+verdanken
+  verdanken
+
+verdeutlichen
+  verdeutlichen
+
+verdoppeln
+  verdoppeln
+
+Verdummung
+  die Verdummung (Sg.)
+
+Vereinbarung
+  die Vereinbarung, -en (eine Vereinbarung treffen)
+
+Vereinsarbeit
+  die Vereinsarbeit (Sg.)
+
+Vereinsgeist
+  der Vereinsgeist (Sg.)
+
+Vereinsleben
+  das Vereinsleben (Sg.)
+
+Vereinsmeierei
+  die Vereinsmeierei (Sg.)
+
+Verfall
+  der Verfall (Sg.)
+
+Verfassung
+  die Verfassung, -en (in einer ausgeglichenen Verfassung sein)
+
+Verfilmung
+  die Verfilmung, -en
+
+Verfolgung
+  die Verfolgung, -en
+
+verfügbar
+  verfügbar (für + A.)
+
+Vergaser
+  der Vergaser, -
+
+vergeben
+  vergeben, vergibt, vergab, hat vergeben (einen Platz vergeben)
+  vergeben, vergibt, vergab, hat vergeben (jmd. einen Fehler vergeben)
+
+vergebens
+  vergebens
+
+Vergessenheit
+  die Vergessenheit (Sg.) (in Vergessenheit geraten)
+
+vergesslich
+  vergesslich
+
+vergleichbar
+  vergleichbar (mit + D.)
+
+Verhaftung
+  die Verhaftung, -en
+
+Verhaltenstherapie
+  die Verhaltenstherapie, -n
+
+Verhaltensunterschied
+  der Verhaltensunterschied, -e
+
+verhängen
+  verhängen (eine Strafe verhängen)
+
+verheimlichen
+  verheimlichen
+
+verhelfen
+  verhelfen (zu + D.), verhilft, verhalf, hat verholfen
+
+Verhör
+  das Verhör, -e
+
+Verjährung
+  die Verjährung (Sg.)
+
+verkappt
+  verkappt
+
+Verkaufstisch
+  der Verkaufstisch, -e
+
+Verkehrsanbindung
+  die Verkehrsanbindung, -en
+
+Verkehrsunfall
+  der Verkehrsunfall, "-e
+
+Verkehrswesen
+  das Verkehrswesen (Sg.)
+
+verknüpfen
+  verknüpfen (mit + D.)
+
+verkörpern
+  verkörpern
+
+verkraften
+  verkraften
+
+verkürzt
+  verkürzt
+
+Verlagerung
+  die Verlagerung (Sg.)
+
+verlegen
+  verlegen
+
+Verlegenheit
+  die Verlegenheit, -en
+
+Verlegung
+  die Verlegung, -en
+
+verlernen
+  verlernen
+
+verlesen
+  verlesen (sich), verliest, verlas, hat verlesen
+
+verlieren
+  verlieren, verliert, verlor, hat verloren (keine Zeit verlieren)
+  verlieren, verliert, verlor, hat verloren (den Überblick verlieren über)
+  verlieren, verliert, verlor, hat verloren (das Ziel nicht aus den Augen verlieren)
+  verlieren, verliert, verlor, hat verloren (Gewicht verlieren)
+  verlieren, verliert, verlor, hat verloren (den Kontakt verlieren zu)
+  verlieren, verliert, verlor, hat verloren (das Gleichgewicht verlieren)
+
+Verlockung
+  die Verlockung, -en
+
+Vermeidung
+  die Vermeidung (Sg.)
+
+vermerken
+  vermerken
+
+vermischen
+  vermischen
+
+Vermutung
+  die Vermutung, -en
+
+vernachlässigen
+  vernachlässigen
+
+vernetzt
+  vernetzt
+
+Vernetzung
+  die Vernetzung (Sg.)
+
+Verpflichtung
+  die Verpflichtung, -en (zu + D.)
+
+verplant
+  verplant
+
+verplempern
+  verplempern (Zeit verplempern)
+
+verpuffen
+  verpuffen
+
+verringern
+  verringern
+
+Verringerung
+  die Verringerung (Sg.)
+
+Verrohung
+  die Verrohung (Sg.)
+
+versagen
+  versagen
+
+versammeln
+  versammeln (sich)
+
+Verschiedenartigkeit
+  die Verschiedenartigkeit (Sg.)
+
+verschlingen
+  verschlingen, verschlingt, verschlang, hat verschlungen
+
+Verschluss
+  der Verschluss, "-e
+
+verschreiben
+  verschreiben (sich), verschreibt, verschrieb, hat verschrieben (sich der Kunst verschreiben)
+
+verschwenden
+  verschwenden
+
+versetzt
+  versetzt
+
+versichert
+  versichert
+
+Version
+  die Version, -en
+
+versperren
+  versperren
+
+verspielen
+  verspielen
+
+verspüren
+  verspüren
+
+Verstärkung
+  die Verstärkung (Sg.)
+
+versteckt
+  versteckt
+
+Verstehenshilfe
+  die Verstehenshilfe, -n
+
+verstellen
+  verstellen (den Blick verstellen)
+  verstellen (sich) (als Frau erfolgreich sein, ohne sich zu verstellen)
+
+verstopfen
+  verstopfen
+
+verstorben
+  verstorben
+
+Versuchsleiter
+  der Versuchsleiter, -
+
+versunken
+  versunken
+
+verteidigen
+  verteidigen (vor + D. / gegen + A.)
+
+verteuern
+  verteuern (sich)
+
+verträglich
+  verträglich
+
+vertrauensvoll
+  vertrauensvoll
+
+Vertrauenswürdigkeit
+  die Vertrauenswürdigkeit (Sg.)
+
+vertretbar
+  vertretbar
+
+verunglücken
+  verunglücken
+
+verunsichert
+  verunsichert
+
+Verwechslung
+  die Verwechslung, -en
+
+Verwechslungskomödie
+  die Verwechslungskomödie, -n
+
+verweigern
+  verweigern
+
+Verwendung
+  die Verwendung, -en
+
+verwickeln
+  verwickeln (in ein Gespräch verwickeln)
+
+verwirklichen
+  verwirklichen
+
+verwirren
+  verwirren
+
+Verwöhnurlaub
+  der Verwöhnurlaub, -e
+
+verwundern
+  verwundern
+
+Verzehr
+  der Verzehr (Sg.)
+
+verzehren
+  verzehren
+
+verzetteln
+  verzetteln (sich)
+
+verziehen
+  verziehen, verzieht, verzog, hat verzogen (den Mund verziehen)
+
+verzögern
+  verzögern
+
+verzweifeln
+  verzweifeln
+
+verzweigen
+  verzweigen
+
+Videospiel
+  das Videospiel, -e
+
+vielerorts
+  vielerorts
+
+vielfältig
+  vielfältig
+
+vielversprechend
+  vielversprechend
+
+Vita
+  die Vita, Viten/Vitae
+
+Vitamintablette
+  die Vitamintablette, -n
+
+Volksmusik
+  die Volksmusik, -en
+
+Volksschule
+  die Volksschule, -n
+
+voll
+  voll (den Mund ganz schön voll nehmen)
+  voll (in vollem Gange sein)
+
+Vollblutmusiker
+  der Vollblutmusiker, -
+
+vollendet
+  vollendet
+
+Vollzeitjob
+  der Vollzeitjob, -s
+
+vollziehen
+  vollziehen, vollzieht, vollzog, hat vollzogen (einen Richtungswechsel vollziehen)
+
+von … aus
+  von … aus (Ich arbeite von zu Hause aus.)
+
+vorab
+  vorab
+
+vorangehen
+  vorangehen, geht voran, ging voran, ist vorangegangen
+
+vorankommen
+  vorankommen, kommt voran, kam voran, ist vorangekommen
+
+vorantreiben
+  vorantreiben, treibt voran, trieb voran, hat vorangetrieben
+
+vorbeifahren
+  vorbeifahren, fährt vorbei, fuhr vorbei, ist vorbeigefahren
+
+vorbeirasen
+  vorbeirasen
+
+vorbeugen
+  vorbeugen
+
+voreilig
+  voreilig
+
+vorfinanzieren
+  vorfinanzieren
+
+vorführen
+  vorführen
+
+Vorhaben
+  das Vorhaben, -
+
+vorherig
+  vorherig
+
+Vorlage
+  die Vorlage, -n
+
+vorlegen
+  vorlegen
+
+Vorlesewettbewerb
+  der Vorlesewettbewerb, -e
+
+vorliegen
+  vorliegen, liegt vor, lag vor, ist vorgelegen
+
+Vorprodukt
+  das Vorprodukt, -e
+
+Vorsatz
+  der Vorsatz, "-e (einen Vorsatz fassen)
+
+vorsätzlich
+  vorsätzlich
+
+Vorsitzende
+  der/die Vorsitzende, -n
+
+Vorsprung
+  der Vorsprung, "-e
+
+Vorstufe
+  die Vorstufe, -n
+
+vorübergehend
+  vorübergehend
+
+Vorwand
+  der Vorwand, "-e
+
+vorwärtsgehen
+  vorwärtsgehen, geht vorwärts, ging vorwärts, ist vorwärtsgegangen
+
+vorziehen
+  vorziehen, zieht vor, zog vor, hat vorgezogen (Ich ziehe Tee Kaffee vor.)
+
+vorzugsweise
+  vorzugsweise
+
+wachsam
+  wachsam
+
+wählerisch
+  wählerisch
+
+Wahlkreis
+  der Wahlkreis, -e
+
+Wahn
+  der Wahn (Sg.)
+
+wähnen
+  wähnen (sich)
+
+Wahnsinn
+  der Wahnsinn (Sg.)
+
+wahr werden
+  wahr werden
+
+wahren
+  wahren
+
+währenddessen
+  währenddessen
+
+Wahrscheinlichkeit
+  die Wahrscheinlichkeit, -en
+
+Waisenkind
+  das Waisenkind, -er
+
+walten
+  walten (das Walten des Schicksals)
+
+wandeln
+  wandeln
+
+wärmen
+  wärmen
+
+Warmwasser
+  das Warmwasser (Sg.)
+
+Warnmeldung
+  die Warnmeldung, -en
+
+Waschbenzin
+  das Waschbenzin (Sg.)
+
+wasserfarben
+  wasserfarben
+
+Wasserleiche
+  die Wasserleiche, -n
+
+Wasserstoff
+  der Wasserstoff (Sg.)
+
+Web
+  das Web (Sg.)
+
+Webportal
+  das Webportal, -e
+
+wegbrechen
+  wegbrechen, bricht weg, bracht weg, ist weggebrochen
+
+weggehen
+  weggehen, geht weg, ging weg, ist weggegangen
+
+weglassen
+  weglassen, lässt weg, ließ weg, hat weggelassen
+
+wegsperren
+  wegsperren
+
+wegziehen
+  wegziehen, zieht weg, zog weg, ist weggezogen
+
+wehren
+  wehren (sich)
+
+weichen
+  weichen, weicht, wich, ist gewichen
+
+Weide
+  die Weide, -n
+
+weiden
+  weiden
+
+Weidenrinde
+  die Weidenrinde, -n
+
+Weile
+  die Weile, -n
+
+Weise
+  die Weise, -n (auf diese Weise)
+
+weismachen
+  weismachen
+
+weitaus
+  weitaus
+
+weiterbringen
+  weiterbringen, bringt weiter, brachte weiter, hat weitergebracht
+
+weiterentwickeln
+  weiterentwickeln
+
+weitererzählen
+  weitererzählen
+
+weiterfahren
+  weiterfahren, fährt weiter, fuhr weiter, ist weitergefahren
+
+weiterführen
+  weiterführen
+
+Weitergabe
+  die Weitergabe, -n
+
+weiterkommen
+  weiterkommen, kommt weiter, kam weiter, ist weitergekommen
+
+weiterleben
+  weiterleben
+
+weiterleiten
+  weiterleiten (an + A.)
+
+Wellness
+  Wellness (Sg., ohne Artikel)
+
+Welthandel
+  der Welthandel (Sg.)
+
+Weltliteratur
+  die Weltliteratur (Sg.)
+
+weltumspannend
+  weltumspannend
+
+Werbeabteilung
+  die Werbeabteilung, -en
+
+Werbeslogan
+  der Werbeslogan, -s
+
+Werdegang
+  der Werdegang, "-e
+
+weswegen
+  weswegen
+
+Wettbewerbsdruck
+  der Wettbewerbsdruck (Sg.)
+
+Wettkampf
+  der Wettkampf, "-e
+
+widerlegen
+  widerlegen
+
+widerspiegeln
+  widerspiegeln
+
+widersprüchlich
+  widersprüchlich
+
+Widerstandskraft
+  die Widerstandskraft, "-e
+
+widerstehen
+  widerstehen, widerstehen, widerstand, hat widerstanden
+
+Wiederaufbau
+  der Wiederaufbau (Sg.)
+
+wiederfinden
+  wiederfinden (sich), findet wieder, fand wieder, hat wiedergefunden
+
+wiederum
+  wiederum
+
+wiegen
+  wiegen, wiegt, wog, hat gewogen (schwer wiegen)
+
+Wille
+  der Wille (Sg.) (der Letzte Wille)
+
+Wind
+  der Wind, -e (neuen Wind bringen)
+
+Winkelschleifer
+  der Winkelschleifer, -
+
+Wintergarten
+  der Wintergarten, "-
+
+winzig
+  winzig
+
+Wirksamkeit
+  die Wirksamkeit (Sg.)
+
+Wirkstoff
+  der Wirkstoff, -e
+
+wirtschaften
+  wirtschaften
+
+Wirtschaftlichkeit
+  die Wirtschaftlichkeit (Sg.)
+
+Wirtschaftsgipfel
+  der Wirtschaftsgipfel, -
+
+Wirtschaftsinformatiker
+  der Wirtschaftsinformatiker, -
+
+Wirtschaftswachstum
+  das Wirtschaftswachstum (Sg.)
+
+Wirtschaftswunder
+  das Wirtschaftswunder, -
+
+Wirtschaftszweig
+  der Wirtschaftszweig, -e
+
+Wissenslücke
+  die Wissenslücke, -n
+
+woanders
+  woanders
+
+wohldosiert
+  wohldosiert
+
+Wohlstand
+  der Wohlstand (Sg.)
+
+Wohnbereich
+  der Wohnbereich, -e
+
+Wohnungstür
+  die Wohnungstür, -en
+
+wolkenlos
+  wolkenlos
+
+Wollfaden
+  der Wollfaden, "-
+
+womöglich
+  womöglich
+
+wörtlich
+  wörtlich
+
+Wortschatz
+  der Wortschatz, "-e
+
+wühlen
+  wühlen
+
+Wundheilung
+  die Wundheilung (Sg.)
+
+Würfelzucker
+  der Würfelzucker, -
+
+wüst
+  wüst
+
+Y-Chromosom
+  das Y-Chromosom, -e
+
+Yoga
+  das Yoga (Sg.)
+
+Zack
+  Zack (Sg. ohne Artikel) (auf Zack sein)
+
+zahlungsunfähig
+  zahlungsunfähig
+
+Zahlungsunfähigkeit
+  die Zahlungsunfähigkeit (Sg.)
+
+Zahnarzt
+  der Zahnarzt, "-e
+
+Zahnmedizin
+  die Zahnmedizin (Sg.)
+
+zart
+  zart
+
+Zeche
+  die Zeche, -n (In der Zeche wurde lange Kohle abgebaut.)
+
+zeitaufwendig
+  zeitaufwendig
+
+Zeitdauer
+  die Zeitdauer (Sg.)
+
+Zeitdruck
+  der Zeitdruck (Sg.)
+
+Zeitempfinden
+  das Zeitempfinden (Sg.)
+
+Zeitfalle
+  die Zeitfalle, -n
+
+Zeitgefühl
+  das Zeitgefühl (Sg.)
+
+Zeitgeist
+  der Zeitgeist (Sg.)
+
+zeitgemäß
+  zeitgemäß
+
+zeitgenössisch
+  zeitgenössisch
+
+zeitgleich
+  zeitgleich
+
+zeitig
+  zeitig
+
+Zeitintervall
+  der Zeitintervall, -e
+
+zeitlich
+  zeitlich
+
+zeitlos
+  zeitlos
+
+Zeitmanagement
+  das Zeitmanagement (Sg.)
+
+zeitraubend
+  zeitraubend
+
+Zeitspanne
+  die Zeitspanne, -n
+
+zeitsparend
+  zeitsparend
+
+Zeitunterschied
+  der Zeitunterschied, -e
+
+Zeitverschwendung
+  die Zeitverschwendung (Sg.)
+
+zeitweise
+  zeitweise
+
+Zeitzeuge
+  der Zeitzeuge, -n
+
+zensieren
+  zensieren
+
+zermürbt
+  zermürbt
+
+Zerstörung
+  die Zerstörung (Sg.)
+
+zerstreuen
+  zerstreuen (sich)
+
+Zerstreuung
+  die Zerstreuung, -en
+
+Zeugenaussage
+  die Zeugenaussage, -n
+
+Zeugenbefragung
+  die Zeugenbefragung, -en
+
+Ziel
+  das Ziel, -e (ein Ziel verfolgen)
+  das Ziel, -e (sich Ziele setzen)
+  das Ziel, -e (ein Ziel vor Augen haben)
+
+Zielgruppe
+  die Zielgruppe, -n
+
+Zielland
+  das Zielland, "-er
+
+Zielorientierung
+  die Zielorientierung (Sg.)
+
+zielstrebig
+  zielstrebig
+
+Zielstrebigkeit
+  die Zielstrebigkeit (Sg.)
+
+Zins
+  der Zins, -en
+
+zirpen
+  zirpen
+
+zocken
+  zocken (eine Runde zocken)
+
+Zoff
+  der Zoff, -s
+
+zubeißen
+  zubeißen, beißt zu, biss zu, hat zugebissen
+
+Zubereitung
+  die Zubereitung, -en
+
+Zucht
+  die Zucht (Sg.) (Zucht und Ordnung)
+
+zucken
+  zucken
+
+zuckerfrei
+  zuckerfrei
+
+zueinander
+  zueinander
+
+Zug
+  der Zug, "-e (auf einen Zug aufspringen)
+  der Zug, "-e (Noch ein paar Züge, dann habe ich gewonnen.)
+
+zugange sein
+  zugange sein
+
+zugeben
+  zugeben, gibt zu, gab zu, hat zugegeben
+
+Zugfahrt
+  die Zugfahrt, -en
+
+Zugriff
+  Zugriff (auf + A.)
+
+zukaufen
+  zukaufen
+
+zukunftsorientiert
+  zukunftsorientiert
+
+Zukunftsperspektive
+  die Zukunftsperspektive, -n
+
+zulässig
+  zulässig
+
+Zulassungsvoraussetzung
+  die Zulassungsvoraussetzung, -en
+
+zulasten
+  zulasten (+ G. / von + D.)
+
+zulegen
+  zulegen (Gewicht zulegen)
+
+zumal
+  zumal
+
+Zumba
+  das Zumba (Sg.)
+
+Zunahme
+  die Zunahme (Sg.)
+
+zündend
+  zündend (eine zündende Idee)
+
+zunicken
+  zunicken
+
+zurechtfinden
+  zurechtfinden, findet zurecht, fand zurecht, hat zurechtgefunden
+
+zurückblicken
+  zurückblicken
+
+zurückdenken
+  zurückdenken (an + A.), denkt zurück, dachte zurück, hat zurückgedacht
+
+zurückerhalten
+  zurückerhalten, erhält zurück, erhielt zurück, hat zurückerhalten
+
+zurückführen
+  zurückführen (auf + A.)
+
+zurückhalten
+  zurückhalten (sich), hält zurück, hielt zurück, hat zurückgehalten
+
+zurückkommen
+  zurückkommen, kommt zurück, kam zurück, ist zurückgekommen (Der Dialekt kommt wieder zurück.)
+  zurückkommen (auf + A.), kommt zurück, kam zurück, ist zurückgekommen (Ich möchte auf Ihre letzte Frage zurückkommen und …)
+
+zurücknicken
+  zurücknicken
+
+zurückrufen
+  zurückrufen, ruft zurück, rief zurück, hat zurückgerufen
+
+zurückschalten
+  zurückschalten (einen Gang zurückschalten)
+
+zurückschrecken
+  zurückschrecken (vor + D.)
+
+zurückzahlen
+  zurückzahlen
+
+zurückziehen
+  zurückziehen (sich), zieht zurück, zog zurück, hat zurückgezogen
+
+zurufen
+  zurufen, ruft zu, rief zu, hat zugerufen
+
+Zusage
+  die Zusage, -n
+
+zusammenfassend
+  zusammenfassend
+
+zusammenfegen
+  zusammenfegen
+
+zusammenfügen
+  zusammenfügen
+
+zusammenführen
+  zusammenführen (mit + D.)
+
+Zusammengehörigkeitsgefühl
+  das Zusammengehörigkeits- gefühl, -e
+
+zusammenhaben
+  zusammenhaben, hat zusammen, hatte zusammen, hat zusammengehabt (das nötige Geld zusammenhaben)
+
+zusammenhalten
+  zusammenhalten, hält zusammen, hielt zusammen, hat zusammengehalten
+
+zusammenkriegen
+  zusammenkriegen
+
+Zusammenschluss
+  der Zusammenschluss, "-e
+
+Zusammenschnitt
+  der Zusammenschnitt, -e
+
+zusammenschweißen
+  zusammenschweißen
+
+zusammenstellen
+  zusammenstellen
+
+Zusatzeinrichtung
+  die Zusatzeinrichtung, -en
+
+Zusatzstoff
+  der Zusatzstoff, -e
+
+Zuschrift
+  die Zuschrift, -en
+
+zusehen
+  zusehen, sieht zu, sah zu, hat zugesehen
+
+zustehen
+  zustehen, steht zu, stand zu, hat zugestanden (Dem Handwerker steht ein Honorar für seine Arbeit zu.)
+
+zuteilen
+  zuteilen
+
+Zuverlässigkeit
+  die Zuverlässigkeit (Sg.)
+
+zuvor
+  zuvor
+
+zuweisen
+  zuweisen, weist zu, wies zu, hat zugewiesen
+
+zweckgebunden
+  zweckgebunden
+
+zweifellos
+  zweifellos
+
+Zweifelsfall
+  der Zweifelsfall, "-e
+
+Zwiebelsaft
+  der Zwiebelsaft, "-e
+
+zwischenmenschlich
+  zwischenmenschlich
+
+Zwischenprodukt
+  das Zwischenprodukt, -e

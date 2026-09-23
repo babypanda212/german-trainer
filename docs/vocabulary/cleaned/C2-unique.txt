@@ -1,0 +1,1213 @@
+C2: unique headwords
+Repeated headwords across levels occur only in the earliest source level (B2, then C1, then C2).
+All source examples, forms and translations are retained as variants. Source levels are textbook/site labels, not independently verified CEFR assignments.
+
+aberrant
+  aberrant | aberrant
+
+abgründig
+  abgründig | abysmal
+
+absolutistisch
+  absolutistisch | absolutistic
+
+Abstraktum
+  Abstraktum | abstract term; abstract noun
+
+abstrus
+  abstrus | abstruse; abstrusely
+
+Affinität
+  Affinität | affinity
+
+Akribie
+  Akribie | meticulousness; thoroughness
+
+allegorisch
+  allegorisch | allegorical
+  allegorisch | allegorically
+
+Anakoluth
+  Anakoluth | anacoluthon
+
+Anapher
+  Anapher | anaphora
+
+Anfechtung
+  Anfechtung | legal challenge
+
+Anomalie
+  Anomalie | anomaly
+
+Antagonismus
+  Antagonismus | antagonism
+
+Anthropomorphismus
+  Anthropomorphismus | anthropomorphism
+
+Antinomie
+  Antinomie | antinomy
+
+antinomisch
+  antinomisch | antinomic
+
+Antipathie
+  Antipathie | antipathy
+
+Antithese
+  Antithese | antithesis
+
+antithetisch
+  antithetisch | antithetic
+
+Antizipation
+  Antizipation | anticipation
+
+Apathie
+  Apathie | apathy
+
+aphoristisch
+  aphoristisch | aphoristic
+
+apodiktisch
+  apodiktisch | apodictic
+
+apokryph
+  apokryph | apocryphal
+  Apokryph | apocrypha
+
+apologetisch
+  apologetisch | apologetic
+
+aporetisch
+  aporetisch | aporetic
+
+Aporie
+  Aporie | aporia (insoluble contradiction)
+
+Apostasie
+  Apostasie | apostasy
+
+apostrophieren
+  apostrophieren | to address; to refer to; to refer
+
+Apotheose
+  Apotheose | apotheosis
+
+apotropäisch
+  apotropäisch | apotropaic
+
+Archaismus
+  Archaismus | archaism
+
+Askese
+  Askese | asceticism
+
+assertorisch
+  assertorisch | assertoric
+
+Atavismus
+  Atavismus | atavism
+
+atavistisch
+  atavistisch | atavistic
+
+Ätiologie
+  Ätiologie | aetiology (study of causes or origins)
+
+auratisch
+  auratisch | auratic
+
+Ausschweifung
+  Ausschweifung | excess; debauchery
+
+Axiom
+  Axiom | axiom
+
+axiomatisch
+  axiomatisch | axiomatic
+
+barock
+  barock | baroque
+  Barock | Baroque (period)
+
+beleumundet
+  beleumundet | having a specified reputation
+
+Beschränktheit
+  Beschränktheit | narrowness
+
+Bewandtnis
+  Bewandtnis | circumstances; significance; reason
+
+bigott
+  bigott | bigoted
+
+blasiert
+  blasiert | blasé; conceited; smug
+
+Blasphemie
+  Blasphemie | blasphemy
+
+chauvinistisch
+  chauvinistisch | chauvinistic
+
+Chiasmus
+  Chiasmus | chiasmus
+
+Chimäre
+  Chimäre | chimera (a mythical monster)
+
+chimärisch
+  chimärisch | chimeric
+
+chthonisch
+  chthonisch | chthonic
+
+Dämonisierung
+  Dämonisierung | demonization
+
+deduzieren
+  deduzieren | to deduce
+
+Defätismus
+  Defätismus | defeatism
+
+degenerativ
+  degenerativ | degenerative
+
+demagogisch
+  demagogisch | demagogic
+
+Demiurg
+  Demiurg | demiurge
+
+denunzieren
+  denunzieren | to denounce
+
+deontologisch
+  deontologisch | deontological
+
+desiderat
+  desiderat | urgently needed
+  Desiderat | desideratum
+
+Determinismus
+  Determinismus | determinism
+
+deterministisch
+  deterministisch | deterministic
+
+Deutungshoheit
+  Deutungshoheit | control over interpretation; power to control interpretation
+
+dichotom
+  dichotom | dichotomous
+
+Dichotomie
+  Dichotomie | dichotomy
+
+Diffamierung
+  Diffamierung | defamation; vilification
+
+dilemmatisch
+  dilemmatisch | dilemmatic
+
+dilettantisch
+  dilettantisch | dilettante
+
+Dilettantismus
+  Dilettantismus | dilettantism
+
+diskontinuierlich
+  diskontinuierlich | discontinuous
+
+diskursiv
+  diskursiv | discursive
+
+disparat
+  disparat | disparate
+
+Disposition
+  Disposition | disposal
+
+Disputation
+  Disputation | disputation
+
+disruptiv
+  disruptiv | disruptive (causing major change)
+
+Dogma
+  Dogma | dogma
+
+Dogmatiker
+  Dogmatiker | dogmatist
+
+Dogmatismus
+  Dogmatismus | dogmatism
+
+Dualismus
+  Dualismus | dualism
+
+Dualität
+  Dualität | duality
+
+Dysfunktion
+  Dysfunktion | dysfunction
+
+Dysphemismus
+  Dysphemismus | dysphemism
+
+Echolalie
+  Echolalie | echolalia
+
+Egalitarismus
+  Egalitarismus | egalitarianism
+
+eindringen
+  eindringen | to penetrate; to intrude
+
+Eklektizismus
+  Eklektizismus | eclecticism
+
+Empirie
+  Empirie | empirical knowledge
+
+Empirismus
+  Empirismus | empiricism
+
+endogen
+  endogen | endogenous
+
+enigmatisch
+  enigmatisch | enigmatic
+
+Entelechie
+  Entelechie | entelechy
+
+Entfremdung
+  Entfremdung | estrangement
+
+Enthaltsamkeit
+  Enthaltsamkeit | abstinence
+
+Entsprechung
+  Entsprechung | equivalent; correspondence
+
+entweihen
+  entweihen | to desecrate
+
+ephemer
+  ephemer | ephemeral
+
+epigonal
+  epigonal | epigonic
+
+Epigone
+  Epigone | epigone (follower, disciple)
+
+epigrammatisch
+  epigrammatisch | epigrammatic
+
+epikureisch
+  epikureisch | Epicurean
+
+Epiphanie
+  Epiphanie | Epiphany
+
+Episteme
+  Episteme | episteme
+
+epistemisch
+  epistemisch | epistemic
+
+Epistemologie
+  Epistemologie | epistemology
+
+erbittert
+  erbittert | bitter; embittered; acrimonious
+
+erdrosseln
+  erdrosseln | throttle
+
+Erhabenheit
+  Erhabenheit | sublimity
+
+Erkenntnistheorie
+  Erkenntnistheorie | epistemology; theory of knowledge
+
+erschöpfend
+  erschöpfend | exhaustive; comprehensive
+
+eschatologisch
+  eschatologisch | eschatological
+
+eskamotieren
+  eskamotieren | to make something vanish
+
+eskapistisch
+  eskapistisch | escapist
+
+esoterisch
+  esoterisch | esoteric
+
+etymologisch
+  etymologisch | etymological
+
+Eugenik
+  Eugenik | eugenics
+
+Euphemismus
+  Euphemismus | euphemism
+
+euphonisch
+  euphonisch | euphonic
+
+evaluativ
+  evaluativ | evaluative
+
+evozieren
+  evozieren | to evoke
+
+Exegese
+  Exegese | exegesis
+
+exegetisch
+  exegetisch | exegetic
+
+exemplifizieren
+  exemplifizieren | to exemplify
+
+Existentialismus
+  Existentialismus | existentialism
+
+exogen
+  exogen | exogenous
+
+exquisit
+  exquisit | exquisite; select
+
+extrinsisch
+  extrinsisch | extrinsic
+
+fabulieren
+  fabulieren | to invent stories; to spin tales; tell stories
+
+fadenscheinig
+  fadenscheinig | threadbare
+
+Falsifikation
+  Falsifikation | falsification (proof of falsehood)
+
+falsifizieren
+  falsifizieren | to falsify
+
+Fatalismus
+  Fatalismus | fatalism
+
+fatalistisch
+  fatalistisch | fatalistic
+
+Formalismus
+  Formalismus | formalism
+
+Freigeisterei
+  Freigeisterei | freethought
+
+frevelhaft
+  frevelhaft | sacrilegious
+
+Funktionalismus
+  Funktionalismus | functionalism
+
+Gebetsmühle
+  Gebetsmühle | prayer wheel
+
+Genealogie
+  Genealogie | genealogy
+
+Gesamtzusammenhang
+  Gesamtzusammenhang | overall context
+
+Gewissenhaftigkeit
+  Gewissenhaftigkeit | conscientiousness
+
+Gewissensbiss
+  Gewissensbiss | pang of conscience; remorse
+
+gewunden
+  gewunden | winding
+
+Gleichmut
+  Gleichmut | equanimity; composure
+
+Gnosis
+  Gnosis | gnosis
+
+gnostisch
+  gnostisch | Gnostic (related to Gnosticism)
+
+Großmütigkeit
+  Großmütigkeit | magnanimity
+
+habituell
+  habituell | habitual
+
+Habitus
+  Habitus | habitus
+
+Hedonismus
+  Hedonismus | hedonism
+
+hegemonial
+  hegemonial | hegemonic
+
+Hermeneutik
+  Hermeneutik | hermeneutics
+
+hermeneutisch
+  hermeneutisch | hermeneutic
+
+hieratisch
+  hieratisch | hieratic
+
+homogenisieren
+  homogenisieren | to homogenize
+
+hyperbolisch
+  hyperbolisch | hyperbolic
+
+Hypostase
+  Hypostase | hypostasis
+
+Ikonoklasmus
+  Ikonoklasmus | iconoclasm
+
+Ikonoklast
+  Ikonoklast | iconoclast
+
+illusorisch
+  illusorisch | unrealistic
+
+Immanenz
+  Immanenz | immanence
+
+imperatorisch
+  imperatorisch | imperatorial
+
+Implikatur
+  Implikatur | implicature
+
+Induktion
+  Induktion | induction
+
+induzieren
+  induzieren | to induce
+
+inkohärent
+  inkohärent | incoherent (not coherent)
+
+inkommensurabel
+  inkommensurabel | incommensurable
+
+inkongruent
+  inkongruent | incongruent
+
+Insinuation
+  Insinuation | insinuation
+
+insinuieren
+  insinuieren | to insinuate
+
+Instrumentalisierung
+  Instrumentalisierung | exploitation
+
+Intellektualismus
+  Intellektualismus | intellectualism
+
+intermittierend
+  intermittierend | intermittent
+
+intransigent
+  intransigent | intransigent
+
+Invektive
+  Invektive | invective
+
+inzident
+  inzident | incident (all adjectival senses)
+
+Irrationalismus
+  Irrationalismus | irrationalism
+
+Irredentismus
+  Irredentismus | irredentism
+
+Isolationismus
+  Isolationismus | isolationism
+
+janusköpfig
+  janusköpfig | Janus-headed
+
+jesuitisch
+  jesuitisch | Jesuitic
+
+kafkaesk
+  kafkaesk | Kafkaesque
+
+Kakophonie
+  Kakophonie | cacophony
+
+kakophonisch
+  kakophonisch | cacophonous
+
+kapriziös
+  kapriziös | capricious
+
+Kasuistik
+  Kasuistik | casuistry
+
+kasuistisch
+  kasuistisch | casuistic
+
+Katachrese
+  Katachrese | catachresis
+
+katharisch
+  katharisch | Cathar
+
+kathartisch
+  kathartisch | cathartic
+
+Kausalität
+  Kausalität | causality
+
+Kleinlichkeit
+  Kleinlichkeit | pettiness; narrow-mindedness
+
+kleptokratisch
+  kleptokratisch | kleptocratic
+
+Kleptomanie
+  Kleptomanie | kleptomania (proclivity to steal)
+
+Kollektivismus
+  Kollektivismus | collectivism
+
+Kollektivschuld
+  Kollektivschuld | collective guilt
+
+Kollusion
+  Kollusion | collusion
+
+konativ
+  konativ | conative
+
+Konformität
+  Konformität | conformity
+
+konnotieren
+  konnotieren | to consignify
+
+konstatieren
+  konstatieren | to state
+
+Konstruktivismus
+  Konstruktivismus | constructivism
+
+Kontingent
+  Kontingent | quota; contingent
+
+kontrafaktisch
+  kontrafaktisch | counterfactual
+
+konvulsiv
+  konvulsiv | convulsive
+
+konzedieren
+  konzedieren | to concede
+
+Konzilianz
+  Konzilianz | conciliatoriness; accommodation
+
+Kosmologie
+  Kosmologie | cosmology
+
+kosmologisch
+  kosmologisch | cosmological
+
+Kosmopolitismus
+  Kosmopolitismus | cosmopolitanism
+
+kryptisch
+  kryptisch | cryptic
+
+kulminieren
+  kulminieren | to culminate
+
+Kulturpessimismus
+  Kulturpessimismus | cultural pessimism
+
+Laizismus
+  Laizismus | laicism
+
+Latenz
+  Latenz | latency
+
+Libertarismus
+  Libertarismus | libertarianism
+
+Litotes
+  Litotes | litotes
+
+Luzidität
+  Luzidität | lucidity
+
+mäandrieren
+  mäandrieren | to meander (like a river)
+
+machiavellistisch
+  machiavellistisch | Machiavellian
+
+Makulatur
+  Makulatur | spoilage
+
+manichäisch
+  manichäisch | Manichaean
+
+Marginalisierung
+  Marginalisierung | marginalization
+
+meritokratisch
+  meritokratisch | meritocratic
+
+Metaphysik
+  Metaphysik | metaphysics
+
+metaphysisch
+  metaphysisch | metaphysical
+
+Misogynie
+  Misogynie | misogyny
+
+Monismus
+  Monismus | monism
+
+Mystizismus
+  Mystizismus | mysticism
+
+nichtsdestotrotz
+  nichtsdestotrotz | nonetheless
+
+Nihilismus
+  Nihilismus | nihilism
+
+nivellieren
+  nivellieren | to level
+
+nominalistisch
+  nominalistisch | nominalistic
+
+Nonchalance
+  Nonchalance | nonchalance
+
+Oberflächlichkeit
+  Oberflächlichkeit | superficiality
+
+Objektivismus
+  Objektivismus | objectivism
+
+Obskurantismus
+  Obskurantismus | obscurantism
+
+okkultistisch
+  okkultistisch | occultistic
+
+Omnipotenz
+  Omnipotenz | omnipotence
+
+ontisch
+  ontisch | ontic
+
+Ontologie
+  Ontologie | ontology (all senses)
+
+ontologisch
+  ontologisch | ontological
+
+Opportunismus
+  Opportunismus | opportunism
+
+Orthodoxie
+  Orthodoxie | orthodoxy
+
+Ostentation
+  Ostentation | ostentation
+
+Ostrazismus
+  Ostrazismus | ostracism
+
+Oszillation
+  Oszillation | oscillation (the act of oscillating)
+
+oszillieren
+  oszillieren | to oscillate
+
+Paradigma
+  Paradigma | paradigm
+
+paradigmatisch
+  paradigmatisch | paradigmatic
+
+Paradigmenwechsel
+  Paradigmenwechsel | paradigm shift
+
+paradoxerweise
+  paradoxerweise | paradoxically
+
+paternalistisch
+  paternalistisch | paternalistic
+
+Pedanterie
+  Pedanterie | pedantry
+
+Penetranz
+  Penetranz | penetrance
+
+Penibilität
+  Penibilität | meticulousness
+
+perfide
+  perfide | treacherous; perfidious
+
+Perfidie
+  Perfidie | perfidy; treachery
+
+periphrastisch
+  periphrastisch | periphrastic
+
+Persiflage
+  Persiflage | parody; satire
+
+persiflieren
+  persiflieren | to satirize; to parody
+
+Persistenz
+  Persistenz | persistence
+
+Petitesse
+  Petitesse | bagatelle
+
+phänomenologisch
+  phänomenologisch | phenomenological
+
+Phantasmagorie
+  Phantasmagorie | phantasmagoria (a dreamlike state)
+
+Philister
+  Philister | philistine; uncultured person; nonacademic
+
+Phlegma
+  Phlegma | phlegm
+
+phlegmatisch
+  phlegmatisch | phlegmatic; unemotional
+
+Pietismus
+  Pietismus | pietism
+
+pietistisch
+  pietistisch | pietistic
+
+pikaresk
+  pikaresk | picaresque
+
+Pleonasmus
+  Pleonasmus | pleonasm
+
+pluralistisch
+  pluralistisch | pluralistic
+
+plutokratisch
+  plutokratisch | plutocratic
+
+Polarität
+  Polarität | polarity
+
+polemisch
+  polemisch | polemical
+
+Polysemie
+  Polysemie | polysemy
+
+Polysyndeton
+  Polysyndeton | polysyndeton
+
+Positivismus
+  Positivismus | positivism
+
+positivistisch
+  positivistisch | positivistic
+
+Prädestination
+  Prädestination | predestination
+
+prädisponieren
+  prädisponieren | to predispose
+
+Pragmatik
+  Pragmatik | pragmatics
+
+Präpotenz
+  Präpotenz | prepotency
+
+prärogativ
+  prärogativ | prerogative
+
+präskriptiv
+  präskriptiv | prescriptive
+
+präsupponieren
+  präsupponieren | to presuppose
+
+Prekarisierung
+  Prekarisierung | precarity
+
+Primat
+  Primat | primacy
+
+Progredienz
+  Progredienz | progredience
+
+proletarisch
+  proletarisch | proletarian
+
+prononciert
+  prononciert | pronounced
+
+Propädeutik
+  Propädeutik | propaedeutic (introductory course)
+
+Prüfstein
+  Prüfstein | touchstone
+
+Purismus
+  Purismus | purism
+
+puristisch
+  puristisch | puristic
+
+Puritanismus
+  Puritanismus | puritanism
+
+Pyrrhussieg
+  Pyrrhussieg | Pyrrhic victory
+
+quantifizierbar
+  quantifizierbar | quantifiable
+
+rationalisieren
+  rationalisieren | to rationalize (to make more rational)
+
+Rationalismus
+  Rationalismus | rationalism
+
+reduktionistisch
+  reduktionistisch | reductionist
+
+Reflexionsvermögen
+  Reflexionsvermögen | reflectivity
+
+regressiv
+  regressiv | regressive
+
+Relativismus
+  Relativismus | relativism
+
+Relativität
+  Relativität | relativity
+
+resignativ
+  resignativ | resigned
+
+Ressentiment
+  Ressentiment | resentment
+
+revozieren
+  revozieren | to revoke
+
+rigide
+  rigide | rigid (uncompromising)
+
+rudimentär
+  rudimentär | rudimentary
+
+sakralisieren
+  sakralisieren | to sacralize
+
+sakrosankt
+  sakrosankt | sacrosanct
+
+Säkularismus
+  Säkularismus | secularism
+
+sardonisch
+  sardonisch | sardonic
+
+schismatisch
+  schismatisch | schismatic (related to a schism)
+
+Scholastik
+  Scholastik | scholasticism
+
+Selbstgenügsamkeit
+  Selbstgenügsamkeit | self-sufficiency
+
+Selbstgerechtigkeit
+  Selbstgerechtigkeit | self-righteousness
+
+Selbstreferenz
+  Selbstreferenz | self-reference
+
+Selbstverleugnung
+  Selbstverleugnung | self-denial
+
+seraphisch
+  seraphisch | seraphic
+
+Serendipität
+  Serendipität | serendipity
+
+Sinekure
+  Sinekure | sinecure
+
+Singularität
+  Singularität | singularity
+
+sinister
+  sinister | sinister
+
+Skeptizismus
+  Skeptizismus | skepticism
+
+Skrupellosigkeit
+  Skrupellosigkeit | unscrupulousness
+
+solipsistisch
+  solipsistisch | solipsistic
+
+Sophismus
+  Sophismus | sophism
+
+sophistisch
+  sophistisch | sophistic
+
+Spiritualismus
+  Spiritualismus | spiritualism
+
+starrsinnig
+  starrsinnig | obstinate; inflexible; stubborn
+
+Stigmatisierung
+  Stigmatisierung | stigmatization
+
+Stoizismus
+  Stoizismus | stoicism
+
+sublim
+  sublim | sublime
+
+sublimieren
+  sublimieren | to sublimate
+
+Subtilität
+  Subtilität | subtleness
+
+supplementär
+  supplementär | supplementary
+
+suppressiv
+  suppressiv | suppressive
+
+Synekdoche
+  Synekdoche | synecdoche (certain type of metaphor)
+
+synergetisch
+  synergetisch | synergistic; synergetic
+
+Synkretismus
+  Synkretismus | syncretism
+
+synkretistisch
+  synkretistisch | syncretic
+
+Synthese
+  Synthese | synthesis
+
+Systematisierung
+  Systematisierung | systematization
+
+tautologisch
+  tautologisch | tautological
+
+technokratisch
+  technokratisch | technocratic
+
+Teleologie
+  Teleologie | teleology
+
+teleologisch
+  teleologisch | teleological
+
+tentativ
+  tentativ | tentative
+
+Theismus
+  Theismus | theism
+
+Theodizee
+  Theodizee | theodicy (a justification of a deity)
+
+Theorem
+  Theorem | theorem
+
+Totalitarismus
+  Totalitarismus | totalitarianism
+
+Tragweite
+  Tragweite | momentousness
+
+Transgression
+  Transgression | transgression
+
+Transzendentalismus
+  Transzendentalismus | transcendentalism
+
+Transzendenz
+  Transzendenz | transcendence
+
+transzendieren
+  transzendieren | to transcend
+
+triftig
+  triftig | valid; convincing
+
+Trugschluss
+  Trugschluss | fallacy; false conclusion
+
+Überlagerung
+  Überlagerung | superposition
+
+Unabwendbarkeit
+  Unabwendbarkeit | inevitability
+
+Unbeständigkeit
+  Unbeständigkeit | instability; inconstancy
+
+undurchdringlich
+  undurchdringlich | impenetrable
+
+Uneigennützigkeit
+  Uneigennützigkeit | selflessness; altruism; unselfishness
+
+Unerbittlichkeit
+  Unerbittlichkeit | implacability
+
+Ungereimtheit
+  Ungereimtheit | inconsistency
+
+Universalität
+  Universalität | universality
+
+unnachgiebig
+  unnachgiebig | unyielding; uncompromising
+
+unwiderlegbar
+  unwiderlegbar | irrefutable; indisputable
+
+unzweideutig
+  unzweideutig | unambiguous
+
+utilitaristisch
+  utilitaristisch | utilitarian
+
+Velleität
+  Velleität | velleity
+
+verabscheuen
+  verabscheuen | to abhor
+
+verdinglichen
+  verdinglichen | to reify
+
+vernunftbegabt
+  vernunftbegabt | rational; endowed with reason
+
+verschroben
+  verschroben | cranky
+
+Verschrobenheit
+  Verschrobenheit | eccentricity; oddness
+
+Verstocktheit
+  Verstocktheit | obduracy
+
+verwerflich
+  verwerflich | reprehensible; objectionable
+
+Verwerfung
+  Verwerfung | rejection; discarding
+
+Vitalismus
+  Vitalismus | vitalism
+
+voluntaristisch
+  voluntaristisch | voluntaristic
+
+vorbehaltlich
+  vorbehaltlich | provisory
+
+Weitläufigkeit
+  Weitläufigkeit | extensiveness; spaciousness
+
+Weltschmerz
+  Weltschmerz | Weltschmerz
+
+widerlegbar
+  widerlegbar | refutable
+
+Wirkungsweise
+  Wirkungsweise | mode of operation / action
+
+Wissenschaftstheorie
+  Wissenschaftstheorie | philosophy of science
+
+Wortklauber
+  Wortklauber | quibbler (esp. of definitions)
+
+Xenophobie
+  Xenophobie | xenophobia
+
+Zäsur
+  Zäsur | caesura (pause or interruption)
+
+Zerstreutheit
+  Zerstreutheit | absent-mindedness
+
+Zeugma
+  Zeugma | zeugma
+
+Zirkelschluss
+  Zirkelschluss | circular reasoning
+
+zirkulär
+  zirkulär | circular
+
+Zügellosigkeit
+  Zügellosigkeit | lack of restraint; licentiousness; lawlessness
+
+Zuschreibung
+  Zuschreibung | ascription
+
+Zweideutigkeit
+  Zweideutigkeit | ambiguity; double meaning; the state or quality of having two possible meanings

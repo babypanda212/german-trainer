@@ -1,0 +1,526 @@
+# Duplicate audit
+
+Method: Unicode NFC normalization and case-insensitive headword comparison. Leading noun articles and text following commas or parentheses are excluded from the matching key. Distinct phrases remain separate. Shared headwords are assigned to the earliest source level; all variants and provenance are retained. Original PDFs and downloaded text are unchanged.
+
+| Level | Source entries | Unique headwords assigned |
+|---|---:|---:|
+| B2 | 2464 | 2387 |
+| C1 | 3269 | 2599 |
+| C2 | 409 | 402 |
+
+Total: 6142 source entries merged into 5388 headword records. 754 repeated occurrences merged.
+
+## Repeated headwords
+
+- Abbau: B2, C1
+- abbauen: B2, C1
+- abbrechen: B2, C1, C1
+- abgeben: B2, C1
+- abgeschlossen: B2, C1
+- abgesehen: B2, B2
+- ablaufen: B2, C1
+- ablegen: B2, B2, B2, C1
+- ableiten: B2, C1
+- absolvieren: B2, C1
+- Abstand: B2, C1
+- abstrakt: B2, C1
+- abwägen: B2, C1
+- abweichen: B2, C1
+- Alzheimer: B2, C1
+- analytisch: B2, C1
+- Anbau: B2, C1
+- anbringen: B2, C1
+- anerkannt: B2, C1
+- Anforderung: B2, C1
+- anfühlen: B2, C1
+- angemessen: B2, C1
+- angewiesen sein: B2, C1
+- Angriff: B2, C1
+- anhören: B2, C1
+- Anlage: B2, C1
+- anlegen: B2, C1
+- anmelden: B2, C1
+- annehmen: B2, B2, B2, C1, C1
+- Anschluss: B2, C1
+- ansiedeln: B2, C1
+- ansprechen: B2, C1, C1, C1
+- anstellen: B2, C1
+- Antike: B2, C1
+- Arbeitsklima: B2, C1
+- Arbeitsmarkt: B2, C1
+- Arbeitsweise: B2, C1
+- Ärztemangel: B2, C1
+- attackieren: B2, C1
+- Aufbau: B2, C1
+- Auffassung: B2, C1
+- aufgeben: B2, C1, C1
+- aufgeregt: B2, C1
+- Aufklärung: B2, C1
+- Aufregung: B2, C1
+- Auftreten: B2, C1, C1
+- aufwärmen: B2, C1
+- Ausbau: B2, C1
+- Ausdauer: B2, C1
+- ausfallen: B2, B2, C1
+- ausführen: B2, C1
+- Ausgang: B2, B2
+- ausgehen: B2, C1, C1
+- Ausgrenzung: B2, C1
+- aushalten: B2, C1
+- auskommen: B2, C1
+- ausmachen: B2, B2, B2, C1, C1
+- ausräumen: B2, C1
+- außergewöhnlich: B2, C1
+- äußerst: B2, C1
+- Austausch: B2, C1
+- ausüben: B2, C1
+- Ausweg: B2, C1
+- auszahlen: B2, C1
+- Auszeit: B2, C1
+- basieren: B2, C1
+- Basis: B2, C1
+- bedenken: B2, C1
+- bedürftig: B2, C1
+- befürworten: B2, C1
+- begehrt: B2, C1
+- begreifen: B2, C1
+- beherrschen: B2, C1, C1
+- Behinderung: B2, C1
+- beibringen: B2, C1
+- beitreten: B2, C1
+- Belastung: B2, C1
+- bemerkenswert: B2, C1
+- Benehmen: B2, B2
+- Berufserfahrung: B2, C1
+- beruhigend: B2, C1
+- berühren: B2, C1
+- besagen: B2, C1
+- beschäftigen: B2, B2, B2, C1, C1
+- Beschäftigte: B2, C1
+- Beschwerdebrief: B2, C1
+- Besprechung: B2, B2
+- bestehen: B2, C1, C1, C1
+- Beteiligung: B2, C1
+- betreiben: B2, C1
+- betroffen: B2, C1
+- Betroffene: B2, C1
+- bewältigen: B2, C1
+- Bewertung: B2, C1
+- bewirken: B2, C1
+- bewusst: B2, B2, B2, C1
+- Bezug: B2, C1, C1
+- bisherig: B2, C1
+- bleiben: B2, C1
+- bringen: B2, B2, C1, C1, C1, C1, C1, C1, C1, C1
+- Buchbesprechung: B2, C1
+- bündeln: B2, C1
+- bundesweit: B2, C1
+- Cello: B2, C1
+- Charakter: B2, B2
+- checken: B2, C1
+- Computerspielsucht: B2, C1
+- Datensicherheit: B2, C1
+- Dauer: B2, C1
+- Defekt: B2, C1
+- definieren: B2, C1
+- Demenz: B2, C1
+- derzeit: B2, C1
+- Diagnose: B2, C1
+- Diebstahl: B2, C1
+- Dilemma: B2, C1
+- Disziplin: B2, C1, C1
+- dramatisch: B2, C1
+- dreckig: B2, C1
+- Druck: B2, B2, B2, C1
+- durcharbeiten: B2, C1
+- durchaus: B2, C1
+- Durchbruch: B2, C1
+- Durchführung: B2, C1
+- durchhalten: B2, C1
+- durchsetzen: B2, C1, C1, C1
+- durchsichtig: B2, C1
+- Effekt: B2, C1
+- Eifer: B2, C2
+- Eigeninitiative: B2, C1
+- einbringen: B2, C1
+- Eindruck: B2, C1
+- eingehen: B2, B2, C1, C1
+- einholen: B2, C1
+- Einrichtung: B2, C1
+- Einschränkung: B2, C1
+- einsehen: B2, C1
+- einstellen: B2, B2, B2, C1, C1
+- einteilen: B2, C1
+- eintreten: B2, C1, C1
+- einverstanden sein: B2, C1
+- einwandfrei: B2, C1
+- Emotion: B2, C1
+- Empathie: B2, C1
+- entgegensehen: B2, C1
+- entscheidend: B2, C1
+- Entscheidung: B2, B2
+- entsprechend: B2, C1
+- entwickeln: B2, C1, C1
+- erachten: B2, B2, C1
+- Erfahrung: B2, B2, B2, C1
+- erfassen: B2, C1
+- erfolglos: B2, C1
+- erfüllen: B2, C1
+- ergreifen: B2, C1
+- erhalten: B2, B2, C1, C1
+- erhoffen: B2, C1
+- erkennbar: B2, C1
+- Erkenntnis: B2, C1
+- ernennen: B2, C1
+- erpressen: B2, C1
+- Erpressung: B2, C1
+- erregen: B2, C1
+- erreichbar: B2, C1
+- Erwartung: B2, C1
+- erweitern: B2, C1
+- erzeugen: B2, C1
+- Evolution: B2, C1
+- fachlich: B2, C1
+- Fakt: B2, C1
+- fallen: B2, B2, C1, C1, C1, C1, C1
+- fassen: B2, C1, C1
+- Feedback: B2, C1
+- festhalten: B2, C1
+- Feststellung: B2, C1
+- Feuerwerk: B2, C1
+- Flügel: B2, B2
+- friedlich: B2, C1
+- führen: B2, B2, C1, C1, C1, C1
+- geben: B2, B2, B2, B2, B2, C1, C1, C1, C1, C1, C1, C1, C1, C1, C1, C1, C1, C1
+- Gefahr: B2, C1
+- gefährdet: B2, C1
+- gefragt sein: B2, C1
+- gehen: B2, B2, C1, C1, C1, C1, C1, C1
+- Gehirn: B2, C1
+- Geist: B2, C1
+- geistig: B2, C1, C1
+- gelegentlich: B2, C1
+- Genuss: B2, C1
+- geraten: B2, C1
+- Geschäftsleitung: B2, C1
+- gesetzlich: B2, C1
+- Gewissen: B2, C1, C1
+- Gewohnheit: B2, C1
+- golden: B2, C1
+- Grab: B2, C1
+- Grenze: B2, B2, C1
+- grübeln: B2, C1
+- Grundvoraussetzung: B2, C1
+- halten: B2, C1, C1, C1, C1, C1, C1, C1, C1, C1, C1
+- Haltung: B2, C1
+- Handwerk: B2, C1
+- hängen: B2, B2, C1
+- Hausarzt: B2, C1
+- Hausverwaltung: B2, C1
+- Herz: B2, C1, C1, C1, C1
+- Highlight: B2, C1
+- Himmel: B2, B2
+- Hirn: B2, C1
+- holen: B2, C1, C1
+- Horizont: B2, C1
+- Identität: B2, C1
+- Inspiration: B2, C1
+- jeweilig: B2, C1
+- Kabarett: B2, C1
+- kahl: B2, C1
+- Kalkulation: B2, C1
+- Kenntnis: B2, C1
+- Klang: B2, C1
+- kommen: B2, B2, B2, B2, B2, B2, C1, C1, C1, C1
+- Kommunikationsfähigkeit: B2, C1
+- Kommunikationsmittel: B2, C1
+- konfrontieren: B2, C1
+- konkret: B2, C1
+- Kontakt: B2, C1, C1
+- Kontext: B2, C1
+- Konzept: B2, B2, C1
+- Körpertemperatur: B2, C1
+- kriminell: B2, C1
+- Kriterium: B2, C1
+- Kritikfähigkeit: B2, C1
+- kurios: B2, C1
+- Lage: B2, C1, C1, C1
+- langfristig: B2, C1
+- Lauf: B2, C1
+- laufen: B2, C1, C1, C1
+- Leben: B2, B2, C1
+- Lebenserwartung: B2, C1
+- lenken: B2, C1
+- liebevoll: B2, C1
+- liegen: B2, C1
+- logisch: B2, C1
+- machen: B2, B2, C1, C1, C1, C1, C1, C1, C1, C1, C1
+- Markt: B2, B2
+- Mehrsprachigkeit: B2, C1
+- Merkmal: B2, C1
+- Mischung: B2, C1
+- Mist: B2, C1
+- Mitleid: B2, C1
+- Motiv: B2, C1
+- nachdenklich: B2, C1
+- nachgehen: B2, C1
+- nachhaken: B2, C1
+- nachweisen: B2, C1
+- Nagel: B2, C1
+- Nebenjob: B2, C1
+- nehmen: B2, B2, B2, C1, C1, C1, C1, C1, C1, C1, C1, C1, C1
+- Nerv: B2, C1
+- Nervenkitzel: B2, C1
+- Nervenzelle: B2, C1
+- Notlage: B2, C1
+- Öffnung: B2, C1
+- Organisation: B2, B2, C1, C1
+- Orientierung: B2, C1
+- Partylöwe: B2, C1
+- Patent: B2, C1
+- Phänomen: B2, C1
+- Planet: B2, C1
+- Position: B2, C1
+- Preis: B2, B2, C1
+- Prinzip: B2, C1
+- Privatleben: B2, C1
+- Professur: B2, C1
+- qualitativ: B2, C1
+- Rahmen: B2, C1, C1
+- rasant: B2, C1
+- Rat: B2, C1
+- ratsam: B2, C1
+- Rauschen: B2, C1
+- rechnen: B2, C1, C1
+- recht: B2, C1, C1, C1
+- reden: B2, C1, C1, C1
+- Regelung: B2, C1
+- reichen: B2, C1, C1
+- Reiz: B2, C1
+- Resümee: B2, C1
+- Reue: B2, C1
+- Revolution: B2, C1
+- revolutionieren: B2, C1
+- richten: B2, B2, C1
+- Routine: B2, C1
+- Rubrik: B2, C1
+- Ruf: B2, C1
+- rufen: B2, C1
+- Sachbeschädigung: B2, C1
+- Sache: B2, B2
+- Sachverhalt: B2, C1
+- samt: B2, C1
+- schaffen: B2, B2, C1, C1
+- Schale: B2, C1
+- schätzen: B2, C1, C1
+- Schätzung: B2, C1
+- scheitern: B2, C1
+- schlagen: B2, B2, C1, C1
+- schließen: B2, B2, C1, C1, C1, C1, C1
+- Schmetterling: B2, C1
+- Schnelligkeit: B2, C1
+- Schnitt: B2, C1
+- schwören: B2, C1
+- Seele: B2, C1
+- sehnen: B2, C1
+- Seite: B2, B2, C1, C1, C1
+- Selbstbewusstsein: B2, C1
+- seriös: B2, C1
+- setzen: B2, B2, C1, C1, C1
+- Sicht: B2, C1
+- Sinn: B2, C1
+- sperren: B2, B2, C1
+- Spott: B2, C1
+- spritzen: B2, C1, C1
+- Standpunkt: B2, C1
+- Start-up: B2, C1
+- stattdessen: B2, C1
+- staunen: B2, C1
+- stehen: B2, B2, B2, C1, C1, C1, C1, C1, C1, C1, C1, C1, C1, C1, C1, C1, C1, C1, C1, C1, C1
+- steigern: B2, C1
+- stellen: B2, B2, B2, B2, B2, C1, C1, C1, C1
+- Stellung: B2, C1
+- stellvertretend: B2, C1
+- stets: B2, C1
+- stimmen: B2, B2, C1
+- Straftat: B2, C1
+- sträuben: B2, C1
+- Struktur: B2, C1, C1, C1
+- systematisch: B2, C1
+- Tagebuch: B2, C1
+- teamfähig: B2, C1
+- Teamfähigkeit: B2, C1
+- tragen: B2, C1
+- Transparenz: B2, C1
+- Trauer: B2, C1
+- treffen: B2, C1, C1, C1
+- treiben: B2, C1
+- trösten: B2, C1
+- Überblick: B2, C1, C1, C1
+- übereinstimmen: B2, C1
+- überfordern: B2, C1
+- übergeben: B2, C1
+- Überlegung: B2, C1
+- übersehen: B2, C1
+- übersichtlich: B2, C1
+- überwinden: B2, C1
+- umbringen: B2, C1
+- Umfang: B2, C1
+- umfangreich: B2, C1
+- umgehen: B2, B2, C1, C1
+- umgestalten: B2, C1
+- umstritten: B2, C1
+- unbewusst: B2, C1
+- undenkbar: B2, C1
+- unerwartet: B2, C1
+- ungebräuchlich: B2, C1
+- ungebrochen: B2, C1
+- ungefragt: B2, C1
+- Unternehmen: B2, C1
+- üppig: B2, C1
+- Urteilsvermögen: B2, C2
+- vehement: B2, C1
+- veranstalten: B2, C1
+- verantworten: B2, C1
+- verarbeiten: B2, C1
+- verbergen: B2, C1
+- verbleiben: B2, C1
+- verbreiten: B2, C1
+- verbreitet: B2, C1
+- Verbreitung: B2, C1
+- Vereinbarkeit: B2, C1
+- vererben: B2, C1
+- verfolgen: B2, C1
+- Verfügung: B2, B2, C1
+- vergehen: B2, C1, C1, C1
+- Verlauf: B2, C1
+- verleihen: B2, B2
+- vermitteln: B2, C1, C1
+- Verpackung: B2, C1
+- verschaffen: B2, B2, C1
+- verstärken: B2, C1
+- vertreten: B2, C1
+- verunsichern: B2, C1
+- verweisen: B2, C1
+- verwöhnen: B2, C1
+- verwunderlich: B2, C1
+- vielfach: B2, C1
+- Vielfalt: B2, C1
+- vielmehr: B2, C1
+- vollkommen: B2, C1
+- vorgeben: B2, C1
+- vorgehen: B2, C1
+- Vorgesetzte: B2, C1
+- vorhanden: B2, C1
+- vorkommen: B2, B2, C1, C1, C1
+- vorleben: B2, C1
+- Vortrag: B2, C1
+- wahrnehmen: B2, C1
+- Wandel: B2, C1
+- Weg: B2, B2, C1, C1, C1
+- weisen: B2, B2
+- weitergehen: B2, C1
+- Weltbild: B2, C1
+- wenden: B2, C1, C1
+- Wert: B2, B2, C1
+- Wette: B2, C1
+- Wichtigkeit: B2, C1
+- Wunsch: B2, C1
+- zerfallen: B2, C1
+- ziehen: B2, B2, B2, B2, C1, C1, C1, C1
+- zufolge: B2, C1
+- zukommen: B2, C1
+- Zusammenhang: B2, C1
+- zusammenhängen: B2, C1
+- zuversichtlich: B2, C1
+- Zweig: B2, C1
+- zwischendurch: B2, C1
+- abnehmen: C1, C1
+- abschließen: C1, C1
+- anführen: C1, C1
+- angeben: C1, C1, C1
+- Anzeige: C1, C1
+- Aufnahme: C1, C1
+- aufnehmen: C1, C1, C1, C1
+- aufspringen: C1, C1
+- auftauchen: C1, C1
+- Auge: C1, C1
+- behalten: C1, C1, C1
+- behandeln: C1, C1
+- bereichern: C1, C1
+- Beschwerde: C1, C1
+- bewegen: C1, C1
+- beziehen: C1, C1
+- bilden: C1, C1, C1
+- brechen: C1, C1
+- dicht: C1, C1
+- dran sein: C1, C1
+- einsetzen: C1, C1
+- entgegensetzen: C1, C2
+- enthalten: C1, C1
+- erfahren: C1, C1
+- Ergänzung: C1, C1
+- erheben: C1, C1
+- erscheinen: C1, C1, C1
+- fest: C1, C1
+- Folge: C1, C1
+- fördern: C1, C1
+- frei: C1, C1, C1
+- frisch: C1, C1
+- Gang: C1, C1
+- Gedanke: C1, C1
+- Gefühl: C1, C1, C1
+- gerade: C1, C1, C1
+- geregelt: C1, C1
+- Gespräch: C1, C1
+- Gewinn: C1, C1
+- gewinnen: C1, C1, C1
+- gleich: C1, C1
+- Grad: C1, C1, C1, C1
+- Gut: C1, C1, C1
+- handeln: C1, C1, C1
+- Kasse: C1, C1
+- Kopf: C1, C1, C1, C1
+- Kraft: C1, C1, C1
+- laut: C1, C1
+- Leitung: C1, C1, C1
+- Mund: C1, C1, C1
+- näherkommen: C1, C1
+- offen: C1, C1
+- pflegen: C1, C1
+- praktizieren: C1, C1
+- Praxis: C1, C1
+- produzieren: C1, C1
+- Raum: C1, C1, C1
+- Regel: C1, C1
+- Reihe: C1, C1
+- rund um: C1, C1
+- Schluss: C1, C1
+- Schritt: C1, C1, C1
+- sehen: C1, C1, C1
+- Sicherheit: C1, C1
+- Sorge: C1, C1
+- Stelle: C1, C1
+- stoßen: C1, C1
+- Tat: C1, C1, C1
+- Titel: C1, C1
+- tun: C1, C1, C1, C1
+- übel: C1, C1
+- überzeugen: C1, C1
+- unterscheiden: C1, C1
+- Verbindung: C1, C1
+- vergeben: C1, C1
+- verlieren: C1, C1, C1, C1, C1, C1
+- verstellen: C1, C1
+- voll: C1, C1
+- Ziel: C1, C1, C1
+- Zug: C1, C1
+- zurückkommen: C1, C1
+- allegorisch: C2, C2
+- apokryph: C2, C2
+- barock: C2, C2
+- desiderat: C2, C2
+
+## Decisions and verification (2026-09-23)
+
+Used Klett’s alphabetic B2 edition for stable entry boundaries: https://www.klett-sprachen.de/download/7058/aspekte-neu-b2-lb-wortliste.pdf. Original chapter PDF retained. Matching is at headword level, not synonym or word-family level. Two PDF wrapping artifacts were normalized in headword keys: Kommunikationsmanage- ment and Zusammengehörigkeits- gefühl. Original variant text retained. Verified 6,142 source records accounted for, 5,388 unique normalized headwords, and no repeated keys within or between output levels. No CEFR reassessment was performed.

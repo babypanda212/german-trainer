@@ -1,0 +1,415 @@
+C2 supplementary vocabulary: 409 entries
+Source: https://radicalrampage.com/german/cefr/cefr-c2-vocabulary-practice
+Downloaded 2026-09-23. Independent source; C2 labels are not verified by Goethe.
+All table entries preserved in source order, without filtering or changing translations.
+
+Number | German | English
+1 | aberrant | aberrant
+2 | abgründig | abysmal
+3 | absolutistisch | absolutistic
+4 | Abstraktum | abstract term; abstract noun
+5 | abstrus | abstruse; abstrusely
+6 | Affinität | affinity
+7 | Akribie | meticulousness; thoroughness
+8 | allegorisch | allegorical
+9 | allegorisch | allegorically
+10 | Anakoluth | anacoluthon
+11 | Anapher | anaphora
+12 | Anfechtung | legal challenge
+13 | Anomalie | anomaly
+14 | Antagonismus | antagonism
+15 | Anthropomorphismus | anthropomorphism
+16 | Antinomie | antinomy
+17 | antinomisch | antinomic
+18 | Antipathie | antipathy
+19 | Antithese | antithesis
+20 | antithetisch | antithetic
+21 | Antizipation | anticipation
+22 | Apathie | apathy
+23 | aphoristisch | aphoristic
+24 | apodiktisch | apodictic
+25 | apokryph | apocryphal
+26 | Apokryph | apocrypha
+27 | apologetisch | apologetic
+28 | aporetisch | aporetic
+29 | Aporie | aporia (insoluble contradiction)
+30 | Apostasie | apostasy
+31 | apostrophieren | to address; to refer to; to refer
+32 | Apotheose | apotheosis
+33 | apotropäisch | apotropaic
+34 | Archaismus | archaism
+35 | Askese | asceticism
+36 | assertorisch | assertoric
+37 | Atavismus | atavism
+38 | atavistisch | atavistic
+39 | Ätiologie | aetiology (study of causes or origins)
+40 | auratisch | auratic
+41 | Ausschweifung | excess; debauchery
+42 | Axiom | axiom
+43 | axiomatisch | axiomatic
+44 | barock | baroque
+45 | Barock | Baroque (period)
+46 | beleumundet | having a specified reputation
+47 | Beschränktheit | narrowness
+48 | Bewandtnis | circumstances; significance; reason
+49 | bigott | bigoted
+50 | blasiert | blasé; conceited; smug
+51 | Blasphemie | blasphemy
+52 | chauvinistisch | chauvinistic
+53 | Chiasmus | chiasmus
+54 | Chimäre | chimera (a mythical monster)
+55 | chimärisch | chimeric
+56 | chthonisch | chthonic
+57 | Dämonisierung | demonization
+58 | deduzieren | to deduce
+59 | Defätismus | defeatism
+60 | degenerativ | degenerative
+61 | demagogisch | demagogic
+62 | Demiurg | demiurge
+63 | denunzieren | to denounce
+64 | deontologisch | deontological
+65 | desiderat | urgently needed
+66 | Desiderat | desideratum
+67 | Determinismus | determinism
+68 | deterministisch | deterministic
+69 | Deutungshoheit | control over interpretation; power to control interpretation
+70 | dichotom | dichotomous
+71 | Dichotomie | dichotomy
+72 | Diffamierung | defamation; vilification
+73 | dilemmatisch | dilemmatic
+74 | dilettantisch | dilettante
+75 | Dilettantismus | dilettantism
+76 | diskontinuierlich | discontinuous
+77 | diskursiv | discursive
+78 | disparat | disparate
+79 | Disposition | disposal
+80 | Disputation | disputation
+81 | disruptiv | disruptive (causing major change)
+82 | Dogma | dogma
+83 | Dogmatiker | dogmatist
+84 | Dogmatismus | dogmatism
+85 | Dualismus | dualism
+86 | Dualität | duality
+87 | Dysfunktion | dysfunction
+88 | Dysphemismus | dysphemism
+89 | Echolalie | echolalia
+90 | Egalitarismus | egalitarianism
+91 | Eifer | zeal
+92 | eindringen | to penetrate; to intrude
+93 | Eklektizismus | eclecticism
+94 | Empirie | empirical knowledge
+95 | Empirismus | empiricism
+96 | endogen | endogenous
+97 | enigmatisch | enigmatic
+98 | Entelechie | entelechy
+99 | Entfremdung | estrangement
+100 | entgegensetzen | to counter; to oppose
+101 | Enthaltsamkeit | abstinence
+102 | Entsprechung | equivalent; correspondence
+103 | entweihen | to desecrate
+104 | ephemer | ephemeral
+105 | epigonal | epigonic
+106 | Epigone | epigone (follower, disciple)
+107 | epigrammatisch | epigrammatic
+108 | epikureisch | Epicurean
+109 | Epiphanie | Epiphany
+110 | Episteme | episteme
+111 | epistemisch | epistemic
+112 | Epistemologie | epistemology
+113 | erbittert | bitter; embittered; acrimonious
+114 | erdrosseln | throttle
+115 | Erhabenheit | sublimity
+116 | Erkenntnistheorie | epistemology; theory of knowledge
+117 | erschöpfend | exhaustive; comprehensive
+118 | eschatologisch | eschatological
+119 | eskamotieren | to make something vanish
+120 | eskapistisch | escapist
+121 | esoterisch | esoteric
+122 | etymologisch | etymological
+123 | Eugenik | eugenics
+124 | Euphemismus | euphemism
+125 | euphonisch | euphonic
+126 | evaluativ | evaluative
+127 | evozieren | to evoke
+128 | Exegese | exegesis
+129 | exegetisch | exegetic
+130 | exemplifizieren | to exemplify
+131 | Existentialismus | existentialism
+132 | exogen | exogenous
+133 | exquisit | exquisite; select
+134 | extrinsisch | extrinsic
+135 | fabulieren | to invent stories; to spin tales; tell stories
+136 | fadenscheinig | threadbare
+137 | Falsifikation | falsification (proof of falsehood)
+138 | falsifizieren | to falsify
+139 | Fatalismus | fatalism
+140 | fatalistisch | fatalistic
+141 | Formalismus | formalism
+142 | Freigeisterei | freethought
+143 | frevelhaft | sacrilegious
+144 | Funktionalismus | functionalism
+145 | Gebetsmühle | prayer wheel
+146 | Genealogie | genealogy
+147 | Gesamtzusammenhang | overall context
+148 | Gewissenhaftigkeit | conscientiousness
+149 | Gewissensbiss | pang of conscience; remorse
+150 | gewunden | winding
+151 | Gleichmut | equanimity; composure
+152 | Gnosis | gnosis
+153 | gnostisch | Gnostic (related to Gnosticism)
+154 | Großmütigkeit | magnanimity
+155 | habituell | habitual
+156 | Habitus | habitus
+157 | Hedonismus | hedonism
+158 | hegemonial | hegemonic
+159 | Hermeneutik | hermeneutics
+160 | hermeneutisch | hermeneutic
+161 | hieratisch | hieratic
+162 | homogenisieren | to homogenize
+163 | hyperbolisch | hyperbolic
+164 | Hypostase | hypostasis
+165 | Ikonoklasmus | iconoclasm
+166 | Ikonoklast | iconoclast
+167 | illusorisch | unrealistic
+168 | Immanenz | immanence
+169 | imperatorisch | imperatorial
+170 | Implikatur | implicature
+171 | Induktion | induction
+172 | induzieren | to induce
+173 | inkohärent | incoherent (not coherent)
+174 | inkommensurabel | incommensurable
+175 | inkongruent | incongruent
+176 | Insinuation | insinuation
+177 | insinuieren | to insinuate
+178 | Instrumentalisierung | exploitation
+179 | Intellektualismus | intellectualism
+180 | intermittierend | intermittent
+181 | intransigent | intransigent
+182 | Invektive | invective
+183 | inzident | incident (all adjectival senses)
+184 | Irrationalismus | irrationalism
+185 | Irredentismus | irredentism
+186 | Isolationismus | isolationism
+187 | janusköpfig | Janus-headed
+188 | jesuitisch | Jesuitic
+189 | kafkaesk | Kafkaesque
+190 | Kakophonie | cacophony
+191 | kakophonisch | cacophonous
+192 | kapriziös | capricious
+193 | Kasuistik | casuistry
+194 | kasuistisch | casuistic
+195 | Katachrese | catachresis
+196 | katharisch | Cathar
+197 | kathartisch | cathartic
+198 | Kausalität | causality
+199 | Kleinlichkeit | pettiness; narrow-mindedness
+200 | kleptokratisch | kleptocratic
+201 | Kleptomanie | kleptomania (proclivity to steal)
+202 | Kollektivismus | collectivism
+203 | Kollektivschuld | collective guilt
+204 | Kollusion | collusion
+205 | konativ | conative
+206 | Konformität | conformity
+207 | konnotieren | to consignify
+208 | konstatieren | to state
+209 | Konstruktivismus | constructivism
+210 | Kontingent | quota; contingent
+211 | kontrafaktisch | counterfactual
+212 | konvulsiv | convulsive
+213 | konzedieren | to concede
+214 | Konzilianz | conciliatoriness; accommodation
+215 | Kosmologie | cosmology
+216 | kosmologisch | cosmological
+217 | Kosmopolitismus | cosmopolitanism
+218 | kryptisch | cryptic
+219 | kulminieren | to culminate
+220 | Kulturpessimismus | cultural pessimism
+221 | Laizismus | laicism
+222 | Latenz | latency
+223 | Libertarismus | libertarianism
+224 | Litotes | litotes
+225 | Luzidität | lucidity
+226 | mäandrieren | to meander (like a river)
+227 | machiavellistisch | Machiavellian
+228 | Makulatur | spoilage
+229 | manichäisch | Manichaean
+230 | Marginalisierung | marginalization
+231 | meritokratisch | meritocratic
+232 | Metaphysik | metaphysics
+233 | metaphysisch | metaphysical
+234 | Misogynie | misogyny
+235 | Monismus | monism
+236 | Mystizismus | mysticism
+237 | nichtsdestotrotz | nonetheless
+238 | Nihilismus | nihilism
+239 | nivellieren | to level
+240 | nominalistisch | nominalistic
+241 | Nonchalance | nonchalance
+242 | Oberflächlichkeit | superficiality
+243 | Objektivismus | objectivism
+244 | Obskurantismus | obscurantism
+245 | okkultistisch | occultistic
+246 | Omnipotenz | omnipotence
+247 | ontisch | ontic
+248 | Ontologie | ontology (all senses)
+249 | ontologisch | ontological
+250 | Opportunismus | opportunism
+251 | Orthodoxie | orthodoxy
+252 | Ostentation | ostentation
+253 | Ostrazismus | ostracism
+254 | Oszillation | oscillation (the act of oscillating)
+255 | oszillieren | to oscillate
+256 | Paradigma | paradigm
+257 | paradigmatisch | paradigmatic
+258 | Paradigmenwechsel | paradigm shift
+259 | paradoxerweise | paradoxically
+260 | paternalistisch | paternalistic
+261 | Pedanterie | pedantry
+262 | Penetranz | penetrance
+263 | Penibilität | meticulousness
+264 | perfide | treacherous; perfidious
+265 | Perfidie | perfidy; treachery
+266 | periphrastisch | periphrastic
+267 | Persiflage | parody; satire
+268 | persiflieren | to satirize; to parody
+269 | Persistenz | persistence
+270 | Petitesse | bagatelle
+271 | phänomenologisch | phenomenological
+272 | Phantasmagorie | phantasmagoria (a dreamlike state)
+273 | Philister | philistine; uncultured person; nonacademic
+274 | Phlegma | phlegm
+275 | phlegmatisch | phlegmatic; unemotional
+276 | Pietismus | pietism
+277 | pietistisch | pietistic
+278 | pikaresk | picaresque
+279 | Pleonasmus | pleonasm
+280 | pluralistisch | pluralistic
+281 | plutokratisch | plutocratic
+282 | Polarität | polarity
+283 | polemisch | polemical
+284 | Polysemie | polysemy
+285 | Polysyndeton | polysyndeton
+286 | Positivismus | positivism
+287 | positivistisch | positivistic
+288 | Prädestination | predestination
+289 | prädisponieren | to predispose
+290 | Pragmatik | pragmatics
+291 | Präpotenz | prepotency
+292 | prärogativ | prerogative
+293 | präskriptiv | prescriptive
+294 | präsupponieren | to presuppose
+295 | Prekarisierung | precarity
+296 | Primat | primacy
+297 | Progredienz | progredience
+298 | proletarisch | proletarian
+299 | prononciert | pronounced
+300 | Propädeutik | propaedeutic (introductory course)
+301 | Prüfstein | touchstone
+302 | Purismus | purism
+303 | puristisch | puristic
+304 | Puritanismus | puritanism
+305 | Pyrrhussieg | Pyrrhic victory
+306 | quantifizierbar | quantifiable
+307 | rationalisieren | to rationalize (to make more rational)
+308 | Rationalismus | rationalism
+309 | reduktionistisch | reductionist
+310 | Reflexionsvermögen | reflectivity
+311 | regressiv | regressive
+312 | Relativismus | relativism
+313 | Relativität | relativity
+314 | resignativ | resigned
+315 | Ressentiment | resentment
+316 | revozieren | to revoke
+317 | rigide | rigid (uncompromising)
+318 | rudimentär | rudimentary
+319 | sakralisieren | to sacralize
+320 | sakrosankt | sacrosanct
+321 | Säkularismus | secularism
+322 | sardonisch | sardonic
+323 | schismatisch | schismatic (related to a schism)
+324 | Scholastik | scholasticism
+325 | Selbstgenügsamkeit | self-sufficiency
+326 | Selbstgerechtigkeit | self-righteousness
+327 | Selbstreferenz | self-reference
+328 | Selbstverleugnung | self-denial
+329 | seraphisch | seraphic
+330 | Serendipität | serendipity
+331 | Sinekure | sinecure
+332 | Singularität | singularity
+333 | sinister | sinister
+334 | Skeptizismus | skepticism
+335 | Skrupellosigkeit | unscrupulousness
+336 | solipsistisch | solipsistic
+337 | Sophismus | sophism
+338 | sophistisch | sophistic
+339 | Spiritualismus | spiritualism
+340 | starrsinnig | obstinate; inflexible; stubborn
+341 | Stigmatisierung | stigmatization
+342 | Stoizismus | stoicism
+343 | sublim | sublime
+344 | sublimieren | to sublimate
+345 | Subtilität | subtleness
+346 | supplementär | supplementary
+347 | suppressiv | suppressive
+348 | Synekdoche | synecdoche (certain type of metaphor)
+349 | synergetisch | synergistic; synergetic
+350 | Synkretismus | syncretism
+351 | synkretistisch | syncretic
+352 | Synthese | synthesis
+353 | Systematisierung | systematization
+354 | tautologisch | tautological
+355 | technokratisch | technocratic
+356 | Teleologie | teleology
+357 | teleologisch | teleological
+358 | tentativ | tentative
+359 | Theismus | theism
+360 | Theodizee | theodicy (a justification of a deity)
+361 | Theorem | theorem
+362 | Totalitarismus | totalitarianism
+363 | Tragweite | momentousness
+364 | Transgression | transgression
+365 | Transzendentalismus | transcendentalism
+366 | Transzendenz | transcendence
+367 | transzendieren | to transcend
+368 | triftig | valid; convincing
+369 | Trugschluss | fallacy; false conclusion
+370 | Überlagerung | superposition
+371 | Unabwendbarkeit | inevitability
+372 | Unbeständigkeit | instability; inconstancy
+373 | undurchdringlich | impenetrable
+374 | Uneigennützigkeit | selflessness; altruism; unselfishness
+375 | Unerbittlichkeit | implacability
+376 | Ungereimtheit | inconsistency
+377 | Universalität | universality
+378 | unnachgiebig | unyielding; uncompromising
+379 | unwiderlegbar | irrefutable; indisputable
+380 | unzweideutig | unambiguous
+381 | Urteilsvermögen | judgment; discernment
+382 | utilitaristisch | utilitarian
+383 | Velleität | velleity
+384 | verabscheuen | to abhor
+385 | verdinglichen | to reify
+386 | vernunftbegabt | rational; endowed with reason
+387 | verschroben | cranky
+388 | Verschrobenheit | eccentricity; oddness
+389 | Verstocktheit | obduracy
+390 | verwerflich | reprehensible; objectionable
+391 | Verwerfung | rejection; discarding
+392 | Vitalismus | vitalism
+393 | voluntaristisch | voluntaristic
+394 | vorbehaltlich | provisory
+395 | Weitläufigkeit | extensiveness; spaciousness
+396 | Weltschmerz | Weltschmerz
+397 | widerlegbar | refutable
+398 | Wirkungsweise | mode of operation / action
+399 | Wissenschaftstheorie | philosophy of science
+400 | Wortklauber | quibbler (esp. of definitions)
+401 | Xenophobie | xenophobia
+402 | Zäsur | caesura (pause or interruption)
+403 | Zerstreutheit | absent-mindedness
+404 | Zeugma | zeugma
+405 | Zirkelschluss | circular reasoning
+406 | zirkulär | circular
+407 | Zügellosigkeit | lack of restraint; licentiousness; lawlessness
+408 | Zuschreibung | ascription
+409 | Zweideutigkeit | ambiguity; double meaning; the state or quality of having two possible meanings

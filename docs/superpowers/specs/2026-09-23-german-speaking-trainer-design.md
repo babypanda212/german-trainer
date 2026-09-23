@@ -16,6 +16,14 @@ Single-user, local web app for spoken German practice with persistent progress. 
 | LLM access | Claude via Agent SDK, one persistent session, subscription login | Messages API (needs key, subscription unusable); `claude -p` per turn (2 to 4 s startup per turn); Claude Code skill (no voice, no charts) |
 | Interface | One local web page | Terminal push-to-talk |
 | Progress | Mistake memory, CEFR trend, vocab with spaced review, session log | None dropped |
+| Target vocabulary | A1 to B1: official Goethe lists via DWDS. B2: third-party list, flagged unofficial. C1/C2: no list; tutor pulls vocab from authentic texts and teaches derivation, per Goethe's own C1 spec | Profile deutsch CD-ROM for B2 (out of print, 2005 Windows DB, uncertain on Mac); frequency-banded lists (not exam-aligned) |
+
+## Vocabulary sources (verified 2026-09-23)
+
+- Goethe publishes official Wortlisten for A1, A2, B1 only. DWDS mirrors them with CSV/JSON export (`dwds.de/lemma/wortschatz-goethe-zertifikat`). Goethe copyright, personal use.
+- B2: Goethe's Prüfungsziele §4.4 points to Profile deutsch (Glaboniat 2005) rather than publishing a list.
+- C1/C2: Prüfungsziele §4.4 states no inventory exists because authentic texts are used; candidates are expected to derive unknown words (*erschließen*) from known parts.
+- All "Goethe B2/C1 Wortliste" PDFs online are third-party compilations.
 
 ## Architecture
 
@@ -49,6 +57,15 @@ Files: `server.py`, `stt.py`, `tutor.py`, `tts.py`, `store.py`, `cefr.py`, `stat
 ### cefr.py
 - `derive_level(range_, accuracy, fluency, coherence) -> str`
 - Each sub-score 1 to 6 maps to A1 to C2. Level = rounded mean, capped at min sub-score + 1. Pure function, unit-tested.
+- Rubric text given to the tutor uses Goethe's own level descriptors (Prüfungsziele B2/C1/C2 §4.5/4.6): B2 = effective argumentation, staying power in discourse, avoids gross errors, gaps cause hesitation; C1 = near-effortless, longer utterances in less time, paraphrases gaps skilfully, adapts register, allusions and jokes; C2 = precise, idiomatic, aware of connotations, removes ambiguity. Scoring is about what is done with the vocabulary, not its size.
+
+### target_vocab (in store.py)
+```
+target_vocab  id, word, level, source, times_used, introduced_at
+```
+- `source` ∈ {goethe_dwds, unofficial_b2}. Loaded once by `scripts/load_vocab.py` from DWDS CSV (A1 to B1) and the flagged B2 list.
+- Each session start: `next_targets(level, n=10)` returns the least-used words at the user's current level. Tutor must work them into the conversation. Words the user then produces correctly are promoted into `vocab` for spaced review.
+- At C1/C2 `next_targets` returns nothing. Instead the tutor is instructed to bring in vocabulary from an authentic text (a short excerpt the backend fetches from a configurable list of German news RSS feeds) and to point out word-formation (compounds, prefixes, derivations).
 - Stored as a trend. Session-to-session noise is expected; the progress page shows a 5-session moving average alongside raw points.
 
 ### tts.py
