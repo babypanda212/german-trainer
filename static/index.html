@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>German Trainer</title>
+<style>
+  :root { --bg:#fff; --fg:#111; --muted:#666; --accent:#1a5fb4; --ok:#2e7d32; --warn:#c62828; --card:#f5f5f5; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg:#121212; --fg:#eee; --muted:#aaa; --card:#1e1e1e; } }
+  body { margin:0; padding:16px; background:var(--bg); color:var(--fg); font:16px/1.5 system-ui, sans-serif; max-width:720px; margin-inline:auto; }
+  header { display:flex; justify-content:space-between; align-items:center; gap:8px; flex-wrap:wrap; }
+  button { font:inherit; padding:10px 16px; border-radius:8px; border:1px solid var(--muted); background:var(--card); color:var(--fg); cursor:pointer; }
+  #rec { width:100%; padding:24px; font-size:20px; margin:16px 0; }
+  #rec.active { background:var(--warn); color:#fff; }
+  .turn { padding:12px; border-radius:8px; background:var(--card); margin:8px 0; }
+  .you { border-left:4px solid var(--muted); } .tutor { border-left:4px solid var(--accent); }
+  .corr { color:var(--warn); font-size:14px; } .spoken { color:var(--ok); }
+  .muted { color:var(--muted); font-size:14px; }
+  #confirm { display:none; margin:8px 0; } #confirm textarea { width:100%; font:inherit; min-height:60px; }
+  a { color:var(--accent); }
+</style>
+</head>
+<body>
+<header>
+  <div><strong>German Trainer</strong> <span id="level" class="muted"></span></div>
+  <div><a href="/progress.html">Fortschritt</a> <button id="end" disabled>Sitzung beenden</button></div>
+</header>
+<button id="start">Sitzung starten</button>
+<div id="targets" class="muted"></div>
+<button id="rec" disabled>Halten und sprechen</button>
+<div id="confirm">
+  <div class="muted">Verstanden als (bearbeiten, dann senden):</div>
+  <textarea id="transcript"></textarea>
+  <button id="send">Senden</button> <button id="retry">Nochmal aufnehmen</button>
+</div>
+<div id="log"></div>
+<div id="summary"></div>
+<script>
+const $ = id => document.getElementById(id);
+let rec, chunks = [], lastAudio = null;
+const post = (u, o) => fetch(u, o).then(r => r.json());
+
+$('start').onclick = async () => {
+  const s = await post('/session/start', {method:'POST'});
+  $('level').textContent = `Niveau ${s.level}`;
+  $('targets').textContent = 'Zielwörter: ' + s.targets.join(', ');
+  $('rec').disabled = false; $('end').disabled = false; $('start').disabled = true;
+  $('log').innerHTML = ''; $('summary').innerHTML = '';
+};
+
+$('end').onclick = async () => {
+  const s = await post('/session/end', {method:'POST'});
+  $('summary').innerHTML = `<div class="turn"><strong>${s.level}</strong> (range ${s.range}, accuracy ${s.accuracy}, fluency ${s.fluency}, coherence ${s.coherence})<br>${s.summary}</div>`;
+  $('rec').disabled = true; $('end').disabled = true; $('start').disabled = false;
+};
+
+async function startRec() {
+  const stream = await navigator.mediaDevices.getUserMedia({audio:true});
+  rec = new MediaRecorder(stream, {mimeType:'audio/webm'}); chunks = [];
+  rec.ondataavailable = e => chunks.push(e.data);
+  rec.onstop = async () => {
+    stream.getTracks().forEach(t => t.stop());
+    const blob = new Blob(chunks, {type:'audio/webm'});
+    const fd = new FormData(); fd.append('audio', blob, 'a.webm');
+    const r = await post('/turn', {method:'POST', body: fd});
+    if (r.needs_retry) { $('transcript').value = ''; $('confirm').style.display = 'block'; return; }
+    render(r);
+  };
+  rec.start(); $('rec').classList.add('active');
+}
+function stopRec() { if (rec && rec.state === 'recording') rec.stop(); $('rec').classList.remove('active'); }
+$('rec').onpointerdown = startRec; $('rec').onpointerup = stopRec; $('rec').onpointerleave = stopRec;
+
+$('send').onclick = async () => {
+  const text = $('transcript').value.trim(); if (!text) return;
+  $('confirm').style.display = 'none';
+  render(await post('/turn/text', {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({text})}));
+};
+$('retry').onclick = () => { $('confirm').style.display = 'none'; };
+
+function render(r) {
+  const log = $('log');
+  const corr = r.corrections.map(c => `<div class="corr">${c.type}: „${c.original}“ → „${c.corrected}“ <span class="muted">${c.explanation}</span></div>`).join('');
+  log.insertAdjacentHTML('beforeend', `<div class="turn you">${r.transcript}${corr}</div>`);
+  const spoken = r.spoken_correction ? `<div class="spoken">${r.spoken_correction}</div>` : '';
+  log.insertAdjacentHTML('beforeend', `<div class="turn tutor">${spoken}${r.reply_de}${r.degraded ? ' <span class="muted">(Antwort ohne Korrekturen)</span>' : ''}</div>`);
+  if (r.audio_url) { lastAudio = new Audio(r.audio_url); lastAudio.play(); }
+  window.scrollTo(0, document.body.scrollHeight);
+}
+</script>
+</body>
+</html>
