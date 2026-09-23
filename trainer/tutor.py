@@ -7,18 +7,18 @@ TURN_SCHEMA = {
     "type": "object",
     "properties": {
         "reply_de": {"type": "string"},
-        "spoken_correction": {"type": ["string", "null"]},
         "corrections": {"type": "array", "items": {
             "type": "object",
             "properties": {
                 "type": {"type": "string", "enum": MISTAKE_TYPES},
                 "original": {"type": "string"},
                 "corrected": {"type": "string"},
-                "explanation": {"type": "string"}},
-            "required": ["type", "original", "corrected", "explanation"]}},
+                "explanation": {"type": "string"},
+                "recast": {"type": "string"}},
+            "required": ["type", "original", "corrected", "explanation", "recast"]}},
         "targets_used": {"type": "array", "items": {"type": "string"}},
     },
-    "required": ["reply_de", "spoken_correction", "corrections", "targets_used"],
+    "required": ["reply_de", "corrections", "targets_used"],
 }
 
 SUMMARY_SCHEMA = {
@@ -57,8 +57,11 @@ in targets_used (exact word as given): {targets_txt}.
 {extra}
 Corrections: log every error in the learner's turn in `corrections` with type from
 {MISTAKE_TYPES}, the original fragment, the corrected fragment, and a one-sentence English explanation.
-In `spoken_correction` put at most ONE short German correction to say aloud (the most important one),
-or null if the turn was fine. Do not put corrections inside reply_de.
+For each correction also write a `recast`: a short, warm way to reflect the correct form back in
+conversation, in German, as a native speaker naturally would — e.g. "Ah, du meinst: „Ich bin gestern
+gegangen.“" Do NOT explain the grammar rule in the recast and do not sound like a teacher; just model
+the correct form so the learner notices the difference themselves. Do not put any correction inside reply_de —
+reply_de continues the conversation normally.
 
 {RUBRIC}
 """
@@ -72,6 +75,23 @@ OPENING_INSTRUCTION = (
     "level-appropriate question to open the conversation. corrections must be an empty list — there is "
     "nothing to correct yet.)"
 )
+
+def select_recast(corrections: list[dict], top_types: list[str]) -> dict | None:
+    """Pick the ONE correction to actually speak aloud this turn.
+
+    Never speaks more than one, and never invents one: `top_types` is the learner's historical
+    mistake types ordered most-frequent first (from Store.recap()). Prefer a correction matching
+    the most frequent type that actually occurred; if none matches, fall back to the first
+    correction present (something is still corrected, just not the historical top pattern).
+    Returns None only when there were no corrections at all this turn.
+    """
+    if not corrections:
+        return None
+    for t in top_types:
+        for c in corrections:
+            if c["type"] == t:
+                return c
+    return corrections[0]
 
 @dataclass
 class TurnResult:
@@ -104,8 +124,10 @@ class Tutor:
             data = await self._session.turn(user_de)
         if data is None:
             raise TutorError("Tutor did not return a valid structured reply after one retry.")
-        return TurnResult(data["reply_de"], data.get("spoken_correction"), data.get("corrections", []),
-                          data.get("targets_used", []))
+        corrections = data.get("corrections", [])
+        chosen = select_recast(corrections, self._recap.get("top_mistakes", []))
+        spoken_correction = chosen["recast"] if chosen else None
+        return TurnResult(data["reply_de"], spoken_correction, corrections, data.get("targets_used", []))
 
     async def opening(self) -> TurnResult:
         """First line of the session: no learner turn to reply to, so this bypasses `turn`'s

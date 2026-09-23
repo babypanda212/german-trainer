@@ -10,8 +10,9 @@ class FakeSession:
         if "CEFR rater" in self.sp:
             return {"range": 3, "accuracy": 3, "fluency": 3, "coherence": 3, "summary": "s",
                     "vocab": [{"word": "Bahnhof", "gloss": "station"}]}
-        return {"reply_de": "Schön! Und dann?", "spoken_correction": "Ich bin gegangen.",
-                "corrections": [{"type": "conjugation", "original": "habe gegangen", "corrected": "bin gegangen", "explanation": "e"}],
+        return {"reply_de": "Schön! Und dann?",
+                "corrections": [{"type": "conjugation", "original": "habe gegangen", "corrected": "bin gegangen",
+                                  "explanation": "e", "recast": "Ah, du meinst: „ich bin gegangen“."}],
                 "targets_used": ["Bahnhof"]}
     async def close(self): pass
 
@@ -43,7 +44,9 @@ async def test_full_session_flow(client):
     body = r.json()
     assert body["transcript"] == "Ich habe zum Bahnhof gegangen."
     assert body["reply_de"] == "Schön! Und dann?"
-    assert body["corrections"][0]["type"] == "conjugation"
+    assert body["spoken_correction"] == "Ah, du meinst: „ich bin gegangen“."   # the recast, spoken separately
+    assert body["correction_audio_url"].startswith("/audio/")
+    assert body["corrections"][0]["type"] == "conjugation"   # full list still logged
     assert body["audio_url"].startswith("/audio/")
     assert "degraded" not in body   # no fabricated-fallback field
     r = await client.post("/session/end"); s = r.json()

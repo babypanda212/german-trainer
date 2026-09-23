@@ -73,12 +73,21 @@ async def _process(user_de: str, audio_path: str | None):
     for w in _due_words:
         if w in user_de:
             store.review_vocab(w, 2 if w in corrected_words else 4)
+    # Correction and reply are synthesized as two separate clips so the client can play the
+    # correction alone, pause, then the reply — instead of burying it under the next question.
+    correction_audio_url = None
+    if r.spoken_correction:
+        try:
+            p = speak(r.spoken_correction); correction_audio_url = f"/audio/{p.name}"
+        except Exception:
+            pass
     audio_url = None
     try:
         p = speak(r.reply_de); audio_url = f"/audio/{p.name}"
     except Exception:
         pass
     return {"transcript": user_de, "reply_de": r.reply_de, "spoken_correction": r.spoken_correction,
+            "correction_audio_url": correction_audio_url,
             "corrections": r.corrections, "audio_url": audio_url}
 
 @app.post("/turn")
