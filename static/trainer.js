@@ -214,6 +214,10 @@ function startVadLoop() {
   if (vadTimer || !analyser) return;
   vadTimer = setInterval(() => {
     if (!listening) return;
+    // Browsers auto-suspend an AudioContext after inactivity or when the tab loses focus;
+    // once suspended, the analyser keeps returning stale/silent data forever with no error -
+    // this is the main cause of listening silently going dead. Cheap no-op when already running.
+    if (audioCtx && audioCtx.state === 'suspended') { audioCtx.resume(); return; }
     const level = rms(), now = performance.now();
     if (level > SPEECH_RMS) {
       silenceStartedAt = null;
@@ -238,9 +242,15 @@ function beginAutoRecording() {
   recorder.ondataavailable = event => { if (event.data.size) chunks.push(event.data); };
   recorder.onstop = async () => {
     if (!active || !chunks.length) { busy = false; controls(); resumeListening(); return; }
-    const type = recorder.mimeType;
-    const fd = new FormData(); fd.append('audio', new Blob(chunks,{type}), type.includes('mp4') ? 'recording.mp4' : 'recording.webm');
-    await submitTurn('/turn', {method:'POST', body: fd});
+    try {
+      const type = recorder.mimeType;
+      const fd = new FormData(); fd.append('audio', new Blob(chunks,{type}), type.includes('mp4') ? 'recording.mp4' : 'recording.webm');
+      await submitTurn('/turn', {method:'POST', body: fd});
+    } catch (e) {
+      // Never let a packaging failure leave busy/listening stuck forever - that's the other
+      // way "it stops listening" can happen silently.
+      error(e.message); busy = false; controls(); resumeListening();
+    }
   };
   recorder.start(); $('rec').classList.add('active');
   $('record-title').textContent = 'Ich höre dir zu.'; $('record-hint').textContent = 'Sprich weiter … ich sende automatisch, sobald du pausierst.';

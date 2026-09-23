@@ -1,3 +1,4 @@
+import asyncio
 import pytest
 from pathlib import Path
 from httpx import AsyncClient, ASGITransport
@@ -106,3 +107,24 @@ async def test_progress(client):
     assert p["sessions"][0]["level_est"] == "B1"
     assert p["mistakes_by_session"][0]["conjugation"] == 1
     assert "vocab_due" in p and "target_counts" in p
+
+async def test_turn_cannot_race_a_slow_session_end(client, monkeypatch):
+    # Regression test: a VAD-triggered /turn landing while /session/end is mid-flight (e.g.
+    # waiting on the closing rating call) used to crash with AssertionError because the two
+    # requests shared unlocked module state. The lock must serialize them: /turn either
+    # completes cleanly before /end starts, or is cleanly rejected (400) once queued behind it -
+    # never a 500.
+    class SlowFakeSession(FakeSession):
+        async def turn(self, prompt):
+            if "CEFR rater" in self.sp:
+                await asyncio.sleep(0.2)
+            return await super().turn(prompt)
+    monkeypatch.setattr(server, "session_factory", SlowFakeSession)
+    await client.post("/session/start")
+    end_task = asyncio.create_task(client.post("/session/end"))
+    await asyncio.sleep(0.05)   # let /session/end acquire the lock and enter its slow await
+    turn_resp = await client.post("/turn/text", json={"text": "Hallo"})
+    end_resp = await end_task
+    assert end_resp.status_code == 200
+    assert turn_resp.status_code == 400   # queued behind end, session already gone by its turn
+    assert turn_resp.json()["detail"] == "no open session"

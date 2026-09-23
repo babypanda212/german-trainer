@@ -1,3 +1,4 @@
+import asyncio
 from pathlib import Path
 from fastapi import FastAPI, UploadFile, File, HTTPException
 from fastapi.responses import FileResponse
@@ -21,39 +22,45 @@ _sid: int | None = None
 _idx = 0
 _level = "A2"
 _due_words: set[str] = set()
+# Session state (tutor/_sid/...) is mutable module globals shared across requests. Without
+# serializing the routes that touch it, a slow /session/end (awaiting the closing rating call)
+# can race a VAD-triggered /turn and hand it a half-torn-down session — crashing with an
+# AssertionError instead of a clean error. This lock makes those routes queue instead of race.
+_lock = asyncio.Lock()
 
 class TextTurn(BaseModel):
     text: str
 
 @app.post("/session/start")
 async def session_start():
-    global tutor, _sid, _idx, _level, _due_words
-    closed_previous = False
-    stale = store.open_session_id()
-    if stale is not None:
-        await _end(stale); closed_previous = True
-    recap = store.recap()
-    targets = store.next_targets(recap["level"], TARGETS_PER_SESSION)
-    tutor = Tutor(session_factory)
-    await tutor.start(recap, targets)
-    _sid = store.start_session(); _idx = 0; _level = recap["level"]
-    _due_words = {v["word"] for v in recap["due_vocab"]}
-    greeting_de = None
-    audio_url = None
-    try:
-        g = await tutor.opening()
-        greeting_de = g.reply_de
-        for w in g.targets_used:
-            store.mark_target_used(w, _level)
-            store.add_vocab(w, None, None)
+    async with _lock:
+        global tutor, _sid, _idx, _level, _due_words
+        closed_previous = False
+        stale = store.open_session_id()
+        if stale is not None:
+            await _end(stale); closed_previous = True
+        recap = store.recap()
+        targets = store.next_targets(recap["level"], TARGETS_PER_SESSION)
+        tutor = Tutor(session_factory)
+        await tutor.start(recap, targets)
+        _sid = store.start_session(); _idx = 0; _level = recap["level"]
+        _due_words = {v["word"] for v in recap["due_vocab"]}
+        greeting_de = None
+        audio_url = None
         try:
-            p = speak(greeting_de); audio_url = f"/audio/{p.name}"
-        except Exception:
-            pass
-    except TutorError:
-        pass  # no greeting available; the learner can still speak first — nothing is fabricated
-    return {"session_id": _sid, "level": recap["level"], "targets": [t["word"] for t in targets],
-            "closed_previous": closed_previous, "greeting_de": greeting_de, "audio_url": audio_url}
+            g = await tutor.opening()
+            greeting_de = g.reply_de
+            for w in g.targets_used:
+                store.mark_target_used(w, _level)
+                store.add_vocab(w, None, None)
+            try:
+                p = speak(greeting_de); audio_url = f"/audio/{p.name}"
+            except Exception:
+                pass
+        except TutorError:
+            pass  # no greeting available; the learner can still speak first — nothing is fabricated
+        return {"session_id": _sid, "level": recap["level"], "targets": [t["word"] for t in targets],
+                "closed_previous": closed_previous, "greeting_de": greeting_de, "audio_url": audio_url}
 
 async def _process(user_de: str, audio_path: str | None):
     global _idx
@@ -92,18 +99,20 @@ async def _process(user_de: str, audio_path: str | None):
 
 @app.post("/turn")
 async def turn(audio: UploadFile = File(...)):
-    if tutor is None or _sid is None:
-        raise HTTPException(400, "no open session")
-    text = transcribe(await audio.read())
-    if not text:
-        return {"transcript": "", "needs_retry": True}
-    return await _process(text, None)
+    async with _lock:
+        if tutor is None or _sid is None:
+            raise HTTPException(400, "no open session")
+        text = transcribe(await audio.read())
+        if not text:
+            return {"transcript": "", "needs_retry": True}
+        return await _process(text, None)
 
 @app.post("/turn/text")
 async def turn_text(body: TextTurn):
-    if tutor is None or _sid is None:
-        raise HTTPException(400, "no open session")
-    return await _process(body.text.strip(), None)
+    async with _lock:
+        if tutor is None or _sid is None:
+            raise HTTPException(400, "no open session")
+        return await _process(body.text.strip(), None)
 
 async def _end(sid: int) -> dict:
     global tutor, _sid
@@ -122,9 +131,10 @@ async def _end(sid: int) -> dict:
 
 @app.post("/session/end")
 async def session_end():
-    if _sid is None:
-        raise HTTPException(400, "no open session")
-    return await _end(_sid)
+    async with _lock:
+        if _sid is None:
+            raise HTTPException(400, "no open session")
+        return await _end(_sid)
 
 @app.get("/progress")
 async def progress():
