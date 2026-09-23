@@ -1,118 +1,27 @@
 <!doctype html>
 <html lang="de">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>German Trainer</title>
-<style>
-  :root { --bg:#fff; --fg:#111; --muted:#666; --accent:#1a5fb4; --ok:#2e7d32; --warn:#c62828; --card:#f5f5f5; }
-  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg:#121212; --fg:#eee; --muted:#aaa; --card:#1e1e1e; } }
-  body { margin:0; padding:16px; background:var(--bg); color:var(--fg); font:16px/1.5 system-ui, sans-serif; max-width:720px; margin-inline:auto; }
-  header { display:flex; justify-content:space-between; align-items:center; gap:8px; flex-wrap:wrap; }
-  button { font:inherit; padding:10px 16px; border-radius:8px; border:1px solid var(--muted); background:var(--card); color:var(--fg); cursor:pointer; }
-  #rec { width:100%; padding:24px; font-size:20px; margin:16px 0; }
-  #rec.active { background:var(--warn); color:#fff; }
-  .turn { padding:12px; border-radius:8px; background:var(--card); margin:8px 0; }
-  .you { border-left:4px solid var(--muted); } .tutor { border-left:4px solid var(--accent); }
-  .corr { color:var(--warn); font-size:14px; } .spoken { color:var(--ok); }
-  .muted { color:var(--muted); font-size:14px; }
-  .error { border-left:4px solid var(--warn); color:var(--warn); }
-  #confirm { display:none; margin:8px 0; } #confirm textarea { width:100%; font:inherit; min-height:60px; }
-  a { color:var(--accent); }
-</style>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>German Trainer · Sprechen</title>
+<link rel="stylesheet" href="/trainer.css">
+<script src="/trainer.js" defer></script>
 </head>
-<body>
-<header>
-  <div><strong>German Trainer</strong> <span id="level" class="muted"></span></div>
-  <div><a href="/progress.html">Fortschritt</a> <button id="end" disabled>Sitzung beenden</button></div>
-</header>
-<button id="start">Sitzung starten</button>
-<div id="targets" class="muted"></div>
-<button id="rec" disabled>Halten und sprechen</button>
-<div id="confirm">
-  <div class="muted">Verstanden als (bearbeiten, dann senden):</div>
-  <textarea id="transcript"></textarea>
-  <button id="send">Senden</button> <button id="retry">Nochmal aufnehmen</button>
+<body><div class="shell">
+<header class="topbar"><a class="brand" href="/"><span class="brandmark" aria-hidden="true">g.</span>German Trainer</a><nav aria-label="Hauptnavigation"><a href="/" aria-current="page">Üben</a><a href="/progress.html">Fortschritt</a></nav></header>
+<main>
+<div class="intro"><div><p class="eyebrow">Dein Raum für Deutsch</p><h1>Ein Gespräch weiter.</h1><p>Sprich frei. Finde deine Worte. Lerne im Gespräch.</p></div><span class="badge"><span class="dot" aria-hidden="true"></span>In deinem Tempo</span></div>
+<div id="error" class="notice" role="alert" hidden></div>
+<div class="workspace"><section aria-label="Gespräch mit deinem Tutor">
+<div class="conversation"><div class="panel-head"><h2>Dein Gespräch</h2><span id="status" class="badge" role="status">Bereit, wenn du es bist</span></div>
+<div id="log" class="log" role="log" aria-label="Gesprächsverlauf" aria-live="polite"><div id="empty" class="empty"><div class="voice-icon" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div><h2>Deutsch beginnt mit dir.</h2><p>Dein Tutor hört zu, fragt nach und hilft dir,<br> dich sicherer auszudrücken.</p><button id="start" class="primary">Gespräch starten <span aria-hidden="true">↗</span></button><small>Kein perfekter Satz nötig. Fang einfach an.</small></div></div>
+<div id="processing" class="processing" role="status" aria-live="polite" hidden>
+  <span class="thinking-dots" aria-hidden="true"><i></i><i></i><i></i></span>
+  <div><strong id="processing-title">Dein Tutor denkt nach …</strong><p id="processing-detail">Deine Antwort wird verarbeitet.</p></div>
+  <span id="processing-time" aria-hidden="true">0 s</span>
 </div>
-<div id="log"></div>
-<div id="summary"></div>
-<script>
-const $ = id => document.getElementById(id);
-let rec, chunks = [], lastAudio = null;
-
-// Every failure is shown in the log, never swallowed. A 4xx/5xx response throws here.
-async function post(u, o) {
-  const r = await fetch(u, o);
-  const body = await r.json();
-  if (!r.ok) throw new Error(body.detail || `${r.status} ${r.statusText}`);
-  return body;
-}
-function showError(e) {
-  $('log').insertAdjacentHTML('beforeend', `<div class="turn error">Fehler: ${e.message}</div>`);
-  window.scrollTo(0, document.body.scrollHeight);
-}
-
-$('start').onclick = async () => {
-  try {
-    const s = await post('/session/start', {method:'POST'});
-    $('level').textContent = `Niveau ${s.level}`;
-    $('targets').textContent = 'Zielwörter: ' + s.targets.join(', ');
-    $('rec').disabled = false; $('end').disabled = false; $('start').disabled = true;
-    $('log').innerHTML = ''; $('summary').innerHTML = '';
-    if (s.greeting_de) {
-      $('log').insertAdjacentHTML('beforeend', `<div class="turn tutor">${s.greeting_de}</div>`);
-      if (s.audio_url) { lastAudio = new Audio(s.audio_url); lastAudio.play(); }
-    } else {
-      $('log').insertAdjacentHTML('beforeend', `<div class="turn muted">(Kein Gruß diesmal &mdash; einfach lossprechen.)</div>`);
-    }
-  } catch (e) { showError(e); }
-};
-
-$('end').onclick = async () => {
-  try {
-    const s = await post('/session/end', {method:'POST'});
-    $('summary').innerHTML = `<div class="turn"><strong>${s.level}</strong> (range ${s.range}, accuracy ${s.accuracy}, fluency ${s.fluency}, coherence ${s.coherence})<br>${s.summary}</div>`;
-    $('rec').disabled = true; $('end').disabled = true; $('start').disabled = false;
-  } catch (e) { showError(e); }
-};
-
-async function startRec() {
-  const stream = await navigator.mediaDevices.getUserMedia({audio:true});
-  rec = new MediaRecorder(stream, {mimeType:'audio/webm'}); chunks = [];
-  rec.ondataavailable = e => chunks.push(e.data);
-  rec.onstop = async () => {
-    stream.getTracks().forEach(t => t.stop());
-    try {
-      const blob = new Blob(chunks, {type:'audio/webm'});
-      const fd = new FormData(); fd.append('audio', blob, 'a.webm');
-      const r = await post('/turn', {method:'POST', body: fd});
-      if (r.needs_retry) { $('transcript').value = ''; $('confirm').style.display = 'block'; return; }
-      render(r);
-    } catch (e) { showError(e); }
-  };
-  rec.start(); $('rec').classList.add('active');
-}
-function stopRec() { if (rec && rec.state === 'recording') rec.stop(); $('rec').classList.remove('active'); }
-$('rec').onpointerdown = startRec; $('rec').onpointerup = stopRec; $('rec').onpointerleave = stopRec;
-
-$('send').onclick = async () => {
-  const text = $('transcript').value.trim(); if (!text) return;
-  $('confirm').style.display = 'none';
-  try {
-    render(await post('/turn/text', {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({text})}));
-  } catch (e) { showError(e); }
-};
-$('retry').onclick = () => { $('confirm').style.display = 'none'; };
-
-function render(r) {
-  const log = $('log');
-  const corr = r.corrections.map(c => `<div class="corr">${c.type}: „${c.original}“ → „${c.corrected}“ <span class="muted">${c.explanation}</span></div>`).join('');
-  log.insertAdjacentHTML('beforeend', `<div class="turn you">${r.transcript}${corr}</div>`);
-  const spoken = r.spoken_correction ? `<div class="spoken">${r.spoken_correction}</div>` : '';
-  log.insertAdjacentHTML('beforeend', `<div class="turn tutor">${spoken}${r.reply_de}</div>`);
-  if (r.audio_url) { lastAudio = new Audio(r.audio_url); lastAudio.play(); }
-  window.scrollTo(0, document.body.scrollHeight);
-}
-</script>
-</body>
-</html>
+<div class="composer"><div class="record-row"><button id="rec" disabled aria-label="Zuhören pausieren oder fortsetzen" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="9" y="3" width="6" height="12" rx="3"/><path d="M5 10v2a7 7 0 0 0 14 0v-2M12 19v3m-4 0h8"/></svg></button><div class="record-copy"><strong id="record-title">Deine Stimme ist dran.</strong><p id="record-hint">Starte ein Gespräch, um loszulegen.</p></div></div><button id="type" class="text-button" disabled>Lieber eine Antwort schreiben</button>
+<form id="confirm" hidden><label for="transcript" id="transcript-label">Deine Antwort auf Deutsch</label><textarea id="transcript" placeholder="Was möchtest du erzählen?" maxlength="10000"></textarea><div class="form-actions"><button id="send" class="primary" type="submit">Antwort senden</button><button id="retry" type="button">Zurück zum Mikrofon</button></div></form></div></div>
+<div class="session-actions"><span id="turn-count" class="muted">Ein Schritt nach dem anderen.</span><div><button id="restart" class="primary" hidden>Neues Gespräch</button><button id="end" disabled>Sitzung beenden</button></div></div>
+<section id="summary" class="summary" aria-label="Zusammenfassung" hidden></section>
+</section><aside><section class="side-card"><div class="label"><h2>Wörter für heute</h2><span id="level" class="badge">Niveau: offen</span></div><p>Diese Wörter greift dein Tutor im Gespräch auf. Probiere sie in deinen Antworten aus.</p><ul id="targets" class="word-list"><li>Nach dem Start verfügbar</li></ul></section><section class="side-card guide"><p class="eyebrow">So funktioniert’s</p><h2>Weniger grübeln.<br>Mehr sprechen.</h2><ol><li>Starte dein Gespräch.</li><li>Sprich einfach - dein Tutor hört automatisch zu.</li><li>Kurze Pause machen, schon kommt die Antwort.</li></ol><p>Das Mikrofon-Symbol pausiert oder aktiviert das Zuhören manuell.</p></section></aside></div>
+</main><footer class="footer"><span>Dein Deutsch. Dein Tempo.</span><span>Sprachpraxis mit persönlichem Feedback</span></footer></div></body></html>
