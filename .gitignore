@@ -3,3 +3,7 @@ data/*
 __pycache__/
 *.pyc
 .pytest_cache/
+
+# Copyrighted publisher source PDFs — kept locally, never pushed. The app only reads the
+# derived docs/vocabulary/cleaned/entries-with-provenance.json, not these.
+docs/vocabulary/*.pdf
