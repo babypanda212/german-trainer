@@ -5,7 +5,7 @@ from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 
 from trainer.store import Store
-from trainer.tutor import Tutor, claude_session_factory
+from trainer.tutor import Tutor, TutorError, claude_session_factory
 from trainer.stt import transcribe
 from trainer.tts import speak, AUDIO_DIR
 
@@ -38,12 +38,29 @@ async def session_start():
     await tutor.start(recap, targets)
     _sid = store.start_session(); _idx = 0; _level = recap["level"]
     _due_words = {v["word"] for v in recap["due_vocab"]}
+    greeting_de = None
+    audio_url = None
+    try:
+        g = await tutor.opening()
+        greeting_de = g.reply_de
+        for w in g.targets_used:
+            store.mark_target_used(w, _level)
+            store.add_vocab(w, None, None)
+        try:
+            p = speak(greeting_de); audio_url = f"/audio/{p.name}"
+        except Exception:
+            pass
+    except TutorError:
+        pass  # no greeting available; the learner can still speak first — nothing is fabricated
     return {"session_id": _sid, "level": recap["level"], "targets": [t["word"] for t in targets],
-            "closed_previous": closed_previous}
+            "closed_previous": closed_previous, "greeting_de": greeting_de, "audio_url": audio_url}
 
 async def _process(user_de: str, audio_path: str | None):
     global _idx
-    r = await tutor.turn(user_de)
+    try:
+        r = await tutor.turn(user_de)
+    except TutorError as e:
+        raise HTTPException(502, str(e))
     tid = store.add_turn(_sid, _idx, user_de, r.reply_de, audio_path, len(user_de.split()))
     _idx += 1
     corrected_words = set()
@@ -62,7 +79,7 @@ async def _process(user_de: str, audio_path: str | None):
     except Exception:
         pass
     return {"transcript": user_de, "reply_de": r.reply_de, "spoken_correction": r.spoken_correction,
-            "corrections": r.corrections, "audio_url": audio_url, "degraded": r.degraded}
+            "corrections": r.corrections, "audio_url": audio_url}
 
 @app.post("/turn")
 async def turn(audio: UploadFile = File(...)):
@@ -84,7 +101,10 @@ async def _end(sid: int) -> dict:
     turns = store.turns(sid)
     if tutor is None:
         tutor = Tutor(session_factory)
-    summ = await tutor.close([t["user_de"] for t in turns], store.error_rate(sid))
+    try:
+        summ = await tutor.close([t["user_de"] for t in turns], store.error_rate(sid))
+    except TutorError as e:
+        raise HTTPException(502, str(e))
     store.end_session(sid, summ["level"], summ, summ["summary"])
     for v in summ.get("vocab", []):
         store.add_vocab(v["word"], v["gloss"], None)

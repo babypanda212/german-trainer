@@ -63,13 +63,22 @@ or null if the turn was fine. Do not put corrections inside reply_de.
 {RUBRIC}
 """
 
+class TutorError(RuntimeError):
+    """Raised when the tutor backend fails to produce a usable structured reply.
+    Never papered over with a canned/placeholder result — callers must handle it explicitly."""
+
+OPENING_INSTRUCTION = (
+    "(No learner turn: this is the start of the session. Greet the learner in German and ask one short, "
+    "level-appropriate question to open the conversation. corrections must be an empty list — there is "
+    "nothing to correct yet.)"
+)
+
 @dataclass
 class TurnResult:
     reply_de: str
     spoken_correction: str | None
     corrections: list[dict]
     targets_used: list[str]
-    degraded: bool = False
 
 class Session(Protocol):
     async def turn(self, prompt: str) -> dict | None: ...
@@ -94,9 +103,14 @@ class Tutor:
         if data is None:
             data = await self._session.turn(user_de)
         if data is None:
-            return TurnResult("Entschuldigung, kannst du das noch einmal sagen?", None, [], [], degraded=True)
+            raise TutorError("Tutor did not return a valid structured reply after one retry.")
         return TurnResult(data["reply_de"], data.get("spoken_correction"), data.get("corrections", []),
                           data.get("targets_used", []))
+
+    async def opening(self) -> TurnResult:
+        """First line of the session: no learner turn to reply to, so this bypasses `turn`'s
+        normal (transcript, reply) pairing. Caller must not log this as a learner turn."""
+        return await self.turn(OPENING_INSTRUCTION)
 
     async def close(self, user_turns: list[str], error_rate: float) -> dict:
         if self._session is not None:
@@ -108,11 +122,12 @@ class Tutor:
                   "Score the four criteria 1-6, write a 3-sentence English summary of what to work on, "
                   "and list up to 8 useful German words the learner used or was corrected on, with a short English gloss.")
         summ = self._factory("You are a strict CEFR rater for German speaking.", SUMMARY_SCHEMA)
-        data = await summ.turn(prompt)
-        await summ.close()
+        try:
+            data = await summ.turn(prompt)
+        finally:
+            await summ.close()
         if data is None:
-            data = {"range": 3, "accuracy": 3, "fluency": 3, "coherence": 3,
-                    "summary": "Rating failed; scores are placeholders.", "vocab": []}
+            raise TutorError("Tutor did not return a valid session summary after the rating call.")
         data["level"] = derive_level(data["range"], data["accuracy"], data["fluency"], data["coherence"])
         return data
 

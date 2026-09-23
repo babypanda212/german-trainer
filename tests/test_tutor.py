@@ -1,6 +1,6 @@
 import pytest
 from pathlib import Path
-from trainer.tutor import Tutor, build_system_prompt, TURN_SCHEMA, SUMMARY_SCHEMA
+from trainer.tutor import Tutor, build_system_prompt, TURN_SCHEMA, SUMMARY_SCHEMA, TutorError
 
 class FakeSession:
     def __init__(self, replies):
@@ -39,7 +39,7 @@ async def test_turn_parses_reply():
     assert fake.prompts[-1] == "Ich wohne in der Haus."
 
 @pytest.mark.asyncio
-async def test_turn_retries_once_then_degrades():
+async def test_turn_retries_once_then_raises():
     good = {"reply_de": "Ok.", "spoken_correction": None, "corrections": [], "targets_used": []}
     fake = FakeSession([None, good])
     t = Tutor(session_factory=lambda sp, schema: fake)
@@ -50,8 +50,8 @@ async def test_turn_retries_once_then_degrades():
     fake2 = FakeSession([None, None])
     t2 = Tutor(session_factory=lambda sp, schema: fake2)
     await t2.start(RECAP, TARGETS)
-    r2 = await t2.turn("Hallo")
-    assert r2.degraded is True and r2.corrections == []
+    with pytest.raises(TutorError):
+        await t2.turn("Hallo")
 
 @pytest.mark.asyncio
 async def test_close_returns_summary_and_closes_session():
@@ -68,3 +68,27 @@ async def test_close_returns_summary_and_closes_session():
     assert s["level"] == "B1" and s["fluency"] == 4
     assert fake.closed and summ_fake.closed
     assert SUMMARY_SCHEMA in made
+
+@pytest.mark.asyncio
+async def test_close_raises_when_summary_fails_but_still_closes_session():
+    fake = FakeSession([])
+    summ_fake = FakeSession([None])
+    def factory(sp, schema):
+        return fake if schema is TURN_SCHEMA else summ_fake
+    t = Tutor(session_factory=factory)
+    await t.start(RECAP, TARGETS)
+    with pytest.raises(TutorError):
+        await t.close(user_turns=["x"], error_rate=0.0)
+    assert fake.closed and summ_fake.closed   # cleanup still happens on failure
+
+@pytest.mark.asyncio
+async def test_opening_asks_for_a_greeting_with_no_learner_turn():
+    reply = {"reply_de": "Hallo! Wie war dein Tag?", "spoken_correction": None,
+             "corrections": [], "targets_used": ["Haus"]}
+    fake = FakeSession([reply])
+    t = Tutor(session_factory=lambda sp, schema: fake)
+    await t.start(RECAP, TARGETS)
+    r = await t.opening()
+    assert r.reply_de == "Hallo! Wie war dein Tag?"
+    assert r.targets_used == ["Haus"]
+    assert "no learner turn" in fake.prompts[-1].lower()

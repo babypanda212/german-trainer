@@ -16,6 +16,7 @@
   .you { border-left:4px solid var(--muted); } .tutor { border-left:4px solid var(--accent); }
   .corr { color:var(--warn); font-size:14px; } .spoken { color:var(--ok); }
   .muted { color:var(--muted); font-size:14px; }
+  .error { border-left:4px solid var(--warn); color:var(--warn); }
   #confirm { display:none; margin:8px 0; } #confirm textarea { width:100%; font:inherit; min-height:60px; }
   a { color:var(--accent); }
 </style>
@@ -38,20 +39,41 @@
 <script>
 const $ = id => document.getElementById(id);
 let rec, chunks = [], lastAudio = null;
-const post = (u, o) => fetch(u, o).then(r => r.json());
+
+// Every failure is shown in the log, never swallowed. A 4xx/5xx response throws here.
+async function post(u, o) {
+  const r = await fetch(u, o);
+  const body = await r.json();
+  if (!r.ok) throw new Error(body.detail || `${r.status} ${r.statusText}`);
+  return body;
+}
+function showError(e) {
+  $('log').insertAdjacentHTML('beforeend', `<div class="turn error">Fehler: ${e.message}</div>`);
+  window.scrollTo(0, document.body.scrollHeight);
+}
 
 $('start').onclick = async () => {
-  const s = await post('/session/start', {method:'POST'});
-  $('level').textContent = `Niveau ${s.level}`;
-  $('targets').textContent = 'Zielwörter: ' + s.targets.join(', ');
-  $('rec').disabled = false; $('end').disabled = false; $('start').disabled = true;
-  $('log').innerHTML = ''; $('summary').innerHTML = '';
+  try {
+    const s = await post('/session/start', {method:'POST'});
+    $('level').textContent = `Niveau ${s.level}`;
+    $('targets').textContent = 'Zielwörter: ' + s.targets.join(', ');
+    $('rec').disabled = false; $('end').disabled = false; $('start').disabled = true;
+    $('log').innerHTML = ''; $('summary').innerHTML = '';
+    if (s.greeting_de) {
+      $('log').insertAdjacentHTML('beforeend', `<div class="turn tutor">${s.greeting_de}</div>`);
+      if (s.audio_url) { lastAudio = new Audio(s.audio_url); lastAudio.play(); }
+    } else {
+      $('log').insertAdjacentHTML('beforeend', `<div class="turn muted">(Kein Gruß diesmal &mdash; einfach lossprechen.)</div>`);
+    }
+  } catch (e) { showError(e); }
 };
 
 $('end').onclick = async () => {
-  const s = await post('/session/end', {method:'POST'});
-  $('summary').innerHTML = `<div class="turn"><strong>${s.level}</strong> (range ${s.range}, accuracy ${s.accuracy}, fluency ${s.fluency}, coherence ${s.coherence})<br>${s.summary}</div>`;
-  $('rec').disabled = true; $('end').disabled = true; $('start').disabled = false;
+  try {
+    const s = await post('/session/end', {method:'POST'});
+    $('summary').innerHTML = `<div class="turn"><strong>${s.level}</strong> (range ${s.range}, accuracy ${s.accuracy}, fluency ${s.fluency}, coherence ${s.coherence})<br>${s.summary}</div>`;
+    $('rec').disabled = true; $('end').disabled = true; $('start').disabled = false;
+  } catch (e) { showError(e); }
 };
 
 async function startRec() {
@@ -60,11 +82,13 @@ async function startRec() {
   rec.ondataavailable = e => chunks.push(e.data);
   rec.onstop = async () => {
     stream.getTracks().forEach(t => t.stop());
-    const blob = new Blob(chunks, {type:'audio/webm'});
-    const fd = new FormData(); fd.append('audio', blob, 'a.webm');
-    const r = await post('/turn', {method:'POST', body: fd});
-    if (r.needs_retry) { $('transcript').value = ''; $('confirm').style.display = 'block'; return; }
-    render(r);
+    try {
+      const blob = new Blob(chunks, {type:'audio/webm'});
+      const fd = new FormData(); fd.append('audio', blob, 'a.webm');
+      const r = await post('/turn', {method:'POST', body: fd});
+      if (r.needs_retry) { $('transcript').value = ''; $('confirm').style.display = 'block'; return; }
+      render(r);
+    } catch (e) { showError(e); }
   };
   rec.start(); $('rec').classList.add('active');
 }
@@ -74,7 +98,9 @@ $('rec').onpointerdown = startRec; $('rec').onpointerup = stopRec; $('rec').onpo
 $('send').onclick = async () => {
   const text = $('transcript').value.trim(); if (!text) return;
   $('confirm').style.display = 'none';
-  render(await post('/turn/text', {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({text})}));
+  try {
+    render(await post('/turn/text', {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({text})}));
+  } catch (e) { showError(e); }
 };
 $('retry').onclick = () => { $('confirm').style.display = 'none'; };
 
@@ -83,7 +109,7 @@ function render(r) {
   const corr = r.corrections.map(c => `<div class="corr">${c.type}: „${c.original}“ → „${c.corrected}“ <span class="muted">${c.explanation}</span></div>`).join('');
   log.insertAdjacentHTML('beforeend', `<div class="turn you">${r.transcript}${corr}</div>`);
   const spoken = r.spoken_correction ? `<div class="spoken">${r.spoken_correction}</div>` : '';
-  log.insertAdjacentHTML('beforeend', `<div class="turn tutor">${spoken}${r.reply_de}${r.degraded ? ' <span class="muted">(Antwort ohne Korrekturen)</span>' : ''}</div>`);
+  log.insertAdjacentHTML('beforeend', `<div class="turn tutor">${spoken}${r.reply_de}</div>`);
   if (r.audio_url) { lastAudio = new Audio(r.audio_url); lastAudio.play(); }
   window.scrollTo(0, document.body.scrollHeight);
 }
