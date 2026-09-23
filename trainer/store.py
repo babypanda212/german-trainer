@@ -91,3 +91,69 @@ class Store:
         words = self.conn.execute("select coalesce(sum(words),0) w from turns where session_id=?", (sid,)).fetchone()["w"]
         errs = len(self.mistakes(sid))
         return round(100.0 * errs / words, 2) if words else 0.0
+
+    # vocab (SM-2)
+    def add_vocab(self, word: str, gloss: str | None, source_turn_id: int | None) -> None:
+        self.conn.execute(
+            "insert or ignore into vocab(word, gloss, source_turn_id, due_at) values (?,?,?,?)",
+            (word, gloss, source_turn_id, _now()))
+        self.conn.commit()
+
+    def get_vocab(self, word: str) -> dict | None:
+        r = self.conn.execute("select * from vocab where word=?", (word,)).fetchone()
+        return dict(r) if r else None
+
+    def review_vocab(self, word: str, quality: int) -> None:
+        """SM-2. quality 0-5; <3 resets interval."""
+        v = self.get_vocab(word)
+        if v is None:
+            return
+        ease = max(1.3, v["ease"] + 0.1 - (5 - quality) * (0.08 + (5 - quality) * 0.02))
+        if quality < 3:
+            interval = 1.0
+        elif v["interval_days"] <= 1:
+            interval = 6.0
+        else:
+            interval = round(v["interval_days"] * ease, 1)
+        due = (datetime.now() + timedelta(days=interval)).isoformat(timespec="seconds")
+        self.conn.execute("update vocab set interval_days=?, ease=?, due_at=? where word=?",
+                          (interval, ease, due, word))
+        self.conn.commit()
+
+    def due_vocab(self, limit: int = 5) -> list[dict]:
+        return [dict(r) for r in self.conn.execute(
+            "select * from vocab where due_at <= ? order by due_at limit ?", (_now(), limit))]
+
+    def all_vocab(self) -> list[dict]:
+        return [dict(r) for r in self.conn.execute("select * from vocab order by word")]
+
+    # target vocab
+    def add_target(self, word: str, level: str, source: str, gloss: str | None) -> None:
+        self.conn.execute(
+            "insert or ignore into target_vocab(word, level, source, gloss) values (?,?,?,?)",
+            (word, level, source, gloss))
+
+    def commit(self) -> None:
+        self.conn.commit()
+
+    def next_targets(self, level: str, n: int = 10) -> list[dict]:
+        return [dict(r) for r in self.conn.execute(
+            "select * from target_vocab where level=? order by times_used, random() limit ?", (level, n))]
+
+    def mark_target_used(self, word: str, level: str) -> None:
+        self.conn.execute(
+            "update target_vocab set times_used=times_used+1, introduced_at=coalesce(introduced_at, ?) where word=? and level=?",
+            (_now(), word, level))
+        self.conn.commit()
+
+    def target_counts(self) -> dict[str, int]:
+        return {r["level"]: r["n"] for r in self.conn.execute(
+            "select level, count(*) n from target_vocab group by level")}
+
+    # recap for session start
+    def recap(self) -> dict:
+        last = self.conn.execute(
+            "select level_est from sessions where ended_at is not null order by id desc limit 1").fetchone()
+        level = last["level_est"] if last and last["level_est"] else "A2"
+        top = list(self.mistake_counts(10).keys())[:3]
+        return {"level": level, "top_mistakes": top, "due_vocab": self.due_vocab(5)}
