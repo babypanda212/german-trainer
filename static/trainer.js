@@ -71,9 +71,9 @@ function play(url) {
   lastAudio = new Audio(url);
   lastAudio.play().catch(() => error('Die Audioantwort konnte nicht abgespielt werden. Du kannst sie erneut anhören oder den Text lesen.'));
 }
-// Awaited version used only for the sequenced correction -> pause -> reply flow, so the mic
-// stays paused until the tutor is actually done talking. Never rejects: a playback glitch
-// shouldn't block the conversation, it just resolves early.
+// Awaited version used for the tutor's reply audio, so the mic stays paused until the tutor
+// is actually done talking. Never rejects: a playback glitch shouldn't block the conversation,
+// it just resolves early.
 function playAwait(url) {
   return new Promise(resolve => {
     if (!url) { resolve(); return; }
@@ -93,16 +93,10 @@ function replayableTurn(className, label, text, audio) {
   $('log').append(node); scrollLog();
   return node;
 }
-// One correction at most, spoken alone with a pause before the next question - not sandwiched
-// together, so there's a real moment to notice it before attention moves on.
-async function tutorTurn(text, audio, spoken, correctionAudio) {
-  if (spoken) {
-    status('Dein Tutor erklärt eine Korrektur …');
-    $('record-title').textContent = 'Eine kleine Korrektur.';
-    replayableTurn('correction', 'Kleine Korrektur', spoken, correctionAudio);
-    await playAwait(correctionAudio);
-    await new Promise(res => setTimeout(res, 1200));
-  }
+// One turn, one bubble, one audio clip. Any correction is already woven into the text itself
+// as a brief recast + a follow-up question that requires reusing the corrected form (see
+// tutor.py) - not a separate paced beat before the reply.
+async function tutorTurn(text, audio) {
   status(audio ? 'Dein Tutor spricht …' : 'Antwort erhalten');
   $('record-title').textContent = audio ? 'Dein Tutor spricht.' : 'Antwort erhalten.';
   $('record-hint').textContent = audio ? 'Hör kurz zu. Danach bist du wieder dran.' : 'Du kannst auf die Antwort reagieren.';
@@ -157,13 +151,13 @@ function showText(label = 'Deine Antwort auf Deutsch') {
 }
 $('type').onclick = () => showText();
 $('retry').onclick = () => { $('confirm').hidden = true; $('rec').focus(); };
-// Every detected mistake is still logged to your progress data (see /progress) - only the
-// one selected correction is ever shown or spoken here, never the full list per turn.
+// Every detected mistake is still logged to your progress data (see /progress). Only the one
+// the tutor chose to build its reply around is ever surfaced live, woven into reply_de itself.
 async function render(r) {
   const node = el('article', 'turn you');
   node.append(el('div', 'turn-label', 'Du'), el('div', 'turn-body', r.transcript));
   $('log').append(node);
-  await tutorTurn(r.reply_de, r.audio_url, r.spoken_correction, r.correction_audio_url);
+  await tutorTurn(r.reply_de, r.audio_url);
   turns += 1; $('turn-count').textContent = `${turns} ${turns === 1 ? 'Antwort' : 'Antworten'} von dir`;
 }
 async function submitTurn(url, options) {

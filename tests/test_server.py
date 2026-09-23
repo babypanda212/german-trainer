@@ -11,9 +11,9 @@ class FakeSession:
         if "CEFR rater" in self.sp:
             return {"range": 3, "accuracy": 3, "fluency": 3, "coherence": 3, "summary": "s",
                     "vocab": [{"word": "Bahnhof", "gloss": "station"}]}
-        return {"reply_de": "Schön! Und dann?",
+        return {"reply_de": "Ah, du bist gegangen — und wohin genau bist du gegangen?",
                 "corrections": [{"type": "conjugation", "original": "habe gegangen", "corrected": "bin gegangen",
-                                  "explanation": "e", "recast": "Ah, du meinst: „ich bin gegangen“."}],
+                                  "explanation": "e"}],
                 "targets_used": ["Bahnhof"]}
     async def close(self): pass
 
@@ -39,14 +39,13 @@ async def test_full_session_flow(client):
     r = await client.post("/session/start"); assert r.status_code == 200
     body = r.json()
     sid = body["session_id"]
-    assert body["greeting_de"] == "Schön! Und dann?"   # opening line, from the same fake reply
+    assert body["greeting_de"] == "Ah, du bist gegangen — und wohin genau bist du gegangen?"   # same fake reply
     assert body["audio_url"].startswith("/audio/")
     r = await client.post("/turn", files={"audio": ("a.webm", b"xx", "audio/webm")})
     body = r.json()
     assert body["transcript"] == "Ich habe zum Bahnhof gegangen."
-    assert body["reply_de"] == "Schön! Und dann?"
-    assert body["spoken_correction"] == "Ah, du meinst: „ich bin gegangen“."   # the recast, spoken separately
-    assert body["correction_audio_url"].startswith("/audio/")
+    assert body["reply_de"] == "Ah, du bist gegangen — und wohin genau bist du gegangen?"
+    assert "spoken_correction" not in body and "correction_audio_url" not in body   # merged into reply_de
     assert body["corrections"][0]["type"] == "conjugation"   # full list still logged
     assert body["audio_url"].startswith("/audio/")
     assert "degraded" not in body   # no fabricated-fallback field

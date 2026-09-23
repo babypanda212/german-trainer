@@ -1,6 +1,6 @@
 import pytest
 from pathlib import Path
-from trainer.tutor import Tutor, build_system_prompt, select_recast, TURN_SCHEMA, SUMMARY_SCHEMA, TutorError
+from trainer.tutor import Tutor, build_system_prompt, TURN_SCHEMA, SUMMARY_SCHEMA, TutorError
 
 class FakeSession:
     def __init__(self, replies):
@@ -24,51 +24,26 @@ def test_system_prompt_c1_adds_word_formation():
     p = build_system_prompt({**RECAP, "level": "C1"}, [])
     assert "Wortbildung" in p
 
-def test_system_prompt_asks_for_recast_not_explanation():
+def test_system_prompt_asks_for_elicitation_not_separate_recast():
     p = build_system_prompt(RECAP, TARGETS)
-    assert "recast" in p and "notices the difference themselves" in p
-
-# --- select_recast: pure selection logic, no LLM involved ------------------------------
-
-def test_select_recast_prefers_top_historical_type():
-    corrections = [
-        {"type": "word_order", "recast": "recast-word-order"},
-        {"type": "case", "recast": "recast-case"},
-    ]
-    # RECAP-style ordering: most frequent first
-    assert select_recast(corrections, ["gender", "case"])["recast"] == "recast-case"
-
-def test_select_recast_falls_back_to_first_when_no_match():
-    corrections = [{"type": "word_order", "recast": "recast-word-order"}]
-    assert select_recast(corrections, ["gender", "case"])["recast"] == "recast-word-order"
-
-def test_select_recast_none_when_no_corrections():
-    assert select_recast([], ["gender"]) is None
+    assert "must produce it themselves" in p
+    assert "recurring mistake types ({top})".format(top="gender, case") in p
 
 @pytest.mark.asyncio
-async def test_turn_parses_reply_and_selects_recast():
-    reply = {"reply_de": "Gut! Wo wohnst du?",
+async def test_turn_parses_reply_with_corrections_logged_but_not_spoken_separately():
+    reply = {"reply_de": "Ah, du bist gestern in die Stadt gegangen — wann genau bist du losgegangen?",
              "corrections": [{"type": "gender", "original": "der Haus", "corrected": "das Haus",
-                               "explanation": "Haus is neuter", "recast": "Ah, du meinst: „das Haus“."}],
+                               "explanation": "Haus is neuter"}],
              "targets_used": ["Haus"]}
     fake = FakeSession([reply])
     t = Tutor(session_factory=lambda sp, schema: fake)
-    await t.start(RECAP, TARGETS)   # RECAP's top_mistakes includes "gender"
+    await t.start(RECAP, TARGETS)
     r = await t.turn("Ich wohne in der Haus.")
-    assert r.reply_de == "Gut! Wo wohnst du?"
-    assert r.spoken_correction == "Ah, du meinst: „das Haus“."   # the recast, not an explanation
-    assert r.corrections[0]["type"] == "gender"                  # full list still available for logging
+    assert r.reply_de == reply["reply_de"]         # correction + elicitation woven into one reply
+    assert not hasattr(r, "spoken_correction")      # no longer a separate field
+    assert r.corrections[0]["type"] == "gender"     # full list still available for progress logging
     assert r.targets_used == ["Haus"]
     assert fake.prompts[-1] == "Ich wohne in der Haus."
-
-@pytest.mark.asyncio
-async def test_turn_with_no_corrections_has_no_spoken_correction():
-    reply = {"reply_de": "Super!", "corrections": [], "targets_used": []}
-    fake = FakeSession([reply])
-    t = Tutor(session_factory=lambda sp, schema: fake)
-    await t.start(RECAP, TARGETS)
-    r = await t.turn("Alles gut.")
-    assert r.spoken_correction is None
 
 @pytest.mark.asyncio
 async def test_turn_retries_once_then_raises():
