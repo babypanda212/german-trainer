@@ -69,6 +69,15 @@ def test_target_vocab_next_and_mark(store):
     assert nxt[0]["word"] == "Auto"           # least used first
     assert store.next_targets("C2") == []
 
+def test_target_vocab_glosses(store):
+    store.add_target("Haus", "A1", "goethe_dwds", "das Haus")
+    store.add_target("Abbau", "B2", "aspekte_neu", None)
+    store.commit()
+    glosses = store.target_vocab_glosses()
+    assert glosses["Haus"] == "das Haus"
+    assert glosses["Abbau"] is None
+    assert "nonexistent" not in glosses
+
 def test_recap(store):
     sid = store.start_session()
     tid = store.add_turn(sid, 0, "x", "y", None, 10)

@@ -16,8 +16,10 @@ TURN_SCHEMA = {
                 "explanation": {"type": "string"}},
             "required": ["type", "original", "corrected", "explanation"]}},
         "targets_used": {"type": "array", "items": {"type": "string"}},
+        "asked_about": {"type": ["string", "null"]},
+        "asked_about_gloss": {"type": ["string", "null"]},
     },
-    "required": ["reply_de", "corrections", "targets_used"],
+    "required": ["reply_de", "corrections", "targets_used", "asked_about", "asked_about_gloss"],
 }
 
 SUMMARY_SCHEMA = {
@@ -70,6 +72,11 @@ in a question):
      again. This is the actual point: the learner must produce it themselves, not just hear it once.
 If there were no corrections this turn, just continue the conversation normally with a question.
 
+Vocabulary knowledge: if the learner explicitly asks what a German word means, or asks for its
+translation, set `asked_about` to that exact word (as they wrote or said it) and `asked_about_gloss`
+to a short English gloss. Otherwise both are null. At most one word per turn — the learner will
+never ask about more than one word at once, so if several could apply, name only the clearest one.
+
 {RUBRIC}
 """
 
@@ -88,6 +95,8 @@ class TurnResult:
     reply_de: str
     corrections: list[dict]
     targets_used: list[str]
+    asked_about: str | None = None
+    asked_about_gloss: str | None = None
 
 class Session(Protocol):
     async def turn(self, prompt: str) -> dict | None: ...
@@ -113,7 +122,8 @@ class Tutor:
             data = await self._session.turn(user_de)
         if data is None:
             raise TutorError("Tutor did not return a valid structured reply after one retry.")
-        return TurnResult(data["reply_de"], data.get("corrections", []), data.get("targets_used", []))
+        return TurnResult(data["reply_de"], data.get("corrections", []), data.get("targets_used", []),
+                          data.get("asked_about"), data.get("asked_about_gloss"))
 
     async def opening(self) -> TurnResult:
         """First line of the session: no learner turn to reply to, so this bypasses `turn`'s

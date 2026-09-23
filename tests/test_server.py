@@ -56,6 +56,35 @@ async def test_full_session_flow(client):
     assert st.next_targets("A2", 1)[0]["times_used"] == 2   # once from the opening, once from the real turn
     assert st.get_vocab("Bahnhof") is not None
 
+async def test_using_target_words_without_asking_counts_as_known(client, monkeypatch):
+    store = server.store
+    store.add_target("Brot", "A2", "goethe_dwds", "das Brot"); store.commit()
+    monkeypatch.setattr(server, "transcribe", lambda b: "Ich kaufe Brot am Bahnhof.")
+    await client.post("/session/start")
+    await client.post("/turn", files={"audio": ("a.webm", b"xx", "audio/webm")})
+    # Fresh words, used without asking: both pass (quality 4) and jump straight to the SM-2
+    # second-review interval (6 days) - the exact schedule already unit-tested in test_store.py.
+    assert store.get_vocab("Bahnhof")["interval_days"] == 6
+    assert store.get_vocab("Brot")["interval_days"] == 6
+
+async def test_asking_about_one_word_excludes_the_other_matched_word_this_turn(client, monkeypatch):
+    class AskingSession:
+        def __init__(self, sp, schema): pass
+        async def turn(self, prompt):
+            return {"reply_de": "Ein Bahnhof ist der Ort, wo Züge halten.",
+                    "corrections": [], "targets_used": [],
+                    "asked_about": "Bahnhof", "asked_about_gloss": "train station"}
+        async def close(self): pass
+    store = server.store
+    store.add_target("Brot", "A2", "goethe_dwds", "das Brot"); store.commit()
+    monkeypatch.setattr(server, "session_factory", AskingSession)
+    monkeypatch.setattr(server, "transcribe", lambda b: "Was bedeutet Bahnhof? Ich kaufe auch Brot.")
+    await client.post("/session/start")
+    await client.post("/turn", files={"audio": ("a.webm", b"xx", "audio/webm")})
+    bahnhof = store.get_vocab("Bahnhof")
+    assert bahnhof is not None and bahnhof["interval_days"] == 1 and bahnhof["gloss"] == "train station"
+    assert store.get_vocab("Brot") is None   # excluded entirely - not even logged as known
+
 async def test_start_reports_no_greeting_when_tutor_fails(client, monkeypatch):
     class AlwaysFailingSession:
         def __init__(self, sp, schema): pass

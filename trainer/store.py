@@ -150,6 +150,15 @@ class Store:
         return {r["level"]: r["n"] for r in self.conn.execute(
             "select level, count(*) n from target_vocab group by level")}
 
+    def target_vocab_glosses(self) -> dict[str, str | None]:
+        """word -> gloss across every level. Used to fill in a gloss when logging a vocab
+        exposure detected in the learner's own turn (see vocab_signals.py) - the word itself
+        may be matched several times across levels; the first one wins, arbitrarily."""
+        out: dict[str, str | None] = {}
+        for r in self.conn.execute("select word, gloss from target_vocab"):
+            out.setdefault(r["word"], r["gloss"])
+        return out
+
     # recap for session start
     def recap(self) -> dict:
         last = self.conn.execute(

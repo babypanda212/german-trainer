@@ -9,6 +9,7 @@ from trainer.store import Store
 from trainer.tutor import Tutor, TutorError, claude_session_factory
 from trainer.stt import transcribe
 from trainer.tts import speak, AUDIO_DIR
+from trainer.vocab_signals import compute_vocab_signals
 
 ROOT = Path(__file__).resolve().parents[1]
 DB_PATH = ROOT / "data/trainer.db"
@@ -21,7 +22,6 @@ tutor: Tutor | None = None
 _sid: int | None = None
 _idx = 0
 _level = "A2"
-_due_words: set[str] = set()
 # Session state (tutor/_sid/...) is mutable module globals shared across requests. Without
 # serializing the routes that touch it, a slow /session/end (awaiting the closing rating call)
 # can race a VAD-triggered /turn and hand it a half-torn-down session — crashing with an
@@ -34,7 +34,7 @@ class TextTurn(BaseModel):
 @app.post("/session/start")
 async def session_start():
     async with _lock:
-        global tutor, _sid, _idx, _level, _due_words
+        global tutor, _sid, _idx, _level
         closed_previous = False
         stale = store.open_session_id()
         if stale is not None:
@@ -44,7 +44,6 @@ async def session_start():
         tutor = Tutor(session_factory)
         await tutor.start(recap, targets)
         _sid = store.start_session(); _idx = 0; _level = recap["level"]
-        _due_words = {v["word"] for v in recap["due_vocab"]}
         greeting_de = None
         audio_url = None
         try:
@@ -70,16 +69,21 @@ async def _process(user_de: str, audio_path: str | None):
         raise HTTPException(502, str(e))
     tid = store.add_turn(_sid, _idx, user_de, r.reply_de, audio_path, len(user_de.split()))
     _idx += 1
-    corrected_words = set()
     for c in r.corrections:
         store.add_mistake(tid, c["type"], c["original"], c["corrected"], c["explanation"])
-        corrected_words.update(c["original"].split())
     for w in r.targets_used:
         store.mark_target_used(w, _level)
         store.add_vocab(w, None, tid)
-    for w in _due_words:
-        if w in user_de:
-            store.review_vocab(w, 2 if w in corrected_words else 4)
+    # Vocabulary knowledge signal, deterministic given r.asked_about (the one thing the model
+    # judges): asking about a word means "don't know it" and excludes every other target word
+    # in the same sentence from counting as known — she never asks about more than one at a
+    # time, so their silence isn't evidence either way. See vocab_signals.py.
+    target_glosses = store.target_vocab_glosses()
+    signals = compute_vocab_signals(user_de, set(target_glosses.keys()), r.asked_about)
+    for word, quality in signals.items():
+        gloss = r.asked_about_gloss if word == r.asked_about else target_glosses.get(word)
+        store.add_vocab(word, gloss, tid)
+        store.review_vocab(word, quality)
     # Correction (if any) is woven into reply_de as a single elicitation turn (see tutor.py) —
     # one utterance, one audio clip, not a separate paced correction beat.
     audio_url = None

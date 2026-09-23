@@ -43,7 +43,20 @@ async def test_turn_parses_reply_with_corrections_logged_but_not_spoken_separate
     assert not hasattr(r, "spoken_correction")      # no longer a separate field
     assert r.corrections[0]["type"] == "gender"     # full list still available for progress logging
     assert r.targets_used == ["Haus"]
+    assert r.asked_about is None and r.asked_about_gloss is None   # no word was asked about
     assert fake.prompts[-1] == "Ich wohne in der Haus."
+
+@pytest.mark.asyncio
+async def test_turn_parses_asked_about_a_word():
+    reply = {"reply_de": "Ein Bahnhof ist der Ort, wo Züge halten. Fährst du oft mit dem Zug?",
+             "corrections": [], "targets_used": [],
+             "asked_about": "Bahnhof", "asked_about_gloss": "train station"}
+    fake = FakeSession([reply])
+    t = Tutor(session_factory=lambda sp, schema: fake)
+    await t.start(RECAP, TARGETS)
+    r = await t.turn("Was bedeutet Bahnhof?")
+    assert r.asked_about == "Bahnhof"
+    assert r.asked_about_gloss == "train station"
 
 @pytest.mark.asyncio
 async def test_turn_retries_once_then_raises():
